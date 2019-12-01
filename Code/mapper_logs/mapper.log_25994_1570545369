@@ -1,0 +1,2 @@
+current dir:	/home/barry/Desktop/Owen Donohue/mirdeep2
+mapper command:	/home/barry/anaconda3/envs/oshv/bin/mapper.pl ../trimmed/smRNA_trimmed.fastq.gz -e -h -l 17 -p ../reference/KY242785 -m -s ./mapper/KY242785.collapsed.fa -t ./mapper/KY242785.arf -v -n

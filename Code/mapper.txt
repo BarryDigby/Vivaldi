@@ -1,0 +1,14 @@
+mapper.pl ../trimmed/smRNA_trimmed.fastq -e -h -l 17 -p ../reference/KY242785 -m -s ./mapper/KY242785.collapsed.fa -t ./mapper/KY242785.arf -v -n 
+
+parsing fastq to fasta format
+discarding short reads
+collapsing reads
+mapping reads to genome index
+trimming unmapped nts in the 3' ends
+Log file for this run is in mapper_logs and called mapper.log_26297
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 248172757	18461	248154296	0.000	1.000
+seq: 248172757	18461	248154296	0.000	1.000
+

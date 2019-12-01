@@ -1,0 +1,1 @@
+../mirdeep2-master/bin/miRDeep2.pl ../mapper/KY242785.collapsed.fa ../../reference/KY242785.fa ../mapper/KY242785.arf none none none 2> rep.log

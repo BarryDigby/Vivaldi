@@ -1,0 +1,1 @@
+../mireap_0.2/bin/mireap.pl -i ../files_needed/KY242785.collapsed.fa -m ../files_needed/KY242785.map.txt -r ../../reference/KY242785.fa -A 17 -t KY242785 -o ./run_1 testing git changes here

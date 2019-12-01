@@ -1,0 +1,30 @@
+BBDUK:
+bbduk.sh -Xmx8g in=../reads/H2J5KBGX9_NUIG_17_25nt_RNA_18s005298-1-1_Donohoe_lane118s005298_sequence.fastq out1=./smRNA_trimmed.fastq.gz ref=/home/barry/anaconda3/envs/oshv/opt/bbmap-38.69-0/resources/adapters.fa ktrim=r k=12 hdist=0 minlen=10
+
+
+OUTPUT:
+(oshv) barry@NUIG:~/Desktop/Owen Donohue/trimmed$ bbduk.sh -Xmx8g in=../reads/H2J5KBGX9_NUIG_17_25nt_RNA_18s005298-1-1_Donohoe_lane118s005298_sequence.fastq out1=./smRNA_trimmed.fastq.gz ref=/home/barry/anaconda3/envs/oshv/opt/bbmap-38.69-0/resources/adapters.fa ktrim=r k=12 hdist=0 minlen=10
+java -ea -Xmx8g -Xms8g -cp /home/barry/anaconda3/envs/oshv/opt/bbmap-38.69-0/current/ jgi.BBDuk -Xmx8g in=../reads/H2J5KBGX9_NUIG_17_25nt_RNA_18s005298-1-1_Donohoe_lane118s005298_sequence.fastq out1=./smRNA_trimmed.fastq.gz ref=/home/barry/anaconda3/envs/oshv/opt/bbmap-38.69-0/resources/adapters.fa ktrim=r k=12 hdist=0 minlen=10
+Executing jgi.BBDuk [-Xmx8g, in=../reads/H2J5KBGX9_NUIG_17_25nt_RNA_18s005298-1-1_Donohoe_lane118s005298_sequence.fastq, out1=./smRNA_trimmed.fastq.gz, ref=/home/barry/anaconda3/envs/oshv/opt/bbmap-38.69-0/resources/adapters.fa, ktrim=r, k=12, hdist=0, minlen=10]
+Version 38.69
+
+0.010 seconds.
+Initial:
+Memory: max=8232m, total=8232m, free=8060m, used=172m
+
+Added 1723 kmers; time: 	0.020 seconds.
+Memory: max=8232m, total=8232m, free=7845m, used=387m
+
+Input is being processed as unpaired
+Started output streams:	0.045 seconds.
+Processing time:   		449.447 seconds.
+
+Input:                  	441291224 reads 		33096841800 bases.
+KTrimmed:               	439377971 reads (99.57%) 	25937066699 bases (78.37%)
+Total Removed:          	61447733 reads (13.92%) 	25937066699 bases (78.37%)
+Result:                 	379843491 reads (86.08%) 	7159775101 bases (21.63%)
+
+Time:                         	449.513 seconds.
+Reads Processed:        441m 	981.71k reads/sec
+Bases Processed:      33096m 	73.63m bases/sec
+ 

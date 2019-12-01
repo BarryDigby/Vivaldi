@@ -1,0 +1,23 @@
+current dir:	/home/barry/Desktop/Owen Donohue/mirdeep2
+mapper command:	/home/barry/anaconda3/envs/oshv/bin/mapper.pl ../trimmed/smRNA_trimmed.fastq -e -h -l 17 -p ../reference/KY242785 -m -s ./mapper/KY242785.collapsed.fa -t ./mapper/KY242785.arf -v -n
+
+timestamp:	08_10_2019_t_15_44_09
+
+parsing fastq to fasta format
+fastq2fasta.pl ../trimmed/smRNA_trimmed.fastq > dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/reads.fa
+discarding short reads
+fastaparse.pl dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/reads.fa -a 17 > dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/reads_no_short.fa 2>dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/reads_too_short
+collapsing reads
+collapse_reads_md.pl dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/reads_no_short.fa seq > dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/reads_nr.fa
+mapping reads to genome index
+bowtie -p 1 -f -n 0 -e 80 -l 18 -a -m 5 --best --strata ../reference/KY242785  --al dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/smRNA_trimmed.fastq_mapped --un dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/smRNA_trimmed.fastq_not_mapped  dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/reads_nr.fa dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/mappings.bwt 2>bowtie.log
+
+convert_bowtie_output.pl dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/mappings.bwt > dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/mappings.arf
+trimming unmapped nts in the 3' ends
+parse_mappings.pl dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/mappings.arf -j > dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09/mappings_trim.arf
+
+remove tmp dir
+rmtree(dir_mapper_seq_smRNA_trimmed.fastq_3047201773_08_10_2019_t_15_44_09)
+
+############################################################
+
