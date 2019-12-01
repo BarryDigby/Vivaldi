@@ -1,0 +1,1195 @@
+Archive:  bowtie-1.1.1-linux-x86_64.zip
+   creating: bowtie-1.1.1/
+   creating: bowtie-1.1.1/scripts/
+  inflating: bowtie-1.1.1/scripts/build_test.sh  
+  inflating: bowtie-1.1.1/scripts/make_a_thaliana_tair.sh  
+  inflating: bowtie-1.1.1/scripts/make_b_taurus_UMD3.sh  
+  inflating: bowtie-1.1.1/scripts/make_canFam2.sh  
+  inflating: bowtie-1.1.1/scripts/make_c_elegans.sh  
+  inflating: bowtie-1.1.1/scripts/make_d_melanogaster.sh  
+  inflating: bowtie-1.1.1/scripts/make_e_coli.sh  
+  inflating: bowtie-1.1.1/scripts/make_galGal3.sh  
+  inflating: bowtie-1.1.1/scripts/make_hg18.sh  
+  inflating: bowtie-1.1.1/scripts/make_hg19.sh  
+  inflating: bowtie-1.1.1/scripts/make_h_sapiens_ncbi36.sh  
+  inflating: bowtie-1.1.1/scripts/make_h_sapiens_ncbi37.sh  
+  inflating: bowtie-1.1.1/scripts/make_mm8.sh  
+  inflating: bowtie-1.1.1/scripts/make_mm9.sh  
+  inflating: bowtie-1.1.1/scripts/make_m_musculus_ncbi37.sh  
+  inflating: bowtie-1.1.1/scripts/make_rn4.sh  
+  inflating: bowtie-1.1.1/scripts/make_s_cerevisiae.sh  
+  inflating: bowtie-1.1.1/scripts/best_verify.pl  
+  inflating: bowtie-1.1.1/scripts/bs_mapability.pl  
+  inflating: bowtie-1.1.1/scripts/colorize_fasta.pl  
+  inflating: bowtie-1.1.1/scripts/colorize_fastq.pl  
+  inflating: bowtie-1.1.1/scripts/convert_quals.pl  
+  inflating: bowtie-1.1.1/scripts/fastq_to_tabbed.pl  
+  inflating: bowtie-1.1.1/scripts/gen_2b_occ_lookup.pl  
+  inflating: bowtie-1.1.1/scripts/gen_dnamasks2colormask.pl  
+  inflating: bowtie-1.1.1/scripts/gen_occ_lookup.pl  
+  inflating: bowtie-1.1.1/scripts/gen_solqual_lookup.pl  
+  inflating: bowtie-1.1.1/scripts/infer_fraglen.pl  
+  inflating: bowtie-1.1.1/scripts/mapability.pl  
+  inflating: bowtie-1.1.1/scripts/pe_verify.pl  
+  inflating: bowtie-1.1.1/scripts/reconcile_alignments_pe.pl  
+  inflating: bowtie-1.1.1/scripts/reconcile_alignments.pl  
+   creating: bowtie-1.1.1/indexes/
+  inflating: bowtie-1.1.1/indexes/e_coli.1.ebwt  
+  inflating: bowtie-1.1.1/indexes/e_coli.2.ebwt  
+  inflating: bowtie-1.1.1/indexes/e_coli.3.ebwt  
+  inflating: bowtie-1.1.1/indexes/e_coli.4.ebwt  
+  inflating: bowtie-1.1.1/indexes/e_coli.README  
+  inflating: bowtie-1.1.1/indexes/e_coli.rev.1.ebwt  
+  inflating: bowtie-1.1.1/indexes/e_coli.rev.2.ebwt  
+   creating: bowtie-1.1.1/genomes/
+  inflating: bowtie-1.1.1/genomes/NC_008253.fna  
+   creating: bowtie-1.1.1/reads/
+  inflating: bowtie-1.1.1/reads/e_coli_1000.fa  
+  inflating: bowtie-1.1.1/reads/e_coli_1000.fq  
+  inflating: bowtie-1.1.1/reads/e_coli_1000.raw  
+  inflating: bowtie-1.1.1/reads/e_coli_1000_1.fa  
+  inflating: bowtie-1.1.1/reads/e_coli_1000_1.fq  
+  inflating: bowtie-1.1.1/reads/e_coli_1000_2.fa  
+  inflating: bowtie-1.1.1/reads/e_coli_1000_2.fq  
+  inflating: bowtie-1.1.1/reads/e_coli_10000snp.fa  
+  inflating: bowtie-1.1.1/reads/e_coli_10000snp.fq  
+   creating: bowtie-1.1.1/SeqAn-1.1/
+  inflating: bowtie-1.1.1/bowtie     
+  inflating: bowtie-1.1.1/bowtie-build  
+  inflating: bowtie-1.1.1/bowtie-inspect  
+   creating: bowtie-1.1.1/doc/
+  inflating: bowtie-1.1.1/doc/manual.html  
+  inflating: bowtie-1.1.1/doc/README  
+  inflating: bowtie-1.1.1/doc/style.css  
+  inflating: bowtie-1.1.1/AUTHORS    
+  inflating: bowtie-1.1.1/LICENSE    
+  inflating: bowtie-1.1.1/NEWS       
+  inflating: bowtie-1.1.1/MANUAL     
+  inflating: bowtie-1.1.1/MANUAL.markdown  
+  inflating: bowtie-1.1.1/TUTORIAL   
+ extracting: bowtie-1.1.1/VERSION    
+  inflating: bowtie-1.1.1/bowtie-build-s  
+  inflating: bowtie-1.1.1/bowtie-build-l  
+  inflating: bowtie-1.1.1/bowtie-align-s  
+  inflating: bowtie-1.1.1/bowtie-align-l  
+  inflating: bowtie-1.1.1/bowtie-inspect-s  
+  inflating: bowtie-1.1.1/bowtie-inspect-l  
+  inflating: bowtie-1.1.1/bowtie-build-s-debug  
+  inflating: bowtie-1.1.1/bowtie-build-l-debug  
+  inflating: bowtie-1.1.1/bowtie-align-s-debug  
+  inflating: bowtie-1.1.1/bowtie-align-l-debug  
+  inflating: bowtie-1.1.1/bowtie-inspect-s-debug  
+  inflating: bowtie-1.1.1/bowtie-inspect-l-debug  
+make  all-recursive
+make[1]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4'
+Making all in lib
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/lib'
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-dist_vars.o -MD -MP -MF .deps/libRNA_a-dist_vars.Tpo -c -o libRNA_a-dist_vars.o `test -f 'dist_vars.c' || echo './'`dist_vars.c
+mv -f .deps/libRNA_a-dist_vars.Tpo .deps/libRNA_a-dist_vars.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-fold_vars.o -MD -MP -MF .deps/libRNA_a-fold_vars.Tpo -c -o libRNA_a-fold_vars.o `test -f 'fold_vars.c' || echo './'`fold_vars.c
+mv -f .deps/libRNA_a-fold_vars.Tpo .deps/libRNA_a-fold_vars.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-part_func.o -MD -MP -MF .deps/libRNA_a-part_func.Tpo -c -o libRNA_a-part_func.o `test -f 'part_func.c' || echo './'`part_func.c
+mv -f .deps/libRNA_a-part_func.Tpo .deps/libRNA_a-part_func.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-read_epars.o -MD -MP -MF .deps/libRNA_a-read_epars.Tpo -c -o libRNA_a-read_epars.o `test -f 'read_epars.c' || echo './'`read_epars.c
+mv -f .deps/libRNA_a-read_epars.Tpo .deps/libRNA_a-read_epars.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-treedist.o -MD -MP -MF .deps/libRNA_a-treedist.Tpo -c -o libRNA_a-treedist.o `test -f 'treedist.c' || echo './'`treedist.c
+mv -f .deps/libRNA_a-treedist.Tpo .deps/libRNA_a-treedist.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-energy_par.o -MD -MP -MF .deps/libRNA_a-energy_par.Tpo -c -o libRNA_a-energy_par.o `test -f 'energy_par.c' || echo './'`energy_par.c
+mv -f .deps/libRNA_a-energy_par.Tpo .deps/libRNA_a-energy_par.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-inverse.o -MD -MP -MF .deps/libRNA_a-inverse.Tpo -c -o libRNA_a-inverse.o `test -f 'inverse.c' || echo './'`inverse.c
+mv -f .deps/libRNA_a-inverse.Tpo .deps/libRNA_a-inverse.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-ProfileDist.o -MD -MP -MF .deps/libRNA_a-ProfileDist.Tpo -c -o libRNA_a-ProfileDist.o `test -f 'ProfileDist.c' || echo './'`ProfileDist.c
+mv -f .deps/libRNA_a-ProfileDist.Tpo .deps/libRNA_a-ProfileDist.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-RNAstruct.o -MD -MP -MF .deps/libRNA_a-RNAstruct.Tpo -c -o libRNA_a-RNAstruct.o `test -f 'RNAstruct.c' || echo './'`RNAstruct.c
+mv -f .deps/libRNA_a-RNAstruct.Tpo .deps/libRNA_a-RNAstruct.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-utils.o -MD -MP -MF .deps/libRNA_a-utils.Tpo -c -o libRNA_a-utils.o `test -f 'utils.c' || echo './'`utils.c
+mv -f .deps/libRNA_a-utils.Tpo .deps/libRNA_a-utils.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-fold.o -MD -MP -MF .deps/libRNA_a-fold.Tpo -c -o libRNA_a-fold.o `test -f 'fold.c' || echo './'`fold.c
+mv -f .deps/libRNA_a-fold.Tpo .deps/libRNA_a-fold.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-naview.o -MD -MP -MF .deps/libRNA_a-naview.Tpo -c -o libRNA_a-naview.o `test -f 'naview.c' || echo './'`naview.c
+mv -f .deps/libRNA_a-naview.Tpo .deps/libRNA_a-naview.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-PS_dot.o -MD -MP -MF .deps/libRNA_a-PS_dot.Tpo -c -o libRNA_a-PS_dot.o `test -f 'PS_dot.c' || echo './'`PS_dot.c
+mv -f .deps/libRNA_a-PS_dot.Tpo .deps/libRNA_a-PS_dot.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-stringdist.o -MD -MP -MF .deps/libRNA_a-stringdist.Tpo -c -o libRNA_a-stringdist.o `test -f 'stringdist.c' || echo './'`stringdist.c
+mv -f .deps/libRNA_a-stringdist.Tpo .deps/libRNA_a-stringdist.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-params.o -MD -MP -MF .deps/libRNA_a-params.Tpo -c -o libRNA_a-params.o `test -f 'params.c' || echo './'`params.c
+mv -f .deps/libRNA_a-params.Tpo .deps/libRNA_a-params.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-subopt.o -MD -MP -MF .deps/libRNA_a-subopt.Tpo -c -o libRNA_a-subopt.o `test -f 'subopt.c' || echo './'`subopt.c
+mv -f .deps/libRNA_a-subopt.Tpo .deps/libRNA_a-subopt.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-list.o -MD -MP -MF .deps/libRNA_a-list.Tpo -c -o libRNA_a-list.o `test -f 'list.c' || echo './'`list.c
+mv -f .deps/libRNA_a-list.Tpo .deps/libRNA_a-list.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-Lfold.o -MD -MP -MF .deps/libRNA_a-Lfold.Tpo -c -o libRNA_a-Lfold.o `test -f 'Lfold.c' || echo './'`Lfold.c
+mv -f .deps/libRNA_a-Lfold.Tpo .deps/libRNA_a-Lfold.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-cofold.o -MD -MP -MF .deps/libRNA_a-cofold.Tpo -c -o libRNA_a-cofold.o `test -f 'cofold.c' || echo './'`cofold.c
+mv -f .deps/libRNA_a-cofold.Tpo .deps/libRNA_a-cofold.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-part_func_co.o -MD -MP -MF .deps/libRNA_a-part_func_co.Tpo -c -o libRNA_a-part_func_co.o `test -f 'part_func_co.c' || echo './'`part_func_co.c
+mv -f .deps/libRNA_a-part_func_co.Tpo .deps/libRNA_a-part_func_co.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-ProfileAln.o -MD -MP -MF .deps/libRNA_a-ProfileAln.Tpo -c -o libRNA_a-ProfileAln.o `test -f 'ProfileAln.c' || echo './'`ProfileAln.c
+mv -f .deps/libRNA_a-ProfileAln.Tpo .deps/libRNA_a-ProfileAln.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-duplex.o -MD -MP -MF .deps/libRNA_a-duplex.Tpo -c -o libRNA_a-duplex.o `test -f 'duplex.c' || echo './'`duplex.c
+mv -f .deps/libRNA_a-duplex.Tpo .deps/libRNA_a-duplex.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-alifold.o -MD -MP -MF .deps/libRNA_a-alifold.Tpo -c -o libRNA_a-alifold.o `test -f 'alifold.c' || echo './'`alifold.c
+mv -f .deps/libRNA_a-alifold.Tpo .deps/libRNA_a-alifold.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-alipfold.o -MD -MP -MF .deps/libRNA_a-alipfold.Tpo -c -o libRNA_a-alipfold.o `test -f 'alipfold.c' || echo './'`alipfold.c
+mv -f .deps/libRNA_a-alipfold.Tpo .deps/libRNA_a-alipfold.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-aln_util.o -MD -MP -MF .deps/libRNA_a-aln_util.Tpo -c -o libRNA_a-aln_util.o `test -f 'aln_util.c' || echo './'`aln_util.c
+mv -f .deps/libRNA_a-aln_util.Tpo .deps/libRNA_a-aln_util.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-LPfold.o -MD -MP -MF .deps/libRNA_a-LPfold.Tpo -c -o libRNA_a-LPfold.o `test -f 'LPfold.c' || echo './'`LPfold.c
+mv -f .deps/libRNA_a-LPfold.Tpo .deps/libRNA_a-LPfold.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-part_func_up.o -MD -MP -MF .deps/libRNA_a-part_func_up.Tpo -c -o libRNA_a-part_func_up.o `test -f 'part_func_up.c' || echo './'`part_func_up.c
+mv -f .deps/libRNA_a-part_func_up.Tpo .deps/libRNA_a-part_func_up.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-ribo.o -MD -MP -MF .deps/libRNA_a-ribo.Tpo -c -o libRNA_a-ribo.o `test -f 'ribo.c' || echo './'`ribo.c
+mv -f .deps/libRNA_a-ribo.Tpo .deps/libRNA_a-ribo.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-findpath.o -MD -MP -MF .deps/libRNA_a-findpath.Tpo -c -o libRNA_a-findpath.o `test -f 'findpath.c' || echo './'`findpath.c
+mv -f .deps/libRNA_a-findpath.Tpo .deps/libRNA_a-findpath.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -fpic -g -O2 -MT libRNA_a-MEA.o -MD -MP -MF .deps/libRNA_a-MEA.Tpo -c -o libRNA_a-MEA.o `test -f 'MEA.c' || echo './'`MEA.c
+mv -f .deps/libRNA_a-MEA.Tpo .deps/libRNA_a-MEA.Po
+rm -f libRNA.a
+ar cru libRNA.a libRNA_a-dist_vars.o libRNA_a-fold_vars.o libRNA_a-part_func.o libRNA_a-read_epars.o libRNA_a-treedist.o libRNA_a-energy_par.o libRNA_a-inverse.o libRNA_a-ProfileDist.o libRNA_a-RNAstruct.o libRNA_a-utils.o libRNA_a-fold.o libRNA_a-naview.o libRNA_a-PS_dot.o libRNA_a-stringdist.o libRNA_a-params.o libRNA_a-subopt.o libRNA_a-list.o libRNA_a-Lfold.o libRNA_a-cofold.o libRNA_a-part_func_co.o libRNA_a-ProfileAln.o libRNA_a-duplex.o libRNA_a-alifold.o libRNA_a-alipfold.o libRNA_a-aln_util.o libRNA_a-LPfold.o libRNA_a-part_func_up.o libRNA_a-ribo.o libRNA_a-findpath.o libRNA_a-MEA.o 
+ranlib libRNA.a
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/lib'
+Making all in Progs
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Progs'
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAfold.o -MD -MP -MF .deps/RNAfold.Tpo -c -o RNAfold.o RNAfold.c
+mv -f .deps/RNAfold.Tpo .deps/RNAfold.Po
+gcc  -g -O2   -o RNAfold RNAfold.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAeval.o -MD -MP -MF .deps/RNAeval.Tpo -c -o RNAeval.o RNAeval.c
+mv -f .deps/RNAeval.Tpo .deps/RNAeval.Po
+gcc  -g -O2   -o RNAeval RNAeval.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAheat.o -MD -MP -MF .deps/RNAheat.Tpo -c -o RNAheat.o RNAheat.c
+mv -f .deps/RNAheat.Tpo .deps/RNAheat.Po
+gcc  -g -O2   -o RNAheat RNAheat.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNApdist.o -MD -MP -MF .deps/RNApdist.Tpo -c -o RNApdist.o RNApdist.c
+mv -f .deps/RNApdist.Tpo .deps/RNApdist.Po
+gcc  -g -O2   -o RNApdist RNApdist.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAdistance.o -MD -MP -MF .deps/RNAdistance.Tpo -c -o RNAdistance.o RNAdistance.c
+mv -f .deps/RNAdistance.Tpo .deps/RNAdistance.Po
+gcc  -g -O2   -o RNAdistance RNAdistance.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAinverse.o -MD -MP -MF .deps/RNAinverse.Tpo -c -o RNAinverse.o RNAinverse.c
+mv -f .deps/RNAinverse.Tpo .deps/RNAinverse.Po
+gcc  -g -O2   -o RNAinverse RNAinverse.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAplot.o -MD -MP -MF .deps/RNAplot.Tpo -c -o RNAplot.o RNAplot.c
+mv -f .deps/RNAplot.Tpo .deps/RNAplot.Po
+gcc  -g -O2   -o RNAplot RNAplot.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAsubopt.o -MD -MP -MF .deps/RNAsubopt.Tpo -c -o RNAsubopt.o RNAsubopt.c
+mv -f .deps/RNAsubopt.Tpo .deps/RNAsubopt.Po
+gcc  -g -O2   -o RNAsubopt RNAsubopt.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNALfold.o -MD -MP -MF .deps/RNALfold.Tpo -c -o RNALfold.o RNALfold.c
+mv -f .deps/RNALfold.Tpo .deps/RNALfold.Po
+gcc  -g -O2   -o RNALfold RNALfold.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAcofold.o -MD -MP -MF .deps/RNAcofold.Tpo -c -o RNAcofold.o RNAcofold.c
+mv -f .deps/RNAcofold.Tpo .deps/RNAcofold.Po
+gcc  -g -O2   -o RNAcofold RNAcofold.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNApaln.o -MD -MP -MF .deps/RNApaln.Tpo -c -o RNApaln.o RNApaln.c
+mv -f .deps/RNApaln.Tpo .deps/RNApaln.Po
+gcc  -g -O2   -o RNApaln RNApaln.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAduplex.o -MD -MP -MF .deps/RNAduplex.Tpo -c -o RNAduplex.o RNAduplex.c
+mv -f .deps/RNAduplex.Tpo .deps/RNAduplex.Po
+gcc  -g -O2   -o RNAduplex RNAduplex.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAalifold.o -MD -MP -MF .deps/RNAalifold.Tpo -c -o RNAalifold.o RNAalifold.c
+mv -f .deps/RNAalifold.Tpo .deps/RNAalifold.Po
+gcc  -g -O2   -o RNAalifold RNAalifold.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAplfold.o -MD -MP -MF .deps/RNAplfold.Tpo -c -o RNAplfold.o RNAplfold.c
+mv -f .deps/RNAplfold.Tpo .deps/RNAplfold.Po
+gcc  -g -O2   -o RNAplfold RNAplfold.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAup.o -MD -MP -MF .deps/RNAup.Tpo -c -o RNAup.o RNAup.c
+mv -f .deps/RNAup.Tpo .deps/RNAup.Po
+gcc  -g -O2   -o RNAup RNAup.o ../lib/libRNA.a -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT RNAaliduplex.o -MD -MP -MF .deps/RNAaliduplex.Tpo -c -o RNAaliduplex.o RNAaliduplex.c
+mv -f .deps/RNAaliduplex.Tpo .deps/RNAaliduplex.Po
+gcc  -g -O2   -o RNAaliduplex RNAaliduplex.o ../lib/libRNA.a -lm 
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Progs'
+Making all in man
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/man'
+Making all in Utils
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Utils'
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT b2ct.o -MD -MP -MF .deps/b2ct.Tpo -c -o b2ct.o b2ct.c
+mv -f .deps/b2ct.Tpo .deps/b2ct.Po
+gcc  -g -O2   -o b2ct b2ct.o -L../lib -lRNA -lm 
+gcc -DHAVE_CONFIG_H -I. -I.. -I./../H    -g -O2 -MT popt.o -MD -MP -MF .deps/popt.Tpo -c -o popt.o popt.c
+mv -f .deps/popt.Tpo .deps/popt.Po
+gcc  -g -O2   -o popt popt.o -L../lib -lRNA -lm 
+if test -n "/usr/bin/perl"; then \
+  /usr/bin/perl -npi -e 's|^#!\S+|#!/usr/bin/perl|' b2mt.pl ; \
+fi
+if test -n "/usr/bin/perl"; then \
+  /usr/bin/perl -npi -e 's|^#!\S+|#!/usr/bin/perl|' ct2b.pl ; \
+fi
+if test -n "/usr/bin/perl"; then \
+  /usr/bin/perl -npi -e 's|^#!\S+|#!/usr/bin/perl|' dpzoom.pl ; \
+fi
+if test -n "/usr/bin/perl"; then \
+  /usr/bin/perl -npi -e 's|^#!\S+|#!/usr/bin/perl|' mountain.pl ; \
+fi
+if test -n "/usr/bin/perl"; then \
+  /usr/bin/perl -npi -e 's|^#!\S+|#!/usr/bin/perl|' relplot.pl ; \
+fi
+if test -n "/usr/bin/perl"; then \
+  /usr/bin/perl -npi -e 's|^#!\S+|#!/usr/bin/perl|' rotate_ss.pl ; \
+fi
+if test -n "/usr/bin/perl"; then \
+  /usr/bin/perl -npi -e 's|^#!\S+|#!/usr/bin/perl|' cmount.pl ; \
+fi
+if test -n "/usr/bin/perl"; then \
+  /usr/bin/perl -npi -e 's|^#!\S+|#!/usr/bin/perl|' colorrna.pl ; \
+fi
+if test -n "/usr/bin/perl"; then \
+  /usr/bin/perl -npi -e 's|^#!\S+|#!/usr/bin/perl|' coloraln.pl ; \
+fi
+if test -n "/usr/bin/perl"; then \
+  /usr/bin/perl -npi -e 's|^#!\S+|#!/usr/bin/perl|' refold.pl ; \
+fi
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Utils'
+Making all in H
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/H'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/H'
+Making all in Perl
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Perl'
+/usr/bin/perl Makefile.PL
+Generating a Unix-style Makefile.perl
+Writing Makefile.perl for RNA
+Writing MYMETA.yml and MYMETA.json
+make -f Makefile.perl
+make[3]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Perl'
+cp RNA.pm blib/lib/RNA.pm
+Running Mkbootstrap for RNA ()
+chmod 644 "RNA.bs"
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- RNA.bs blib/arch/auto/RNA/RNA.bs 644
+x86_64-linux-gnu-gcc -c   -D_REENTRANT -D_GNU_SOURCE -DDEBIAN -fwrapv -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"0.2\" -DXS_VERSION=\"0.2\" -fPIC "-I/usr/lib/x86_64-linux-gnu/perl/5.26/CORE"   RNA_wrap.c
+Makefile.perl:337: recipe for target 'RNA_wrap.o' failed
+make[3]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Perl'
+Makefile:342: recipe for target 'all-local' failed
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Perl'
+Makefile:323: recipe for target 'all-recursive' failed
+make[1]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4'
+Makefile:239: recipe for target 'all' failed
+Making install in lib
+make[1]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/lib'
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/lib'
+test -z "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/lib" || /bin/mkdir -p "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/lib"
+ /usr/bin/install -c -m 644  libRNA.a '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/lib'
+ ( cd '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/lib' && ranlib libRNA.a )
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/lib'
+make[1]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/lib'
+Making install in Progs
+make[1]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Progs'
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Progs'
+test -z "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/bin" || /bin/mkdir -p "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/bin"
+  /usr/bin/install -c RNAfold RNAeval RNAheat RNApdist RNAdistance RNAinverse RNAplot RNAsubopt RNALfold RNAcofold RNApaln RNAduplex RNAalifold RNAplfold RNAup RNAaliduplex '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Progs'
+make[1]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Progs'
+Making install in man
+make[1]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/man'
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/info" || /bin/mkdir -p "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/info"
+ /usr/bin/install -c -m 644 ./RNAlib.info '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/info'
+ install-info --info-dir='/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/info' '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/info/RNAlib.info'
+test -z "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/man/man1" || /bin/mkdir -p "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/man/man1"
+ /usr/bin/install -c -m 644 RNAheat.1 RNAsubopt.1 RNAdistance.1 RNAinverse.1 RNAcofold.1 RNAeval.1 RNAfold.1 RNApdist.1 RNAplot.1 RNAalifold.1 RNALfold.1 RNAduplex.1 RNAplfold.1 RNAup.1 RNApaln.1 RNAaliduplex.1 '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/man/man1'
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/man'
+make[1]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/man'
+Making install in Utils
+make[1]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Utils'
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Utils'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/ViennaRNA/bin" || /bin/mkdir -p "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/ViennaRNA/bin"
+  /usr/bin/install -c b2ct popt '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/ViennaRNA/bin'
+test -z "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/ViennaRNA/bin" || /bin/mkdir -p "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/ViennaRNA/bin"
+ /usr/bin/install -c b2mt.pl ct2b.pl dpzoom.pl mountain.pl relplot.pl rotate_ss.pl cmount.pl colorrna.pl coloraln.pl refold.pl Fold '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/ViennaRNA/bin'
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Utils'
+make[1]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Utils'
+Making install in H
+make[1]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/H'
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/H'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/include/ViennaRNA" || /bin/mkdir -p "/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/include/ViennaRNA"
+ /usr/bin/install -c -m 644 energy_par.h pair_mat.h RNAstruct.h dist_vars.h fold.h part_func.h stringdist.h edit_cost.h fold_vars.h profiledist.h treedist.h energy_const.h inverse.h PS_dot.h utils.h params.h subopt.h cofold.h duplex.h alifold.h aln_util.h part_func_co.h ProfileAln.h LPfold.h Lfold.h part_func_up.h ribo.h findpath.h MEA.h '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/include/ViennaRNA'
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/H'
+make[1]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/H'
+Making install in Perl
+make[1]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Perl'
+make -f Makefile.perl
+make[2]: Entering directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Perl'
+"/usr/bin/perl" -MExtUtils::Command::MM -e 'cp_nonempty' -- RNA.bs blib/arch/auto/RNA/RNA.bs 644
+x86_64-linux-gnu-gcc -c   -D_REENTRANT -D_GNU_SOURCE -DDEBIAN -fwrapv -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -O2 -g   -DVERSION=\"0.2\" -DXS_VERSION=\"0.2\" -fPIC "-I/usr/lib/x86_64-linux-gnu/perl/5.26/CORE"   RNA_wrap.c
+Makefile.perl:337: recipe for target 'RNA_wrap.o' failed
+make[2]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Perl'
+Makefile:342: recipe for target 'all-local' failed
+make[1]: Leaving directory '/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/Perl'
+Makefile:323: recipe for target 'install-recursive' failed
+   Welcome to SQUID... configuring for your system.
+checking for gcc... gcc
+checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for executable suffix... 
+checking for object suffix... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking whether ln -s works... yes
+checking for ranlib... ranlib
+checking whether your make is GNU make... yes, it is.
+checking whether byte ordering is bigendian... no
+checking for ntohs... yes
+checking for ntohl... yes
+checking for htons... yes
+checking for htonl... yes
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unsigned short... yes
+checking size of unsigned short... 2
+checking for unsigned int... yes
+checking size of unsigned int... 4
+checking for unsigned long... yes
+checking size of unsigned long... 8
+checking for unsigned long long... yes
+checking size of unsigned long long... 8
+checking for strtoul... yes
+checking for strtoull... yes
+checking whether fpos_t is an arithmetic datatype... no.
+checking for strtoull... (cached) yes
+checking for ftello... yes
+checking for fseeko... yes
+checking for ftello64... yes
+checking for fseeko64... yes
+checking for ftell64... no
+checking for fseek64... no
+checking for stat64... yes
+checking for struct stat64... no!
+checking for off_t... yes
+checking size of off_t... 8
+checking for off64_t... no
+checking size of off64_t... 0
+checking for fpos_t... yes
+checking size of fpos_t... 16
+   Configuration complete. Writing Makefiles and such...
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Testsuite/Makefile
+config.status: creating squid.h
+config.status: creating squidconf.h
+Creating version.h...
+gcc -g -O2   -DHAVE_CONFIG_H -c afetch_main.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c a2m.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c aligneval.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c alignio.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c clustal.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c cluster.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c dayhoff.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c eps.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c file.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c getopt.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c gki.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c gsi.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c hsregex.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c iupac.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c msa.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c msf.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c phylip.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c revcomp.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c rk.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c selex.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c seqencode.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c shuffle.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c sqerror.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c sqio.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c squidcore.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c sre_ctype.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c sre_math.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c sre_random.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c sre_string.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c ssi.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c stack.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c stockholm.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c stopwatch.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c translate.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c types.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c vectorops.c		
+gcc -g -O2   -DHAVE_CONFIG_H -c weight.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o afetch afetch_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c alistat_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o alistat alistat_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c compalign_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o compalign compalign_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c compstruct_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o compstruct compstruct_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c revcomp_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o revcomp revcomp_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c seqsplit_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o seqsplit seqsplit_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c seqstat_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o seqstat seqstat_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c sfetch_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o sfetch sfetch_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c shuffle_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o shuffle shuffle_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c sindex_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o sindex sindex_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c sreformat_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o sreformat sreformat_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c translate_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o translate translate_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+gcc -g -O2   -DHAVE_CONFIG_H -c weight_main.c		
+gcc -g -O2 -DHAVE_CONFIG_H  -o weight weight_main.o a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o  -lm
+ar rcv libsquid.a a2m.o aligneval.o alignio.o clustal.o cluster.o dayhoff.o eps.o file.o getopt.o gki.o gsi.o hsregex.o iupac.o msa.o msf.o phylip.o revcomp.o rk.o selex.o seqencode.o shuffle.o sqerror.o sqio.o squidcore.o sre_ctype.o sre_math.o sre_random.o sre_string.o ssi.o stack.o stockholm.o stopwatch.o translate.o types.o vectorops.o weight.o
+a - a2m.o
+a - aligneval.o
+a - alignio.o
+a - clustal.o
+a - cluster.o
+a - dayhoff.o
+a - eps.o
+a - file.o
+a - getopt.o
+a - gki.o
+a - gsi.o
+a - hsregex.o
+a - iupac.o
+a - msa.o
+a - msf.o
+a - phylip.o
+a - revcomp.o
+a - rk.o
+a - selex.o
+a - seqencode.o
+a - shuffle.o
+a - sqerror.o
+a - sqio.o
+a - squidcore.o
+a - sre_ctype.o
+a - sre_math.o
+a - sre_random.o
+a - sre_string.o
+a - ssi.o
+a - stack.o
+a - stockholm.o
+a - stopwatch.o
+a - translate.o
+a - types.o
+a - vectorops.o
+a - weight.o
+ranlib libsquid.a
+chmod 644 libsquid.a
+gcc -c energy_par.c
+gcc -c params.c
+gcc -c fold.c
+gcc -c fold_vars.c
+gcc -c utils.c
+gcc -O3 -I. -I/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/squid-1.9g -L/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/squid-1.9g/ -o randfold params.o energy_par.o fold.o fold_vars.o utils.o randfold.c -lm -lsquid 
+cp lib/Font/TTF/AATKern.pm blib/lib/Font/TTF/AATKern.pm
+cp lib/Font/TTF/Delta.pm blib/lib/Font/TTF/Delta.pm
+cp lib/Font/TTF/Changes_old.txt blib/lib/Font/TTF/Changes_old.txt
+cp lib/Font/TTF/Glyf.pm blib/lib/Font/TTF/Glyf.pm
+cp lib/Font/TTF/Feat.pm blib/lib/Font/TTF/Feat.pm
+cp lib/Font/TTF/Glat.pm blib/lib/Font/TTF/Glat.pm
+cp lib/Font/TTF/Loca.pm blib/lib/Font/TTF/Loca.pm
+cp lib/Font/TTF/Glyph.pm blib/lib/Font/TTF/Glyph.pm
+cp lib/Font/TTF/Mort.pm blib/lib/Font/TTF/Mort.pm
+cp lib/Font/TTF/Head.pm blib/lib/Font/TTF/Head.pm
+cp lib/Font/TTF/Kern/ClassArray.pm blib/lib/Font/TTF/Kern/ClassArray.pm
+cp lib/Font/TTF/Dumper.pm blib/lib/Font/TTF/Dumper.pm
+cp lib/Font/TTF/Hhea.pm blib/lib/Font/TTF/Hhea.pm
+cp lib/Font/TTF/Maxp.pm blib/lib/Font/TTF/Maxp.pm
+cp lib/Font/TTF/GDEF.pm blib/lib/Font/TTF/GDEF.pm
+cp lib/Font/TTF/Fmtx.pm blib/lib/Font/TTF/Fmtx.pm
+cp lib/Font/TTF/GSUB.pm blib/lib/Font/TTF/GSUB.pm
+cp lib/Font/TTF/Manual.pod blib/lib/Font/TTF/Manual.pod
+cp lib/Font/TTF/EBLC.pm blib/lib/Font/TTF/EBLC.pm
+cp lib/Font/TTF/Kern/OrderedList.pm blib/lib/Font/TTF/Kern/OrderedList.pm
+cp lib/Font/TTF/LTSH.pm blib/lib/Font/TTF/LTSH.pm
+cp lib/Font/TTF/Kern.pm blib/lib/Font/TTF/Kern.pm
+cp lib/Font/TTF/Features/Cvar.pm blib/lib/Font/TTF/Features/Cvar.pm
+cp lib/Font/TTF/Font.pm blib/lib/Font/TTF/Font.pm
+cp lib/Font/TTF/Bsln.pm blib/lib/Font/TTF/Bsln.pm
+cp lib/Font/TTF/Features/Sset.pm blib/lib/Font/TTF/Features/Sset.pm
+cp lib/Font/TTF/Anchor.pm blib/lib/Font/TTF/Anchor.pm
+cp lib/Font/TTF/EBDT.pm blib/lib/Font/TTF/EBDT.pm
+cp lib/Font/TTF/Kern/Subtable.pm blib/lib/Font/TTF/Kern/Subtable.pm
+cp lib/Font/TTF/Features/Size.pm blib/lib/Font/TTF/Features/Size.pm
+cp lib/Font/TTF/Cvt_.pm blib/lib/Font/TTF/Cvt_.pm
+cp lib/Font/TTF/Fpgm.pm blib/lib/Font/TTF/Fpgm.pm
+cp lib/Font/TTF/Hdmx.pm blib/lib/Font/TTF/Hdmx.pm
+cp lib/Font/TTF.pm blib/lib/Font/TTF.pm
+cp lib/Font/TTF/Hmtx.pm blib/lib/Font/TTF/Hmtx.pm
+cp lib/Font/TTF/Cmap.pm blib/lib/Font/TTF/Cmap.pm
+cp lib/Font/TTF/GrFeat.pm blib/lib/Font/TTF/GrFeat.pm
+cp lib/Font/TTF/Coverage.pm blib/lib/Font/TTF/Coverage.pm
+cp lib/Font/TTF/DSIG.pm blib/lib/Font/TTF/DSIG.pm
+cp lib/Font/TTF/Kern/CompactClassArray.pm blib/lib/Font/TTF/Kern/CompactClassArray.pm
+cp lib/Font/TTF/Kern/StateTable.pm blib/lib/Font/TTF/Kern/StateTable.pm
+cp lib/Font/TTF/Fdsc.pm blib/lib/Font/TTF/Fdsc.pm
+cp lib/Font/TTF/AATutils.pm blib/lib/Font/TTF/AATutils.pm
+cp lib/Font/TTF/GPOS.pm blib/lib/Font/TTF/GPOS.pm
+cp lib/Font/TTF/Gloc.pm blib/lib/Font/TTF/Gloc.pm
+cp lib/Font/TTF/Segarr.pm blib/lib/Font/TTF/Segarr.pm
+cp lib/Font/TTF/Post.pm blib/lib/Font/TTF/Post.pm
+cp lib/Font/TTF/Prep.pm blib/lib/Font/TTF/Prep.pm
+cp lib/Font/TTF/Table.pm blib/lib/Font/TTF/Table.pm
+cp lib/Font/TTF/Silf.pm blib/lib/Font/TTF/Silf.pm
+cp lib/Font/TTF/Useall.pm blib/lib/Font/TTF/Useall.pm
+cp lib/Font/TTF/Mort/Contextual.pm blib/lib/Font/TTF/Mort/Contextual.pm
+cp lib/Font/TTF/Vmtx.pm blib/lib/Font/TTF/Vmtx.pm
+cp lib/Font/TTF/Ttc.pm blib/lib/Font/TTF/Ttc.pm
+cp lib/Font/TTF/OTTags.pm blib/lib/Font/TTF/OTTags.pm
+cp lib/Font/TTF/Mort/Noncontextual.pm blib/lib/Font/TTF/Mort/Noncontextual.pm
+cp lib/Font/TTF/Vhea.pm blib/lib/Font/TTF/Vhea.pm
+cp lib/Font/TTF/Sill.pm blib/lib/Font/TTF/Sill.pm
+cp lib/Font/TTF/Woff/PrivateData.pm blib/lib/Font/TTF/Woff/PrivateData.pm
+cp lib/Font/TTF/Mort/Rearrangement.pm blib/lib/Font/TTF/Mort/Rearrangement.pm
+cp lib/Font/TTF/Win32.pm blib/lib/Font/TTF/Win32.pm
+cp lib/Font/TTF/Mort/Ligature.pm blib/lib/Font/TTF/Mort/Ligature.pm
+cp lib/Font/TTF/Mort/Chain.pm blib/lib/Font/TTF/Mort/Chain.pm
+cp lib/Font/TTF/OldMort.pm blib/lib/Font/TTF/OldMort.pm
+cp lib/Font/TTF/XMLparse.pm blib/lib/Font/TTF/XMLparse.pm
+cp lib/Font/TTF/Woff/MetaData.pm blib/lib/Font/TTF/Woff/MetaData.pm
+cp lib/Font/TTF/OldCmap.pm blib/lib/Font/TTF/OldCmap.pm
+cp lib/Font/TTF/Woff.pm blib/lib/Font/TTF/Woff.pm
+cp lib/Font/TTF/Name.pm blib/lib/Font/TTF/Name.pm
+cp lib/ttfmod.pl blib/lib/ttfmod.pl
+cp lib/Font/TTF/Utils.pm blib/lib/Font/TTF/Utils.pm
+cp lib/Font/TTF/OS_2.pm blib/lib/Font/TTF/OS_2.pm
+cp lib/Font/TTF/PSNames.pm blib/lib/Font/TTF/PSNames.pm
+cp lib/Font/TTF/Prop.pm blib/lib/Font/TTF/Prop.pm
+cp lib/Font/TTF/Mort/Insertion.pm blib/lib/Font/TTF/Mort/Insertion.pm
+cp lib/Font/TTF/Ttopen.pm blib/lib/Font/TTF/Ttopen.pm
+cp lib/Font/TTF/Mort/Subtable.pm blib/lib/Font/TTF/Mort/Subtable.pm
+cp lib/Font/TTF/PCLT.pm blib/lib/Font/TTF/PCLT.pm
+Manifying 38 pod documents
+Manifying 37 pod documents
+Manifying 2 pod documents
+Skip blib/lib/Font/TTF/Kern.pm (unchanged)
+Skip blib/lib/Font/TTF/EBDT.pm (unchanged)
+Skip blib/lib/Font/TTF/Hmtx.pm (unchanged)
+Skip blib/lib/Font/TTF/Features/Sset.pm (unchanged)
+Skip blib/lib/Font/TTF/DSIG.pm (unchanged)
+Skip blib/lib/Font/TTF/Changes_old.txt (unchanged)
+Skip blib/lib/Font/TTF/Feat.pm (unchanged)
+Skip blib/lib/Font/TTF/AATKern.pm (unchanged)
+Skip blib/lib/Font/TTF/Kern/ClassArray.pm (unchanged)
+Skip blib/lib/Font/TTF/Loca.pm (unchanged)
+Skip blib/lib/Font/TTF/AATutils.pm (unchanged)
+Skip blib/lib/Font/TTF/Fdsc.pm (unchanged)
+Skip blib/lib/Font/TTF/Maxp.pm (unchanged)
+Skip blib/lib/Font/TTF/Kern/Subtable.pm (unchanged)
+Skip blib/lib/Font/TTF/Head.pm (unchanged)
+Skip blib/lib/Font/TTF/Glyf.pm (unchanged)
+Skip blib/lib/Font/TTF/Fpgm.pm (unchanged)
+Skip blib/lib/Font/TTF/Delta.pm (unchanged)
+Skip blib/lib/Font/TTF.pm (unchanged)
+Skip blib/lib/Font/TTF/Dumper.pm (unchanged)
+Skip blib/lib/Font/TTF/Features/Cvar.pm (unchanged)
+Skip blib/lib/Font/TTF/Kern/OrderedList.pm (unchanged)
+Skip blib/lib/Font/TTF/Fmtx.pm (unchanged)
+Skip blib/lib/Font/TTF/Hhea.pm (unchanged)
+Skip blib/lib/Font/TTF/GSUB.pm (unchanged)
+Skip blib/lib/Font/TTF/Font.pm (unchanged)
+Skip blib/lib/Font/TTF/Cvt_.pm (unchanged)
+Skip blib/lib/Font/TTF/Glat.pm (unchanged)
+Skip blib/lib/Font/TTF/Coverage.pm (unchanged)
+Skip blib/lib/Font/TTF/EBLC.pm (unchanged)
+Skip blib/lib/Font/TTF/GrFeat.pm (unchanged)
+Skip blib/lib/Font/TTF/Gloc.pm (unchanged)
+Skip blib/lib/Font/TTF/Features/Size.pm (unchanged)
+Skip blib/lib/Font/TTF/Cmap.pm (unchanged)
+Skip blib/lib/Font/TTF/GDEF.pm (unchanged)
+Skip blib/lib/Font/TTF/Bsln.pm (unchanged)
+Skip blib/lib/Font/TTF/Glyph.pm (unchanged)
+Skip blib/lib/Font/TTF/Mort.pm (unchanged)
+Skip blib/lib/Font/TTF/Anchor.pm (unchanged)
+Skip blib/lib/Font/TTF/Hdmx.pm (unchanged)
+Skip blib/lib/Font/TTF/LTSH.pm (unchanged)
+Skip blib/lib/Font/TTF/Kern/CompactClassArray.pm (unchanged)
+Skip blib/lib/Font/TTF/Manual.pod (unchanged)
+Skip blib/lib/Font/TTF/Kern/StateTable.pm (unchanged)
+Skip blib/lib/Font/TTF/GPOS.pm (unchanged)
+Skip blib/lib/Font/TTF/Segarr.pm (unchanged)
+Skip blib/lib/Font/TTF/Useall.pm (unchanged)
+Skip blib/lib/Font/TTF/OldMort.pm (unchanged)
+Skip blib/lib/Font/TTF/PCLT.pm (unchanged)
+Skip blib/lib/Font/TTF/Mort/Noncontextual.pm (unchanged)
+Skip blib/lib/Font/TTF/Prep.pm (unchanged)
+Skip blib/lib/Font/TTF/Woff.pm (unchanged)
+Skip blib/lib/Font/TTF/OTTags.pm (unchanged)
+Skip blib/lib/Font/TTF/Vhea.pm (unchanged)
+Skip blib/lib/Font/TTF/Silf.pm (unchanged)
+Skip blib/lib/Font/TTF/OldCmap.pm (unchanged)
+Skip blib/lib/Font/TTF/Mort/Insertion.pm (unchanged)
+Skip blib/lib/Font/TTF/Mort/Contextual.pm (unchanged)
+Skip blib/lib/ttfmod.pl (unchanged)
+Skip blib/lib/Font/TTF/Ttopen.pm (unchanged)
+Skip blib/lib/Font/TTF/Win32.pm (unchanged)
+Skip blib/lib/Font/TTF/Woff/PrivateData.pm (unchanged)
+Skip blib/lib/Font/TTF/Sill.pm (unchanged)
+Skip blib/lib/Font/TTF/Ttc.pm (unchanged)
+Skip blib/lib/Font/TTF/XMLparse.pm (unchanged)
+Skip blib/lib/Font/TTF/Mort/Chain.pm (unchanged)
+Skip blib/lib/Font/TTF/Mort/Subtable.pm (unchanged)
+Skip blib/lib/Font/TTF/Utils.pm (unchanged)
+Skip blib/lib/Font/TTF/Mort/Rearrangement.pm (unchanged)
+Skip blib/lib/Font/TTF/Table.pm (unchanged)
+Skip blib/lib/Font/TTF/OS_2.pm (unchanged)
+Skip blib/lib/Font/TTF/Woff/MetaData.pm (unchanged)
+Skip blib/lib/Font/TTF/Prop.pm (unchanged)
+Skip blib/lib/Font/TTF/Post.pm (unchanged)
+Skip blib/lib/Font/TTF/Mort/Ligature.pm (unchanged)
+Skip blib/lib/Font/TTF/PSNames.pm (unchanged)
+Skip blib/lib/Font/TTF/Name.pm (unchanged)
+Skip blib/lib/Font/TTF/Vmtx.pm (unchanged)
+Manifying 38 pod documents
+Manifying 37 pod documents
+Manifying 2 pod documents
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/ttfmod.pl
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Head.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/OldMort.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/PCLT.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Cvt_.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/LTSH.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/GSUB.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/OldCmap.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/PSNames.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Hhea.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/AATutils.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Name.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Sill.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Win32.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/OS_2.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Delta.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Mort.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Post.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Glyf.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Useall.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/GrFeat.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Glyph.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/GPOS.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Anchor.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Prep.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Bsln.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Table.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Gloc.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Coverage.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Loca.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Prop.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Kern.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Hmtx.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/AATKern.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/DSIG.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/GDEF.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Woff.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Segarr.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Hdmx.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Vhea.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Dumper.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Feat.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Changes_old.txt
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Fdsc.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Silf.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/EBLC.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Vmtx.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Ttopen.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Cmap.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Maxp.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Glat.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Fpgm.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Utils.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/OTTags.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Ttc.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/XMLparse.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Manual.pod
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/EBDT.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Font.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Fmtx.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Woff/PrivateData.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Woff/MetaData.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Mort/Ligature.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Mort/Rearrangement.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Mort/Contextual.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Mort/Noncontextual.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Mort/Subtable.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Mort/Insertion.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Mort/Chain.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Features/Sset.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Features/Cvar.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Features/Size.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Kern/CompactClassArray.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Kern/StateTable.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Kern/ClassArray.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Kern/Subtable.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/Font/TTF/Kern/OrderedList.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Kern::StateTable.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Gloc.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Post.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Woff::PrivateData.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Utils.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::AATKern.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Cmap.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Mort::Ligature.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Kern::OrderedList.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Segarr.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Kern::CompactClassArray.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::EBDT.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Anchor.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Mort.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::GrFeat.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::AATutils.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Vhea.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Vmtx.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Fmtx.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Name.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Hhea.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Features::Size.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Woff::MetaData.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Mort::Chain.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Glat.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::OldMort.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Bsln.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::OldCmap.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Dumper.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Mort::Insertion.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Useall.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::DSIG.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::LTSH.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Mort::Contextual.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Kern::ClassArray.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::EBLC.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Glyf.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::GSUB.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::OS_2.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::OTTags.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::PSNames.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Fdsc.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Kern.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::XMLparse.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Feat.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Woff.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Prep.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Hdmx.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Ttc.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Glyph.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Features::Cvar.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Maxp.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Features::Sset.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Hmtx.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Mort::Rearrangement.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::PCLT.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/ttfmod.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Coverage.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Mort::Subtable.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Fpgm.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Win32.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Head.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Table.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::GDEF.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::GPOS.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Sill.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Ttopen.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Silf.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Loca.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Font.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Delta.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Prop.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Kern::Subtable.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Mort::Noncontextual.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Manual.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/Font::TTF::Cvt_.3pm
+Appending installation info to /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod
+cp lib/PDF/API2/Resource/CIDFont.pm blib/lib/PDF/API2/Resource/CIDFont.pm
+cp lib/PDF/API2/Content.pm blib/lib/PDF/API2/Content.pm
+cp lib/PDF/API2/Basic/PDF/Bool.pm blib/lib/PDF/API2/Basic/PDF/Bool.pm
+cp lib/PDF/API2/Basic/PDF/Filter/LZWDecode.pm blib/lib/PDF/API2/Basic/PDF/Filter/LZWDecode.pm
+cp lib/PDF/API2/NamedDestination.pm blib/lib/PDF/API2/NamedDestination.pm
+cp lib/PDF/API2/Basic/PDF/Filter/ASCIIHexDecode.pm blib/lib/PDF/API2/Basic/PDF/Filter/ASCIIHexDecode.pm
+cp lib/PDF/API2/Basic/PDF/Array.pm blib/lib/PDF/API2/Basic/PDF/Array.pm
+cp lib/PDF/API2/Page.pm blib/lib/PDF/API2/Page.pm
+cp lib/PDF/API2/Basic/PDF/File.pm blib/lib/PDF/API2/Basic/PDF/File.pm
+cp lib/PDF/API2/Lite.pm blib/lib/PDF/API2/Lite.pm
+cp lib/PDF/API2/Basic/PDF/Pages.pm blib/lib/PDF/API2/Basic/PDF/Pages.pm
+cp lib/PDF/API2/Basic/PDF/Filter/FlateDecode.pm blib/lib/PDF/API2/Basic/PDF/Filter/FlateDecode.pm
+cp lib/PDF/API2/Basic/PDF/Page.pm blib/lib/PDF/API2/Basic/PDF/Page.pm
+cp lib/PDF/API2/Outline.pm blib/lib/PDF/API2/Outline.pm
+cp lib/PDF/API2/Outlines.pm blib/lib/PDF/API2/Outlines.pm
+cp lib/PDF/API2/Basic/PDF/Null.pm blib/lib/PDF/API2/Basic/PDF/Null.pm
+cp lib/PDF/API2/Basic/PDF/Filter.pm blib/lib/PDF/API2/Basic/PDF/Filter.pm
+cp lib/PDF/API2/Resource/CIDFont/CJKFont/adobemingstdlightacro.data blib/lib/PDF/API2/Resource/CIDFont/CJKFont/adobemingstdlightacro.data
+cp lib/PDF/API2/Matrix.pm blib/lib/PDF/API2/Matrix.pm
+cp lib/PDF/API2/Basic/PDF/Utils.pm blib/lib/PDF/API2/Basic/PDF/Utils.pm
+cp lib/PDF/API2/Basic/PDF/Objind.pm blib/lib/PDF/API2/Basic/PDF/Objind.pm
+cp lib/PDF/API2/Basic/PDF/String.pm blib/lib/PDF/API2/Basic/PDF/String.pm
+cp lib/PDF/API2/Resource/CIDFont/CJKFont.pm blib/lib/PDF/API2/Resource/CIDFont/CJKFont.pm
+cp lib/PDF/API2/Basic/PDF/Name.pm blib/lib/PDF/API2/Basic/PDF/Name.pm
+cp lib/PDF/API2/Basic/PDF/Filter/RunLengthDecode.pm blib/lib/PDF/API2/Basic/PDF/Filter/RunLengthDecode.pm
+cp lib/PDF/API2/Basic/PDF/Literal.pm blib/lib/PDF/API2/Basic/PDF/Literal.pm
+cp lib/PDF/API2/Content/Text.pm blib/lib/PDF/API2/Content/Text.pm
+cp lib/PDF/API2/Resource/BaseFont.pm blib/lib/PDF/API2/Resource/BaseFont.pm
+cp lib/PDF/API2/Basic/PDF/Dict.pm blib/lib/PDF/API2/Basic/PDF/Dict.pm
+cp lib/PDF/API2/Annotation.pm blib/lib/PDF/API2/Annotation.pm
+cp lib/PDF/API2/Resource.pm blib/lib/PDF/API2/Resource.pm
+cp lib/PDF/API2/Basic/PDF/Filter/ASCII85Decode.pm blib/lib/PDF/API2/Basic/PDF/Filter/ASCII85Decode.pm
+cp lib/PDF/API2.pm blib/lib/PDF/API2.pm
+cp lib/PDF/API2/Basic/PDF/Number.pm blib/lib/PDF/API2/Basic/PDF/Number.pm
+cp lib/PDF/API2/Resource/ColorSpace/Indexed/ACTFile.pm blib/lib/PDF/API2/Resource/ColorSpace/Indexed/ACTFile.pm
+cp lib/PDF/API2/Resource/ColorSpace/Indexed/Hue.pm blib/lib/PDF/API2/Resource/ColorSpace/Indexed/Hue.pm
+cp lib/PDF/API2/Resource/ColorSpace.pm blib/lib/PDF/API2/Resource/ColorSpace.pm
+cp lib/PDF/API2/Resource/ColorSpace/Indexed.pm blib/lib/PDF/API2/Resource/ColorSpace/Indexed.pm
+cp lib/PDF/API2/Resource/ColorSpace/Indexed/WebColor.pm blib/lib/PDF/API2/Resource/ColorSpace/Indexed/WebColor.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/bankgothic.pm blib/lib/PDF/API2/Resource/Font/CoreFont/bankgothic.pm
+cp lib/PDF/API2/Resource/CIDFont/CMap/simplified.cmap blib/lib/PDF/API2/Resource/CIDFont/CMap/simplified.cmap
+cp lib/PDF/API2/Resource/ColorSpace/DeviceN.pm blib/lib/PDF/API2/Resource/ColorSpace/DeviceN.pm
+cp lib/PDF/API2/Resource/CIDFont/CMap/traditional.cmap blib/lib/PDF/API2/Resource/CIDFont/CMap/traditional.cmap
+cp lib/PDF/API2/Resource/CIDFont/CJKFont/adobesongstdlightacro.data blib/lib/PDF/API2/Resource/CIDFont/CJKFont/adobesongstdlightacro.data
+cp lib/PDF/API2/Resource/CIDFont/TrueType.pm blib/lib/PDF/API2/Resource/CIDFont/TrueType.pm
+cp lib/PDF/API2/Resource/CIDFont/TrueType/FontFile.pm blib/lib/PDF/API2/Resource/CIDFont/TrueType/FontFile.pm
+cp lib/PDF/API2/Resource/CIDFont/CJKFont/adobemyungjostdmediumacro.data blib/lib/PDF/API2/Resource/CIDFont/CJKFont/adobemyungjostdmediumacro.data
+cp lib/PDF/API2/Resource/CIDFont/CMap/japanese.cmap blib/lib/PDF/API2/Resource/CIDFont/CMap/japanese.cmap
+cp lib/PDF/API2/Resource/Font/CoreFont/courierbold.pm blib/lib/PDF/API2/Resource/Font/CoreFont/courierbold.pm
+cp lib/PDF/API2/Resource/Colors.pm blib/lib/PDF/API2/Resource/Colors.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/courier.pm blib/lib/PDF/API2/Resource/Font/CoreFont/courier.pm
+cp lib/PDF/API2/Resource/CIDFont/CJKFont/kozgopromediumacro.data blib/lib/PDF/API2/Resource/CIDFont/CJKFont/kozgopromediumacro.data
+cp lib/PDF/API2/Resource/Font.pm blib/lib/PDF/API2/Resource/Font.pm
+cp lib/PDF/API2/Resource/ExtGState.pm blib/lib/PDF/API2/Resource/ExtGState.pm
+cp lib/PDF/API2/Resource/Font/CoreFont.pm blib/lib/PDF/API2/Resource/Font/CoreFont.pm
+cp lib/PDF/API2/Resource/Font/BdFont.pm blib/lib/PDF/API2/Resource/Font/BdFont.pm
+cp lib/PDF/API2/Resource/ColorSpace/Separation.pm blib/lib/PDF/API2/Resource/ColorSpace/Separation.pm
+cp lib/PDF/API2/Resource/CIDFont/CMap/korean.cmap blib/lib/PDF/API2/Resource/CIDFont/CMap/korean.cmap
+cp lib/PDF/API2/Resource/CIDFont/CJKFont/kozminproregularacro.data blib/lib/PDF/API2/Resource/CIDFont/CJKFont/kozminproregularacro.data
+cp lib/PDF/API2/Resource/Font/CoreFont/trebuchet.pm blib/lib/PDF/API2/Resource/Font/CoreFont/trebuchet.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/courieroblique.pm blib/lib/PDF/API2/Resource/Font/CoreFont/courieroblique.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/courierboldoblique.pm blib/lib/PDF/API2/Resource/Font/CoreFont/courierboldoblique.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/georgiaitalic.pm blib/lib/PDF/API2/Resource/Font/CoreFont/georgiaitalic.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/timesroman.pm blib/lib/PDF/API2/Resource/Font/CoreFont/timesroman.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/georgiabold.pm blib/lib/PDF/API2/Resource/Font/CoreFont/georgiabold.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/verdanaitalic.pm blib/lib/PDF/API2/Resource/Font/CoreFont/verdanaitalic.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/trebuchetbolditalic.pm blib/lib/PDF/API2/Resource/Font/CoreFont/trebuchetbolditalic.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/timesbold.pm blib/lib/PDF/API2/Resource/Font/CoreFont/timesbold.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/timesbolditalic.pm blib/lib/PDF/API2/Resource/Font/CoreFont/timesbolditalic.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/timesitalic.pm blib/lib/PDF/API2/Resource/Font/CoreFont/timesitalic.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/verdana.pm blib/lib/PDF/API2/Resource/Font/CoreFont/verdana.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/verdanabolditalic.pm blib/lib/PDF/API2/Resource/Font/CoreFont/verdanabolditalic.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/helveticabold.pm blib/lib/PDF/API2/Resource/Font/CoreFont/helveticabold.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/verdanabold.pm blib/lib/PDF/API2/Resource/Font/CoreFont/verdanabold.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/helveticaboldoblique.pm blib/lib/PDF/API2/Resource/Font/CoreFont/helveticaboldoblique.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/symbol.pm blib/lib/PDF/API2/Resource/Font/CoreFont/symbol.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/trebuchetitalic.pm blib/lib/PDF/API2/Resource/Font/CoreFont/trebuchetitalic.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/helvetica.pm blib/lib/PDF/API2/Resource/Font/CoreFont/helvetica.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/georgia.pm blib/lib/PDF/API2/Resource/Font/CoreFont/georgia.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/helveticaoblique.pm blib/lib/PDF/API2/Resource/Font/CoreFont/helveticaoblique.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/trebuchetbold.pm blib/lib/PDF/API2/Resource/Font/CoreFont/trebuchetbold.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/georgiabolditalic.pm blib/lib/PDF/API2/Resource/Font/CoreFont/georgiabolditalic.pm
+cp lib/PDF/API2/Resource/Font/SynFont.pm blib/lib/PDF/API2/Resource/Font/SynFont.pm
+cp lib/PDF/API2/Resource/Shading.pm blib/lib/PDF/API2/Resource/Shading.pm
+cp lib/PDF/API2/Resource/XObject.pm blib/lib/PDF/API2/Resource/XObject.pm
+cp lib/PDF/API2/Resource/XObject/Image/PNM.pm blib/lib/PDF/API2/Resource/XObject/Image/PNM.pm
+cp lib/PDF/API2/Resource/XObject/Form/BarCode/codabar.pm blib/lib/PDF/API2/Resource/XObject/Form/BarCode/codabar.pm
+cp lib/PDF/API2/Resource/Glyphs.pm blib/lib/PDF/API2/Resource/Glyphs.pm
+cp lib/PDF/API2/Resource/XObject/Image/PNG.pm blib/lib/PDF/API2/Resource/XObject/Image/PNG.pm
+cp lib/PDF/API2/Resource/XObject/Image/GD.pm blib/lib/PDF/API2/Resource/XObject/Image/GD.pm
+cp lib/PDF/API2/Resource/XObject/Form/BarCode/ean13.pm blib/lib/PDF/API2/Resource/XObject/Form/BarCode/ean13.pm
+cp lib/PDF/API2/Resource/XObject/Form/BarCode/code3of9.pm blib/lib/PDF/API2/Resource/XObject/Form/BarCode/code3of9.pm
+cp lib/PDF/API2/Resource/XObject/Image/GIF.pm blib/lib/PDF/API2/Resource/XObject/Image/GIF.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/zapfdingbats.pm blib/lib/PDF/API2/Resource/Font/CoreFont/zapfdingbats.pm
+cp lib/PDF/API2/Resource/Font/Postscript.pm blib/lib/PDF/API2/Resource/Font/Postscript.pm
+cp lib/PDF/API2/Resource/PaperSizes.pm blib/lib/PDF/API2/Resource/PaperSizes.pm
+cp lib/PDF/API2/Resource/XObject/Image/TIFF/File.pm blib/lib/PDF/API2/Resource/XObject/Image/TIFF/File.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/webdings.pm blib/lib/PDF/API2/Resource/Font/CoreFont/webdings.pm
+cp lib/PDF/API2/Resource/Pattern.pm blib/lib/PDF/API2/Resource/Pattern.pm
+cp lib/PDF/API2/Resource/XObject/Form/BarCode/code128.pm blib/lib/PDF/API2/Resource/XObject/Form/BarCode/code128.pm
+cp lib/PDF/API2/Resource/XObject/Form/BarCode/int2of5.pm blib/lib/PDF/API2/Resource/XObject/Form/BarCode/int2of5.pm
+cp lib/PDF/API2/Resource/XObject/Form.pm blib/lib/PDF/API2/Resource/XObject/Form.pm
+cp lib/PDF/API2/Resource/Font/CoreFont/wingdings.pm blib/lib/PDF/API2/Resource/Font/CoreFont/wingdings.pm
+cp lib/PDF/API2/Resource/UniFont.pm blib/lib/PDF/API2/Resource/UniFont.pm
+cp lib/PDF/API2/Resource/XObject/Image/TIFF.pm blib/lib/PDF/API2/Resource/XObject/Image/TIFF.pm
+cp lib/PDF/API2/Resource/XObject/Image/JPEG.pm blib/lib/PDF/API2/Resource/XObject/Image/JPEG.pm
+cp lib/PDF/API2/Resource/XObject/Form/Hybrid.pm blib/lib/PDF/API2/Resource/XObject/Form/Hybrid.pm
+cp lib/PDF/API2/Resource/XObject/Form/BarCode.pm blib/lib/PDF/API2/Resource/XObject/Form/BarCode.pm
+cp lib/PDF/API2/Resource/XObject/Image.pm blib/lib/PDF/API2/Resource/XObject/Image.pm
+cp lib/PDF/API2/Resource/uniglyph.txt blib/lib/PDF/API2/Resource/uniglyph.txt
+cp lib/PDF/API2/Util.pm blib/lib/PDF/API2/Util.pm
+cp lib/PDF/API2/UniWrap.pm blib/lib/PDF/API2/UniWrap.pm
+cp lib/PDF/API2/Win32.pm blib/lib/PDF/API2/Win32.pm
+Manifying 30 pod documents
+Manifying 10 pod documents
+Skip blib/lib/PDF/API2/Resource/CIDFont/CJKFont/adobemingstdlightacro.data (unchanged)
+Skip blib/lib/PDF/API2/Lite.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Array.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Filter.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont/CJKFont.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Filter/ASCII85Decode.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Name.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/String.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Filter/RunLengthDecode.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Number.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Filter/LZWDecode.pm (unchanged)
+Skip blib/lib/PDF/API2/Outlines.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Utils.pm (unchanged)
+Skip blib/lib/PDF/API2/Matrix.pm (unchanged)
+Skip blib/lib/PDF/API2/Annotation.pm (unchanged)
+Skip blib/lib/PDF/API2/Content/Text.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Bool.pm (unchanged)
+Skip blib/lib/PDF/API2/Content.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/BaseFont.pm (unchanged)
+Skip blib/lib/PDF/API2.pm (unchanged)
+Skip blib/lib/PDF/API2/NamedDestination.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Page.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Filter/FlateDecode.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Null.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Pages.pm (unchanged)
+Skip blib/lib/PDF/API2/Outline.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Filter/ASCIIHexDecode.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Literal.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Objind.pm (unchanged)
+Skip blib/lib/PDF/API2/Page.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/Dict.pm (unchanged)
+Skip blib/lib/PDF/API2/Basic/PDF/File.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont/CMap/japanese.cmap (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/bankgothic.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/BdFont.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/ExtGState.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/ColorSpace/Separation.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont/CMap/simplified.cmap (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont/CJKFont/kozminproregularacro.data (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont/CJKFont/kozgopromediumacro.data (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont/CMap/korean.cmap (unchanged)
+Skip blib/lib/PDF/API2/Resource/ColorSpace/Indexed/ACTFile.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/ColorSpace/Indexed.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/ColorSpace.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/ColorSpace/Indexed/Hue.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/ColorSpace/DeviceN.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/ColorSpace/Indexed/WebColor.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Colors.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont/CJKFont/adobesongstdlightacro.data (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont/TrueType.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont/CMap/traditional.cmap (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/courier.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont/CJKFont/adobemyungjostdmediumacro.data (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/courierbold.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/CIDFont/TrueType/FontFile.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/georgiabolditalic.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/timesitalic.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/timesroman.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/verdanabold.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/verdana.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/helveticabold.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/georgiabold.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/symbol.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/verdanabolditalic.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/courierboldoblique.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/helvetica.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/helveticaboldoblique.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/verdanaitalic.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/georgiaitalic.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/trebuchetitalic.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/trebuchetbolditalic.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/helveticaoblique.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/timesbolditalic.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/trebuchetbold.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/timesbold.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/trebuchet.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/georgia.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/courieroblique.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Form/BarCode.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Image/GD.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Image/PNG.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Image/TIFF.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Form/BarCode/int2of5.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/UniFont.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/Postscript.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/PaperSizes.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/webdings.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Form/Hybrid.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Image.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Form/BarCode/code3of9.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/zapfdingbats.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Shading.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/CoreFont/wingdings.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Form/BarCode/ean13.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Image/PNM.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Image/GIF.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Form/BarCode/codabar.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Font/SynFont.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Pattern.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/Glyphs.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Image/JPEG.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Image/TIFF/File.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Form/BarCode/code128.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/XObject/Form.pm (unchanged)
+Skip blib/lib/PDF/API2/Util.pm (unchanged)
+Skip blib/lib/PDF/API2/Resource/uniglyph.txt (unchanged)
+Skip blib/lib/PDF/API2/Win32.pm (unchanged)
+Skip blib/lib/PDF/API2/UniWrap.pm (unchanged)
+Manifying 30 pod documents
+Manifying 10 pod documents
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Outlines.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Lite.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Win32.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Annotation.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/NamedDestination.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Outline.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/UniWrap.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Util.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Matrix.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Content.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Page.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Glyphs.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/uniglyph.txt
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Shading.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/ColorSpace.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/PaperSizes.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/UniFont.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Pattern.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/ExtGState.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/BaseFont.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Colors.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/TrueType.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/CJKFont.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/TrueType/FontFile.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/CMap/traditional.cmap
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/CMap/japanese.cmap
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/CMap/korean.cmap
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/CMap/simplified.cmap
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/CJKFont/adobesongstdlightacro.data
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/CJKFont/adobemingstdlightacro.data
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/CJKFont/kozminproregularacro.data
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/CJKFont/adobemyungjostdmediumacro.data
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/CIDFont/CJKFont/kozgopromediumacro.data
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/ColorSpace/DeviceN.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/ColorSpace/Indexed.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/ColorSpace/Separation.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/ColorSpace/Indexed/ACTFile.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/ColorSpace/Indexed/WebColor.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/ColorSpace/Indexed/Hue.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/Postscript.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/BdFont.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/SynFont.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/verdanaitalic.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/helveticaboldoblique.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/courieroblique.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/helvetica.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/courier.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/verdanabolditalic.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/courierbold.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/webdings.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/wingdings.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/georgiabold.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/georgiabolditalic.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/timesitalic.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/helveticaoblique.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/courierboldoblique.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/zapfdingbats.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/bankgothic.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/georgiaitalic.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/trebuchetbolditalic.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/timesbold.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/timesroman.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/trebuchetitalic.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/verdana.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/trebuchet.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/georgia.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/timesbolditalic.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/verdanabold.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/trebuchetbold.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/helveticabold.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/Font/CoreFont/symbol.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Image.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Form.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Form/Hybrid.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Form/BarCode.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Form/BarCode/code128.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Form/BarCode/ean13.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Form/BarCode/code3of9.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Form/BarCode/int2of5.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Form/BarCode/codabar.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Image/GIF.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Image/PNM.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Image/GD.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Image/TIFF.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Image/PNG.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Image/JPEG.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Resource/XObject/Image/TIFF/File.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Content/Text.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Pages.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Name.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Array.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Objind.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/String.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Bool.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Filter.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Number.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Dict.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Null.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Literal.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Utils.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/File.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Page.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Filter/ASCII85Decode.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Filter/FlateDecode.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Filter/LZWDecode.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Filter/ASCIIHexDecode.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/PDF/API2/Basic/PDF/Filter/RunLengthDecode.pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::NamedDestination.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::Objind.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::XObject::Form.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::XObject::Image::TIFF.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Annotation.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::Number.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::String.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::CIDFont::CJKFont.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Content.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::Name.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::Font::SynFont.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::File.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::Utils.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::Font::BdFont.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::ExtGState.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::Dict.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Lite.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::Filter.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::BaseFont.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::Pages.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::XObject::Image.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::ColorSpace.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::ColorSpace::Indexed::ACTFile.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::Page.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::XObject.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Outline.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::CIDFont::TrueType.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::XObject::Form::BarCode.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::Bool.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::CIDFont.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Page.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::Font::CoreFont.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::ColorSpace::Separation.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::UniFont.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Resource::XObject::Form::BarCode::code128.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::Null.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Basic::PDF::Array.3pm
+Installing /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/man/man3/PDF::API2::Util.3pm
+Appending installation info to /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/lib/perl5/x86_64-linux-gnu-thread-multi/perllocal.pod

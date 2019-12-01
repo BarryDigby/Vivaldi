@@ -1,0 +1,25 @@
+current dir:	/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/tutorial_dir
+mapper command:	/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/bin/mapper.pl reads.fa -c -j -k TCGTATGCCGTCTTCTGCTTGT -l 18 -m -p cel_cluster -s reads_collapsed.fa -t reads_collapsed_vs_genome.arf -v -n
+
+timestamp:	08_10_2019_t_17_19_20
+
+discarding sequences with non-canonical letters
+fastaparse.pl reads.fa -b > dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads_letters.fa 2>dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads_discarded.fa
+clipping 3' adapters
+clip_adapters.pl dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads_letters.fa TCGTATGCCGTCTTCTGCTTGT > dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads_clip.fa
+discarding short reads
+fastaparse.pl dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads_clip.fa -a 18 > dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads_no_short.fa 2>dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads_too_short
+collapsing reads
+collapse_reads_md.pl dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads_no_short.fa seq > dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads_nr.fa
+mapping reads to genome index
+bowtie -p 1 -f -n 0 -e 80 -l 18 -a -m 5 --best --strata cel_cluster  --al dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads.fa_mapped --un dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads.fa_not_mapped  dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/reads_nr.fa dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/mappings.bwt 2>bowtie.log
+
+convert_bowtie_output.pl dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/mappings.bwt > dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/mappings.arf
+trimming unmapped nts in the 3' ends
+parse_mappings.pl dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/mappings.arf -j > dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20/mappings_trim.arf
+
+remove tmp dir
+rmtree(dir_mapper_seq_reads.fa_8192552673_08_10_2019_t_17_19_20)
+
+############################################################
+

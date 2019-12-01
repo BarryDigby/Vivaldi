@@ -1,0 +1,1444 @@
+treedist.c: In function ‘print_postorder_list’:
+treedist.c:437:13: warning: type defaults to ‘int’ in declaration of ‘i’ [-Wimplicit-int]
+    register i;
+             ^
+inverse.c: In function ‘pf_cost’:
+inverse.c:488:16: warning: passing argument 1 of ‘pf_fold’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+    f = pf_fold(string, structure);
+                ^~~~~~
+In file included from inverse.c:20:0:
+./../H/part_func.h:6:15: note: expected ‘char *’ but argument is of type ‘const char *’
+ extern float  pf_fold(char *sequence, char *structure);
+               ^~~~~~~
+RNAstruct.c: In function ‘b2HIT’:
+RNAstruct.c:99:21: warning: ‘%d’ directive writing between 1 and 10 bytes into a region of size 8 [-Wformat-overflow=]
+      sprintf(tt, "(U%d)" , u);
+                     ^~
+RNAstruct.c:99:18: note: directive argument in the range [0, 2147483647]
+      sprintf(tt, "(U%d)" , u);
+                  ^~~~~~~
+In file included from /usr/include/stdio.h:862:0,
+                 from RNAstruct.c:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output between 5 and 14 bytes into a destination of size 10
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RNAstruct.c:108:21: warning: ‘%d’ directive writing between 1 and 10 bytes into a region of size 8 [-Wformat-overflow=]
+      sprintf(tt, "(U%d)" , u);
+                     ^~
+RNAstruct.c:108:18: note: directive argument in the range [0, 2147483647]
+      sprintf(tt, "(U%d)" , u);
+                  ^~~~~~~
+In file included from /usr/include/stdio.h:862:0,
+                 from RNAstruct.c:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output between 5 and 14 bytes into a destination of size 10
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RNAstruct.c:117:21: warning: ‘%d’ directive writing between 1 and 10 bytes into a region of size 8 [-Wformat-overflow=]
+      sprintf(tt, "(U%d)" , u);
+                     ^~
+RNAstruct.c:117:18: note: directive argument in the range [0, 2147483647]
+      sprintf(tt, "(U%d)" , u);
+                  ^~~~~~~
+In file included from /usr/include/stdio.h:862:0,
+                 from RNAstruct.c:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output between 5 and 14 bytes into a destination of size 10
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RNAstruct.c:122:16: warning: ‘%d’ directive writing between 1 and 10 bytes into a region of size 9 [-Wformat-overflow=]
+   sprintf(tt,"P%d)", p+1);
+                ^~
+RNAstruct.c:122:14: note: directive argument in the range [1, 2147483647]
+   sprintf(tt,"P%d)", p+1);
+              ^~~~~~
+In file included from /usr/include/stdio.h:862:0,
+                 from RNAstruct.c:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output between 4 and 13 bytes into a destination of size 10
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RNAstruct.c:131:22: warning: ‘%d’ directive writing between 1 and 10 bytes into a region of size 8 [-Wformat-overflow=]
+       sprintf(tt, "(U%d)" , u);
+                      ^~
+RNAstruct.c:131:19: note: directive argument in the range [0, 2147483647]
+       sprintf(tt, "(U%d)" , u);
+                   ^~~~~~~
+In file included from /usr/include/stdio.h:862:0,
+                 from RNAstruct.c:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output between 5 and 14 bytes into a destination of size 10
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+naview.c: In function ‘dump_loops’:
+naview.c:334:28: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+   printf("\nRoot loop is #%d\n",(root-loops)+1);
+                           ~^    ~~~~~~~~~~~~~~
+                           %ld
+stringdist.c:24:0: warning: "INFINITY" redefined
+ #define INFINITY       10000
+ 
+In file included from stringdist.c:12:0:
+/usr/include/math.h:91:0: note: this is the location of the previous definition
+ #  define INFINITY (__builtin_inff ())
+ 
+subopt.c: In function ‘subopt’:
+subopt.c:507:37: warning: implicit declaration of function ‘initialize_cofold’; did you mean ‘initialize_fold’? [-Wimplicit-function-declaration]
+   (circ)? initialize_fold(length) : initialize_cofold(length);
+                                     ^~~~~~~~~~~~~~~~~
+                                     initialize_fold
+subopt.c:508:49: warning: implicit declaration of function ‘cofold’; did you mean ‘fold’? [-Wimplicit-function-declaration]
+   min_en = (circ) ? circfold(sequence, struc) : cofold(sequence, struc);
+                                                 ^~~~~~
+                                                 fold
+subopt.c:647:26: warning: implicit declaration of function ‘free_co_arrays’; did you mean ‘free_arrays’? [-Wimplicit-function-declaration]
+   (circ) ? free_arrays():free_co_arrays();
+                          ^~~~~~~~~~~~~~
+                          free_arrays
+cofold.c:1303:8: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ static comp_pair(const void *A, const void *B) {
+        ^~~~~~~~~
+duplex.c: In function ‘aliduplexfold’:
+duplex.c:385:38: warning: passing argument 3 of ‘alibacktrack’ from incompatible pointer type [-Wincompatible-pointer-types]
+   struc = alibacktrack(i_min, j_min, S1, S2);
+                                      ^~
+duplex.c:37:16: note: expected ‘const short int **’ but argument is of type ‘short int **’
+ PRIVATE char * alibacktrack(int i, int j, const short *S1[], const short *S2[]);
+                ^~~~~~~~~~~~
+duplex.c:385:42: warning: passing argument 4 of ‘alibacktrack’ from incompatible pointer type [-Wincompatible-pointer-types]
+   struc = alibacktrack(i_min, j_min, S1, S2);
+                                          ^~
+duplex.c:37:16: note: expected ‘const short int **’ but argument is of type ‘short int **’
+ PRIVATE char * alibacktrack(int i, int j, const short *S1[], const short *S2[]);
+                ^~~~~~~~~~~~
+duplex.c: In function ‘aliduplex_subopt’:
+duplex.c:462:32: warning: passing argument 3 of ‘alibacktrack’ from incompatible pointer type [-Wincompatible-pointer-types]
+       struc = alibacktrack(i,j,S1,S2);
+                                ^~
+duplex.c:37:16: note: expected ‘const short int **’ but argument is of type ‘short int **’
+ PRIVATE char * alibacktrack(int i, int j, const short *S1[], const short *S2[]);
+                ^~~~~~~~~~~~
+duplex.c:462:35: warning: passing argument 4 of ‘alibacktrack’ from incompatible pointer type [-Wincompatible-pointer-types]
+       struc = alibacktrack(i,j,S1,S2);
+                                   ^~
+duplex.c:37:16: note: expected ‘const short int **’ but argument is of type ‘short int **’
+ PRIVATE char * alibacktrack(int i, int j, const short *S1[], const short *S2[]);
+                ^~~~~~~~~~~~
+alifold.c: In function ‘make_pscores’:
+alifold.c:722:25: warning: passing argument 1 of ‘get_ribosum’ from incompatible pointer type [-Wincompatible-pointer-types]
+     else dm=get_ribosum(AS,n_seq,n);
+                         ^~
+In file included from alifold.c:23:0:
+./../H/ribo.h:1:16: note: expected ‘char **’ but argument is of type ‘const char * const*’
+ extern float **get_ribosum(char *Alseq[], int n_seq, int length);
+                ^~~~~~~~~~~
+alipfold.c: In function ‘make_pscores’:
+alipfold.c:1154:25: warning: passing argument 1 of ‘get_ribosum’ from incompatible pointer type [-Wincompatible-pointer-types]
+     else dm=get_ribosum(AS,n_seq,n);
+                         ^~
+In file included from alipfold.c:22:0:
+./../H/ribo.h:1:16: note: expected ‘char **’ but argument is of type ‘const char * const*’
+ extern float **get_ribosum(char *Alseq[], int n_seq, int length);
+                ^~~~~~~~~~~
+part_func_up.c: In function ‘plot_free_pu_out’:
+part_func_up.c:1449:21: warning: ‘__builtin___sprintf_chk’ writing a terminating nul past the end of the destination [-Wformat-overflow=]
+   sprintf(startl,"# ");
+                     ^
+In file included from /usr/include/stdio.h:862:0,
+                 from part_func_up.c:56:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: note: ‘__builtin___sprintf_chk’ output 3 bytes into a destination of size 2
+   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       __bos (__s), __fmt, __va_arg_pack ());
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function ‘sprintf’,
+    inlined from ‘plot_free_pu_out’ at part_func_up.c:1449:3:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:33:10: warning: ‘__builtin___sprintf_chk’ writing 3 bytes into a region of size 2 overflows the destination [-Wstringop-overflow=]
+ar: `u' modifier ignored since `D' is the default (see `U')
+RNAfold.c: In function ‘main’:
+RNAfold.c:233:16: warning: implicit declaration of function ‘init_pf_circ_fold’; did you mean ‘pf_circ_fold’? [-Wimplicit-function-declaration]
+       (circ) ? init_pf_circ_fold(length) : init_pf_fold(length);
+                ^~~~~~~~~~~~~~~~~
+                pf_circ_fold
+RNAinverse.c:31:0: warning: "INFINITY" redefined
+ #define  INFINITY        100000
+ 
+In file included from RNAinverse.c:9:0:
+/usr/include/math.h:91:0: note: this is the location of the previous definition
+ #  define INFINITY (__builtin_inff ())
+ 
+RNAduplex.c: In function ‘main’:
+RNAduplex.c:158:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+       printf("lengths = %d,%d\n", strlen(s1), strlen(s2));
+                         ~^        ~~~~~~~~~~
+                         %ld
+RNAduplex.c:158:29: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+       printf("lengths = %d,%d\n", strlen(s1), strlen(s2));
+                            ~^                 ~~~~~~~~~~
+                            %ld
+RNAduplex.c: In function ‘print_struc’:
+RNAduplex.c:187:32: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+   printf("%s %3d,%-3d : %3d,%-3d (%5.2f)\n", dup->structure, dup->i+1-l1,
+                             ~~~^
+                             %-3ld
+   dup->i, dup->j, dup->j+strlen(dup->structure)-l1-2, dup->energy);
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RNAup.c: In function ‘main’:
+RNAup.c:110:28: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘char (*)[201]’ [-Wformat=]
+     r=sscanf(argv[i], "%100s", &temp_name);
+                        ~~~~^   ~~~~~~~~~~
+RNAaliduplex.c: In function ‘main’:
+RNAaliduplex.c:128:31: warning: passing argument 1 of ‘aliduplex_subopt’ from incompatible pointer type [-Wincompatible-pointer-types]
+     subopt = aliduplex_subopt(AS1, AS2, delta, 5);
+                               ^~~
+In file included from RNAaliduplex.c:14:0:
+./../H/duplex.h:14:17: note: expected ‘const char **’ but argument is of type ‘char **’
+ extern duplexT *aliduplex_subopt(const char *s1[], const char *s2[], int delta, int w);
+                 ^~~~~~~~~~~~~~~~
+RNAaliduplex.c:128:36: warning: passing argument 2 of ‘aliduplex_subopt’ from incompatible pointer type [-Wincompatible-pointer-types]
+     subopt = aliduplex_subopt(AS1, AS2, delta, 5);
+                                    ^~~
+In file included from RNAaliduplex.c:14:0:
+./../H/duplex.h:14:17: note: expected ‘const char **’ but argument is of type ‘char **’
+ extern duplexT *aliduplex_subopt(const char *s1[], const char *s2[], int delta, int w);
+                 ^~~~~~~~~~~~~~~~
+RNAaliduplex.c:135:25: warning: passing argument 1 of ‘aliduplexfold’ from incompatible pointer type [-Wincompatible-pointer-types]
+     mfe = aliduplexfold(AS1, AS2);
+                         ^~~
+RNAaliduplex.c:22:16: note: expected ‘const char **’ but argument is of type ‘char **’
+ extern duplexT aliduplexfold(const char *s1[], const char *s2[]);
+                ^~~~~~~~~~~~~
+RNAaliduplex.c:135:30: warning: passing argument 2 of ‘aliduplexfold’ from incompatible pointer type [-Wincompatible-pointer-types]
+     mfe = aliduplexfold(AS1, AS2);
+                              ^~~
+RNAaliduplex.c:22:16: note: expected ‘const char **’ but argument is of type ‘char **’
+ extern duplexT aliduplexfold(const char *s1[], const char *s2[]);
+                ^~~~~~~~~~~~~
+RNAaliduplex.c: In function ‘print_struc’:
+RNAaliduplex.c:149:32: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+   printf("%s %3d,%-3d : %3d,%-3d (%5.2f)\n", dup->structure, dup->i+1-l1,
+                             ~~~^
+                             %-3ld
+   dup->i, dup->j, dup->j+strlen(dup->structure)-l1-2, dup->energy);
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from RNA_wrap.c:1501:0:
+../H/part_func_co.h:26:16: warning: ‘struct plist’ declared inside parameter list will not be visible outside of this definition or declaration
+         struct plist  *prAB,
+                ^~~~~
+In file included from RNA_wrap.c:710:0:
+RNA_wrap.c: In function ‘_wrap_fold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:4776:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: note: each undeclared identifier is reported only once for each function it appears in
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:4776:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:4776:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:4779:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_cofold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5353:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5353:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5356:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_pf_fold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5498:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5498:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5501:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_co_pf_fold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5931:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5931:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5934:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5937:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg4)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5940:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg4), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5943:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg5)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5946:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg5), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5949:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg6)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5952:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg6), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_get_concentrations__SWIG_1’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6183:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg8)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6183:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg8)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6186:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg8), SWIGTYPE_p_double, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6189:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg9)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6192:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg9), SWIGTYPE_p_double, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6195:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg10)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6198:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg10), SWIGTYPE_p_double, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6201:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg11)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6204:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg11), SWIGTYPE_p_double, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6207:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg12)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6210:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg12), SWIGTYPE_p_double, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_inverse_fold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6450:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6450:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6453:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_inverse_pf_fold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6503:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6503:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6506:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_alifold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:7645:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:7645:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:7648:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+make[3]: *** [RNA_wrap.o] Error 1
+make[2]: *** [all-local] Error 2
+make[1]: *** [all-recursive] Error 1
+make: *** [all] Error 2
+install-info: warning: no info dir entry in `/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/essentials/ViennaRNA-1.8.4/install_dir/share/info/RNAlib.info'
+In file included from RNA_wrap.c:1501:0:
+../H/part_func_co.h:26:16: warning: ‘struct plist’ declared inside parameter list will not be visible outside of this definition or declaration
+         struct plist  *prAB,
+                ^~~~~
+In file included from RNA_wrap.c:710:0:
+RNA_wrap.c: In function ‘_wrap_fold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:4776:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: note: each undeclared identifier is reported only once for each function it appears in
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:4776:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:4776:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:4779:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_cofold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5353:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5353:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5356:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_pf_fold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5498:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5498:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5501:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_co_pf_fold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5931:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5931:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5934:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5937:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg4)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5940:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg4), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5943:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg5)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5946:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg5), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5949:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg6)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:5952:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg6), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_get_concentrations__SWIG_1’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6183:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg8)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6183:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg8)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6186:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg8), SWIGTYPE_p_double, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6189:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg9)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6192:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg9), SWIGTYPE_p_double, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6195:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg10)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6198:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg10), SWIGTYPE_p_double, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6201:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg11)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6204:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg11), SWIGTYPE_p_double, new_flags); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6207:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_double  SWIG_PERL_CALL_ARGS_1((*arg12)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6210:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg12), SWIGTYPE_p_double, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_inverse_fold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6450:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6450:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6453:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_inverse_pf_fold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6503:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6503:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:6506:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+RNA_wrap.c: In function ‘_wrap_alifold’:
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:34: error: ‘bool’ undeclared (first use in this function); did you mean ‘bond’?
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                  ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:7645:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:7645:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_From_float  SWIG_PERL_CALL_ARGS_1((*arg3)); argvi++  ;
+                           ^~~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/handy.h:111:39: error: expected ‘:’ before numeric constant
+ #define cBOOL(cbool) ((cbool) ? (bool)1 : (bool)0)
+                                       ^
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3684:62: note: in definition of macro ‘EXPECT’
+ #  define EXPECT(expr,val)                  __builtin_expect(expr,val)
+                                                              ^~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/perl.h:3689:52: note: in expansion of macro ‘cBOOL’
+ #define UNLIKELY(cond)                      EXPECT(cBOOL(cond),FALSE)
+                                                    ^~~~~
+/usr/lib/x86_64-linux-gnu/perl/5.26/CORE/pp.h:341:30: note: in expansion of macro ‘UNLIKELY’
+                          if (UNLIKELY(_EXTEND_NEEDS_GROW(p,n))) {       \
+                              ^~~~~~~~
+RNA_wrap.c:7648:27: note: in expansion of macro ‘EXTEND’
+       if (argvi >= items) EXTEND(sp,1);  ST(argvi) = SWIG_NewPointerObj((void*)(arg3), SWIGTYPE_p_float, new_flags); argvi++  ;
+                           ^~~~~~
+make[2]: *** [RNA_wrap.o] Error 1
+make[1]: *** [all-local] Error 2
+make: *** [install-recursive] Error 1
+randfold.c: In function ‘main’:
+randfold.c:89:2: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+  strcpy(seqfile,*argv);
+  ^~~~~~
+randfold.c:89:2: warning: incompatible implicit declaration of built-in function ‘strcpy’
+randfold.c:89:2: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+randfold.c:103:38: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+   structure = malloc(sizeof(char) * (strlen(seq)+1));
+                                      ^~~~~~
+randfold.c:103:38: warning: incompatible implicit declaration of built-in function ‘strlen’
+randfold.c:103:38: note: include ‘<string.h>’ or provide a declaration of ‘strlen’

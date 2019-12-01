@@ -1,0 +1,1884 @@
+>KY242785.1_721
+score total		          -3.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		 0
+score for randfold	          -2.2
+total read count	            98
+mature read count	            98
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMlllllllllllllllllSSSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffff
+pri_seq                        acgucccuguaaaauuuacacguggagauccuguugcgcaauugguauuggcaccagcaucaauagagagugccacggucaaauccuauguuggggaaaguguuaaacca
+pri_struct                     ((.((((((((..((((((.(((((...((((((((.((...((((......))))))..)))))).))...))))))).))))..)))...)))))..)).........	#MM
+seq_242209368_x2               ..................cacguggagauccuguugcgc.......................................................................	0
+seq_237238347_x11              ...................acguggagauccuguugc.........................................................................	0
+seq_243557867_x1               ....................cguggagGuccuguugcg........................................................................	1
+seq_230365011_x21              ....................cguggagGuccuguugcgc.......................................................................	1
+seq_225607180_x41              ....................cguggagauccuguugcgca......................................................................	0
+seq_244868576_x1               ....................cgCggagauccuguugcgca......................................................................	1
+seq_247008737_x1               ....................cgugCagauccuguugcgca......................................................................	1
+seq_247340063_x1               .....................guggagauccuguugcgc.......................................................................	0
+seq_233588957_x17              .....................guggagauccuguugcgca......................................................................	0
+seq_244804493_x1               .....................gCggagauccuguugcgca......................................................................	1
+seq_245050416_x1               .....................guggagauccugCugcgca......................................................................	1
+
+
+
+>KY242785.1_338
+score total		         -21.3
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		         -17.8
+score for randfold	          -2.2
+total read count	            59
+mature read count	            59
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMlllllllllSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        uuuuaaaacuuuaagcuaugccggaauuggugucgugucauuugcuuuguuauucacuauucuaguugucugcuuaauaaaauucucaauauagaccuugaaucuuacag
+pri_struct                     ..........((((((...((.(((((.((((..(((.((.......)).))).))))))))).)).....))))))........((((........)))).........	#MM
+seq_227336410_x31              ....................ccggaauuggugucguguca......................................................................	0
+seq_244184537_x1               ....................ccUgaauuggugucguguca......................................................................	1
+seq_243676001_x1               ....................ccggaauuggugucgugucauuug..................................................................	0
+seq_229074419_x24              ....................ccggaauuggugucgugucauuugc.................................................................	0
+seq_247849082_x1               ....................ccggaauuggugucgugucauuugA.................................................................	1
+seq_246103594_x1               ....................ccAgaauuggugucgugucauuugc.................................................................	1
+
+
+
+>KY242785.1_829
+score total		         -10.5
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		            -7
+score for randfold	          -2.2
+total read count	            28
+mature read count	            28
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSfffffffffff
+pri_seq                        ugcagauuuaccagauuuuuuggcagugacuccugauggauuauauuacagugaguuuagcacuucggaaauaucaucauguacaggggaugucaucaagaguuguaa
+pri_struct                     .......((((..((((((((((((....((((((((.(((.(((((.(((((.......))))...).))))).)))..)).)))))).)))))..)))))))))))	#MM
+seq_227894707_x28              ....................uggcagugacuccugaug......................................................................	0
+
+
+
+>KY242785.1_734
+score total		            -4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -0.5
+score for randfold	          -2.2
+total read count	            30
+mature read count	            30
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSlllllllllllllMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        cgcagagaaauuacaaagauugcuaaggaggaagcaugggaguacugggaagguuccgaucuacuugauucacccgacagugaacucccuacucucccuagauuugauuuc
+pri_struct                     ......(((((((....(((..(((.(((((......((((((((((....(((...((((.....)))).)))...))))..))))))...))))).)))))))))))))	#MM
+seq_228173374_x27              ......................................................................cacccgacagugaacucccua....................	0
+seq_242251076_x2               ......................................................................cacUcgacagugaacucccua....................	1
+seq_245726399_x1               ......................................................................cacccgacagugaacucccuacC..................	1
+
+
+
+>KY242785.1_948
+score total		          -5.3
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -1.8
+score for randfold	          -2.2
+total read count	            32
+mature read count	            32
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSlllllllllllllMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        agguugaaacacgaaccuauugagaaaccuggauuguuuucuacuauagcaagauauuugcugacgcuguguuuauugugguggccugcaaucacaauauauuuuauag
+pri_struct                     (((((........)))))...........((((((((...(((((((((..((((((..((....)).)))))).)))))))))...)))))).)).............	#MM
+seq_241511391_x3               ......................................................................guuuauugugguggccug.....................	0
+seq_247276080_x1               ......................................................................guuuauCgugguggccugc....................	1
+seq_228173752_x27              ......................................................................guuuauugugguggccugc....................	0
+seq_247302057_x1               ......................................................................guCuauugugguggccugc....................	1
+
+
+
+>KY242785.1_841
+score total		          -4.3
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -0.8
+score for randfold	          -2.2
+total read count	            26
+mature read count	            26
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffMMMMMMMMMMMMMMMMMllllllllSSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        auuuguacccagaccagucaucgacucgccgaaaccugacaugguauugguggaaaaauuggugcaugcucauacuguauacagggguugcaaagcggaaaaauguga
+pri_struct                     .(((((((((.((.((..((((((.(((((((.(((......))).))))))).....))))))..)).))...(((....)))))).))))))..............	#MM
+seq_228824840_x25              ...................aucgacucgccgaaacc........................................................................	0
+seq_245864079_x1               ...................aucgacucgccgaaaccuA......................................................................	1
+
+
+
+>KY242785.1_22
+score total		           -22
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		         -18.5
+score for randfold	          -2.2
+total read count	            24
+mature read count	            24
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMMllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSSSSSffffffffffffffff
+pri_seq                        ucacagaugauucagaaagaagaggugaccuacaagauuuucagagagccccagaugauaugcguguaugauaagucauuggagaaacccaucuuccagaaaauaauagauu
+pri_struct                     ..................((((((((...((.(((((((((((..(.((............)).)...))).))))).))).))..)))..)))))................	#MM
+seq_229046891_x24              ....................agaggugaccuacaagauuuuc......................................................................	0
+
+
+
+>KY242785.1_983
+score total		          -5.1
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -1.6
+score for randfold	          -2.2
+total read count	            24
+mature read count	            24
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSSSSffffffffffff
+pri_seq                        gccauaaaaggaaugcaagagauuguugugguacuugugggauggacaugugcaaucaaagaacuuauucaauucgcgagauaccaaacaacaauggaaguagacucauu
+pri_struct                     .........((..(((.....((((((((((((((((((((.((((...((...........))...)))).)))))))).))))..))))))))....)))..))....	#MM
+seq_229382078_x23              ....................gauuguugugguacuugugg......................................................................	0
+seq_247079265_x1               ....................gauuguugugguacuuguggA.....................................................................	1
+
+
+
+>KY242785.1_588
+score total		          -5.1
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -1.6
+score for randfold	          -2.2
+total read count	            24
+mature read count	            24
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSSSSffffffffffff
+pri_seq                        gccauaaaaggaaugcaagagauuguugugguacuugugggauggacaugugcaaucaaagaacuuauucaauucgcgagauaccaaacaacaauggaaguagacucauu
+pri_struct                     .........((..(((.....((((((((((((((((((((.((((...((...........))...)))).)))))))).))))..))))))))....)))..))....	#MM
+seq_229382078_x23              ....................gauuguugugguacuugugg......................................................................	0
+seq_247079265_x1               ....................gauuguugugguacuuguggA.....................................................................	1
+
+
+
+>KY242785.1_913
+score total		         -11.6
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -8.1
+score for randfold	          -2.2
+total read count	            43
+mature read count	            25
+loop read count		 0
+star read count		            18
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllllllllllllSSSSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffff
+obs                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllllllllllllllSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffff
+pri_seq                        ucuugcaaaaggccaaacacuccuccacugauuucgguucacuauugucugcaucguaaucaugcgagucgggguguauuuuuauuuuacuuuccgucaucauuuucuca
+pri_struct                     .(((....))).....(((((((((((.(((((.((((.((........)).)))).))))))).))...))))))).................................	#MM
+seq_247281820_x1               ....................uccuccacugauuucgguu.......................................................................	0
+seq_229497768_x23              ....................uccuccacugauuucgguuc......................................................................	0
+seq_246286271_x1               ....................uccCccacugauuucgguuc......................................................................	1
+seq_232257603_x18              ......................................................cguaaucaugcgagucg.......................................	0
+
+
+
+>KY242785.1_550
+score total		          -6.7
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -3.2
+score for randfold	          -2.2
+total read count	            24
+mature read count	            24
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        aucccgcccaugauccuggguacgucauggacaugcgcaguaguaguauuucuggacuuuaccauuuucacagcguauuuuauauuccuauaucugcuaacaguagaug
+pri_struct                     ....(((...(((...(((..(.(((..(((.((((((....)).)))).))).))).)..)))...)))..)))...............((((((((...))))))))	#MM
+seq_229658285_x23              ....................uacgucauggacaugcgcag.....................................................................	0
+seq_246678213_x1               ....................uacgucauggacaugcgcaU.....................................................................	1
+
+
+
+>KY242785.1_1029
+score total		          -5.7
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -2.2
+score for randfold	          -2.2
+total read count	            24
+mature read count	            24
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllSSSSSSSSSSSSSSSSSSSSffffffffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        ucccgcccaugauccuggguacgucauggacaugcgcaguaguaguauuucuggacuuuaccauuuucacagcguauuuuauauuccuauaucugcuaacaguagaugu
+pri_struct                     ...(((...(((...(((..(.(((..(((.((((((....)).)))).))).))).)..)))...)))..)))..............(((((((((...)))))))))	#MM
+seq_246678213_x1               ...................uacgucauggacaugcgcaU......................................................................	1
+seq_229658285_x23              ...................uacgucauggacaugcgcag......................................................................	0
+
+
+
+>KY242785.1_1050
+score total		            -8
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -4.5
+score for randfold	          -2.2
+total read count	            23
+mature read count	            23
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSSllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ugugaccugguugaauacauuauucgcacguguuacgcacauccaaucaacagggauuacguguaccacaggauggacacuagcagauacacccacaagagguugaacc
+pri_struct                     ...(((((..(((.......((((.((..(((((.....(((((.....(((.(.....).)))......))))))))))..)).))))......))).))))).....	#MM
+seq_229741821_x23              ......................................................................ggauggacacuagcagaua....................	0
+
+
+
+>KY242785.1_531
+score total		            -8
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -4.5
+score for randfold	          -2.2
+total read count	            23
+mature read count	            23
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSSllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ugugaccugguugaauacauuauucgcacguguuacgcacauccaaucaacagggauuacguguaccacaggauggacacuagcagauacacccacaagagguugaacc
+pri_struct                     ...(((((..(((.......((((.((..(((((.....(((((.....(((.(.....).)))......))))))))))..)).))))......))).))))).....	#MM
+seq_229741821_x23              ......................................................................ggauggacacuagcagaua....................	0
+
+
+
+>KY242785.1_862
+score total		          -9.8
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -6.3
+score for randfold	          -2.2
+total read count	            23
+mature read count	            23
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSlllllllllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        auuacggagagcuacggcagggaugcacaucucaauuuauaugccuugucuacaucacaaucuuuaauguugaccuauggcaaggaugaauucuggaaaauuauagaaaa
+pri_struct                     ......((((......(((....)))...))))..........(((((((((..(((((........)).)))..)).))))))).....(((((........)))))..	#MM
+seq_229915123_x22              ......................................................................ugaccuauggcaaggaugaa....................	0
+seq_244513793_x1               ......................................................................ugaccuauggcaaggaugaaC...................	1
+
+
+
+>KY242785.1_935
+score total		           -14
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		         -10.5
+score for randfold	          -2.2
+total read count	            25
+mature read count	            25
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffMMMMMMMMMMMMMMMMMllllllllllllllllllllllllllSSSSSSSSSSSSSSffffffffffffffffffffffffffffffff
+pri_seq                        aagauccggagaaagaaauucuaucgcgccauggagcuguuguaauuacaacaaagauaaauccaagugaugguucucgcauuuacaaacuaaauuacucugagccag
+pri_struct                     ......(((((..((((...(((((((....((((..((((((....))))))........)))).)))))))))))...(((((.....)))))..)))))......	#MM
+seq_245081079_x1               ...................Ccuaucgcgccauggag........................................................................	1
+seq_230040809_x22              ...................ucuaucgcgccauggag........................................................................	0
+seq_244314963_x1               ...................ucuaucgcgccauggagcC......................................................................	1
+seq_247697917_x1               ...................ucuaucgcgccauggagcA......................................................................	1
+
+
+
+>KY242785.1_535
+score total		          -4.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -0.9
+score for randfold	          -2.2
+total read count	            38
+mature read count	            24
+loop read count		            14
+star read count		 0
+exp                            ffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSSllllllllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ccauguuaaauuuccauagugacgucaucacucccauaggcgcaacgcaggaccaucugcccuguaaauuuuugagaugggguuacaugggucucgccacuucugauuggu
+pri_struct                     ............(((((.(((((.(((((..((........(((..((((......))))..)))........))))))).))))))))))....((((........))))	#MM
+seq_237053545_x12              .......................................gcgcaacgcaggaccauc......................................................	0
+seq_242634558_x2               .......................................gcgcaacgcaggaccaucuA....................................................	1
+seq_247944473_x1               ......................................................................uuugagaugggguuacaugg.....................	0
+seq_230052689_x22              ......................................................................uuugagaugggguuacauggg....................	0
+seq_245582681_x1               ......................................................................uuugagaugggguuacaugggC...................	1
+
+
+
+>KY242785.1_1044
+score total		          -4.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -0.9
+score for randfold	          -2.2
+total read count	            38
+mature read count	            24
+loop read count		            14
+star read count		 0
+exp                            ffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSSllllllllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ccauguuaaauuuccauagugacgucaucacucccauaggcgcaacgcaggaccaucugcccuguaaauuuuugagaugggguuacaugggucucgccacuucugauuggu
+pri_struct                     ............(((((.(((((.(((((..((........(((..((((......))))..)))........))))))).))))))))))....((((........))))	#MM
+seq_237053545_x12              .......................................gcgcaacgcaggaccauc......................................................	0
+seq_242634558_x2               .......................................gcgcaacgcaggaccaucuA....................................................	1
+seq_247944473_x1               ......................................................................uuugagaugggguuacaugg.....................	0
+seq_230052689_x22              ......................................................................uuugagaugggguuacauggg....................	0
+seq_245582681_x1               ......................................................................uuugagaugggguuacaugggC...................	1
+
+
+
+>KY242785.1_694
+score total		          -9.3
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -5.8
+score for randfold	          -2.2
+total read count	            23
+mature read count	            23
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSSllllllllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        aucaaauacauuuggccuguaucuguucuuuauggcaaucucuuugaucaaauccaauuugacagacauugccaucuuggucuuguagucgucaucuuccgugguaaacuugug
+pri_struct                     ((((........((((...(((..(.((...((((((((...((((.((((((...)))))))))).))))))))...)).)..)))...)))).......)))).........	#MM
+seq_230186119_x22              ......................................................................gccaucuuggucuuguagucguca....................	0
+seq_246538441_x1               ......................................................................gccaucuuggucuuguagucgucaC...................	1
+
+
+
+>KY242785.1_58
+score total		          -7.2
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -3.7
+score for randfold	          -2.2
+total read count	            26
+mature read count	            26
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMllllllllllllllSSSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffff
+pri_seq                        aucuuaucaguugagcagcaucaaaucgaucagggaugugcuuuugaaagauagcaaaucaucuguggauuaugaacuuaacaaauuuaucguuguacccgguaagauga
+pri_struct                     ((((((((.((...(((((.(((((((.(.(((((((.((((.((....)).)))).))).))))).)))).)))................)))))))..))))))))..	#MM
+seq_242794142_x2               ....................ucaaaucgaucagggaugug......................................................................	0
+seq_242515474_x2               ....................Ccaaaucgaucagggaugugc.....................................................................	1
+seq_230301091_x22              ....................ucaaaucgaucagggaugugc.....................................................................	0
+
+
+
+>KY242785.1_919
+score total		         -21.7
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		         -18.2
+score for randfold	          -2.2
+total read count	            22
+mature read count	            22
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMllllllllSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        auagaucuucccugccaaauucuuaucgucuaaagaccaaacauuuucuuuaaagauguaacaauuggugcacuuguauuccauccaugauucuuccacugaaucgaa
+pri_struct                     .............(((((.((.(((.((((((((((..........)))))..)))))))).)))))))...................(((((.......)))))...	#MM
+seq_230332881_x21              ....................ucuuaucgucuaaagacc......................................................................	0
+seq_244853039_x1               ....................ucuCaucgucuaaagacc......................................................................	1
+
+
+
+>KY242785.1_218
+score total		          -9.3
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -5.8
+score for randfold	          -2.2
+total read count	            23
+mature read count	            23
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSfffffffffffffffffffff
+pri_seq                        uuggguauucucaauguaugaauauagauauugaacaccagugauuuccuuuuccaugauauaacuuauuggucuauucugguauucuaacccaucggggaugaccucu
+pri_struct                     ..((((((((((.(((...(((((((((....((...(((((((.....................)))))))))...))).)))))).....))).)))))).))))..	#MM
+seq_245972668_x1               ....................aauauagauauugGacacc......................................................................	1
+seq_230641602_x21              ....................aauauagauauugaacacc......................................................................	0
+seq_247824652_x1               ....................aauGuagauauugaacacc......................................................................	1
+
+
+
+>KY242785.1_574
+score total		         -33.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		         -29.9
+score for randfold	          -2.2
+total read count	            32
+mature read count	            32
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSfffffffff
+pri_seq                        auguuaaaaucauaacuugcuugggagucuuacuguacacaucuacuguuagcagauauaggaauauaaaauacgcugugaaaaugguaaaguccagaaauacuacuac
+pri_struct                     ..((((......)))).......(((.(.(((((((.(((((((..((((....))))..))).............))))...)))))))).)))..............	#MM
+seq_239126710_x8               ....................uugggagucuuacugua........................................................................	0
+seq_242662706_x2               ....................uugggagucCuacugua........................................................................	1
+seq_246828542_x1               ....................uugggagucuuacGguaca......................................................................	1
+seq_230893548_x20              ....................uugggagucuuacuguaca......................................................................	0
+seq_244679880_x1               ....................uuggAagucuuacuguaca......................................................................	1
+
+
+
+>KY242785.1_997
+score total		         -33.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		         -29.9
+score for randfold	          -2.2
+total read count	            32
+mature read count	            32
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSfffffffff
+pri_seq                        auguuaaaaucauaacuugcuugggagucuuacuguacacaucuacuguuagcagauauaggaauauaaaauacgcugugaaaaugguaaaguccagaaauacuacuac
+pri_struct                     ..((((......)))).......(((.(.(((((((.(((((((..((((....))))..))).............))))...)))))))).)))..............	#MM
+seq_239126710_x8               ....................uugggagucuuacugua........................................................................	0
+seq_242662706_x2               ....................uugggagucCuacugua........................................................................	1
+seq_230893548_x20              ....................uugggagucuuacuguaca......................................................................	0
+seq_246828542_x1               ....................uugggagucuuacGguaca......................................................................	1
+seq_244679880_x1               ....................uuggAagucuuacuguaca......................................................................	1
+
+
+
+>KY242785.1_765
+score total		          -6.2
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -2.7
+score for randfold	          -2.2
+total read count	            23
+mature read count	            23
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMllllllllllSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        ggaguugguaagaguaccauuacaaccgaggcugcuagggaguuaaagagacagcugggugaugaauauauuauauucuugaacuuugcaccuuuggagggugaugcc
+pri_struct                     ((((((..((((((((.((((((..((..(((((((............)).))))))))))))).........)))))))))))))).((((((...)))))).....	#MM
+seq_230933548_x20              ....................uacaaccgaggcugcuag......................................................................	0
+seq_241624317_x3               ........................accgaggcugcuagggagC.................................................................	1
+
+
+
+>KY242785.1_657
+score total		          -8.7
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -5.2
+score for randfold	          -2.2
+total read count	            21
+mature read count	            21
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllllllSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        auuccauguuuaaagauguuuguuuaccucugccacccaguaguuuggauggcaaggauguuauguagaaaaaaauaaaagauaugaauuauauuuuuauauguuuuuau
+pri_struct                     ....(((........)))........(((.(((((.((((....)))).))))))))...................((((.(((((((.......))))))).))))...	#MM
+seq_247792374_x1               ....................uguuuaccucugcUacccag......................................................................	1
+seq_231085448_x20              ....................uguuuaccucugccacccag......................................................................	0
+
+
+
+>KY242785.1_52
+score total		         -13.8
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		         -10.3
+score for randfold	          -2.2
+total read count	            20
+mature read count	            20
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSffffffffffffffffff
+pri_seq                        uugccauaaagaacagauacaggccaaauguauuugaugacaauuuccacgucucucaggacagaauauaugccaccaaguaccaaggucauuuggaaagaaacaccauuu
+pri_struct                     .............(((((...((((....(((((((.((.((..(((...((((....)))).)))....)).)).)))))))...)))))))))................	#MM
+seq_231728921_x19              ....................aggccaaauguauuugaugac......................................................................	0
+seq_246141784_x1               ....................Gggccaaauguauuugaugac......................................................................	1
+
+
+
+>KY242785.1_44
+score total		 0
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -0.3
+score for randfold	           1.6
+total read count	            19
+mature read count	            19
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSffffffffffffffffff
+pri_seq                        auggaauaaaaauuauucccugcaauacgaccagagacagcuguaaacauggaaggaagcuuccucuugacaacugggagguaguauuguugaucguuaaauucaacacuc
+pri_struct                     ..(((((((...)))))))(.(((((((.(((.....(((.(((......(((((....))))).....))).)))...))).))))))).)...................	#MM
+seq_231896197_x19              ....................ugcaauacgaccagagacagc......................................................................	0
+
+
+
+>KY242785.1_1024
+score total		           1.3
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		             1
+score for randfold	           1.6
+total read count	            42
+mature read count	            42
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSlllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMffffffffffffffffffffff
+pri_seq                        ucgaagaaaucuucgcuucucucauuggccacuagaaugcuggugggugguucuucaauaacuugaaccaccucugguuggcucacuggcucuggcuccaccucaggcuccu
+pri_struct                     .(((((....)))))...........(((((..((...(((((.(((((((((...........))))))))))))))...))...)))))..((..((......))..)).	#MM
+seq_235258834_x14              ......................................................................ccucugguuggcucacuggcuc....................	0
+seq_242617282_x2               ........................................................................ucuUguuggcucacugg.......................	1
+seq_232050021_x19              ........................................................................ucuUguuggcucacuggc......................	1
+seq_239502026_x7               ..............................................................................uggcucGcuggcucugg.................	1
+
+
+
+>KY242785.1_1023
+score total		          -5.9
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -2.4
+score for randfold	          -2.2
+total read count	            56
+mature read count	            42
+loop read count		            14
+star read count		 0
+exp                            ffffffffffffffffffffffMMMMMMMMMMMMMMMMMMllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSffffffffffffffffffffffffffff
+pri_seq                        uucuucaauaacuugaaccaccucugguuggcucacuggcucuggcuccaccucaggcuccuccuccaucucagguugcagaggugucauugguaugucuauuggugcaaua
+pri_struct                     ...(((((....))))).((((((((...((((...(((....((..((......))..))....))).....)))).)))))))).((((((((....)))))))).....	#MM
+seq_235258834_x14              ....................ccucugguuggcucacuggcuc......................................................................	0
+seq_242617282_x2               ......................ucuUguuggcucacugg.........................................................................	1
+seq_232050021_x19              ......................ucuUguuggcucacuggc........................................................................	1
+seq_239502026_x7               ............................uggcucGcuggcucugg...................................................................	1
+seq_246672527_x1               .......................................cucuggcuccaccucaggcuccuAc................................................	1
+seq_236334033_x13              .......................................cucuggcuccaccucaggcuccucc................................................	0
+
+
+
+>KY242785.1_556
+score total		          -5.9
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -2.4
+score for randfold	          -2.2
+total read count	            56
+mature read count	            42
+loop read count		            14
+star read count		 0
+exp                            ffffffffffffffffffffffMMMMMMMMMMMMMMMMMMllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSffffffffffffffffffffffffffff
+pri_seq                        uucuucaauaacuugaaccaccucugguuggcucacuggcucuggcuccaccucaggcuccuccuccaucucagguugcagaggugucauugguaugucuauuggugcaaua
+pri_struct                     ...(((((....))))).((((((((...((((...(((....((..((......))..))....))).....)))).)))))))).((((((((....)))))))).....	#MM
+seq_235258834_x14              ....................ccucugguuggcucacuggcuc......................................................................	0
+seq_242617282_x2               ......................ucuUguuggcucacugg.........................................................................	1
+seq_232050021_x19              ......................ucuUguuggcucacuggc........................................................................	1
+seq_239502026_x7               ............................uggcucGcuggcucugg...................................................................	1
+seq_246672527_x1               .......................................cucuggcuccaccucaggcuccuAc................................................	1
+seq_236334033_x13              .......................................cucuggcuccaccucaggcuccucc................................................	0
+
+
+
+>KY242785.1_555
+score total		           1.3
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		             1
+score for randfold	           1.6
+total read count	            42
+mature read count	            42
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSlllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMffffffffffffffffffffff
+pri_seq                        ucgaagaaaucuucgcuucucucauuggccacuagaaugcuggugggugguucuucaauaacuugaaccaccucugguuggcucacuggcucuggcuccaccucaggcuccu
+pri_struct                     .(((((....)))))...........(((((..((...(((((.(((((((((...........))))))))))))))...))...)))))..((..((......))..)).	#MM
+seq_235258834_x14              ......................................................................ccucugguuggcucacuggcuc....................	0
+seq_242617282_x2               ........................................................................ucuUguuggcucacugg.......................	1
+seq_232050021_x19              ........................................................................ucuUguuggcucacuggc......................	1
+seq_239502026_x7               ..............................................................................uggcucGcuggcucugg.................	1
+
+
+
+>KY242785.1_801
+score total		           -13
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -9.5
+score for randfold	          -2.2
+total read count	            20
+mature read count	            20
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSfffffffff
+pri_seq                        auucauuuugaaaugugaccaugcucgcccuggucugagcaauuuuccucacgaguauaucucccaucucuuguauuucauccaugcguuuauccguggucuguauua
+pri_struct                     ...........((((.(((((((..(((..(((..((((.............(((.....))).............)))).))).)))......)))))))..)))).	#MM
+seq_232184294_x19              ....................augcucgcccuggucuga......................................................................	0
+seq_247081888_x1               ....................Gugcucgcccuggucuga......................................................................	1
+
+
+
+>KY242785.1_958
+score total		          -5.9
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -2.4
+score for randfold	          -2.2
+total read count	            19
+mature read count	            19
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSlllllllllMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ggaagguauuuguuucccagguuauuaccacacaacauuucauuguaugggccaauggccaugaaaacuggcauguugguugucucaucaguguacuuaugcaucaccg
+pri_struct                     (((((.......)))))..(((....)))......(((..(((((.((((((((((.((((.......))))..)))))....)))))))))).....)))........	#MM
+seq_247612835_x1               ......................................................................gcauguugguugucAcauc....................	1
+seq_232275477_x18              ......................................................................gcauguugguugucucauc....................	0
+
+
+
+>KY242785.1_810
+score total		          -4.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -0.9
+score for randfold	          -2.2
+total read count	            21
+mature read count	            21
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSSSllllllllllllllllllMMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ucaacaaaacaggcgcaauacuuaaacccauuccugaucuggcaccgggauaucauuggacgauuauaggaauuggcgccgggguggcagugggauuuuacuacuuguuaua
+pri_struct                     .......((((((.....((...(((((((((((...((((((.((((..(((.(((....))).)))....)))).))))))..)).)))))).)))...))))))))...	#MM
+seq_242807130_x2               ..................................................................uaggaauuggcgccgggguggcag......................	0
+seq_243817537_x1               ......................................................................Cauuggcgccgggguggcagug....................	1
+seq_242746076_x2               ......................................................................aauuggcgccggggCggcagug....................	1
+seq_232295367_x18              ......................................................................aauuggcgccgggguggcagug....................	0
+
+
+
+>KY242785.1_336
+score total		         -10.2
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -6.7
+score for randfold	          -2.2
+total read count	            18
+mature read count	            18
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMllllllllllllllllllSSSSSSSSSSSSSSSSSSffffffffffffffffffffffffffffffffff
+pri_seq                        uuuuaucuaaaucugacauuaugcgacgguuuuugauaagguuaaagacuagagauggagaaaccgucgauauuuauacauggccagaacuuaaccuugcgccuuuua
+pri_struct                     .......................(((((((((((..(..((((...))))..).....)))))))))))............((((((.........))).))).....	#MM
+seq_232766211_x18              ....................augcgacgguuuuugaua......................................................................	0
+
+
+
+>KY242785.1_317
+score total		         -14.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		         -10.9
+score for randfold	          -2.2
+total read count	            20
+mature read count	            20
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        gauugcauucagcccuuuugcaccaaaggaacaguguauggaaauaaccucguuuauggaaguagauuacgauguuucaguaggaccagguguucacagagaaguagaac
+pri_struct                     ...((((((....(((((......)))))...))))))........((((.((((((.((((((........)))))).))).))).))))((((((......)).))))	#MM
+seq_232827177_x18              ......................................................................gauguuucaguaggaccagg....................	0
+seq_243286509_x1               ......................................................................gaCguuucaguaggaccagg....................	1
+seq_245699135_x1               ......................................................................gauguuucaguaggaccaCg....................	1
+
+
+
+>KY242785.1_50
+score total		           0.7
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		           0.4
+score for randfold	           1.6
+total read count	            21
+mature read count	            21
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMlllllllllllSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffff
+pri_seq                        cuucgagaaggccauuugccauaacggaaagaagguggaagauuacgucuucuuccuuguugccaauccaauugcaaugguauccuuagcaagaaagggauucaugagca
+pri_struct                     .........(((.....))).....((.((.((((.(((((((...))))))).)))).)).))........(((.((((.((((((........))))))))))..)))	#MM
+seq_233073942_x17              ....................auaacggaaagaagguggaa......................................................................	0
+seq_247900924_x1               ....................auaacUgaaagaagguggaa......................................................................	1
+seq_247014226_x1               ....................auaacggaaagaaggCggaa......................................................................	1
+seq_242255084_x2               ....................auaacggaaagaagguggaagaA...................................................................	1
+
+
+
+>KY242785.1_986
+score total		         -10.5
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		            -7
+score for randfold	          -2.2
+total read count	            46
+mature read count	            46
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSlMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ucaaagggauaaugacccgauagaaucagauauugaagaggagaugaacgaaucagaagccgaggaggaggagccgguuccugagauugcgcaauuugaggcuuugaaua
+pri_struct                     .....(((.......)))...((..((((((.............((..(((.((((.(((((.(.........)))))).))))..)))..))))))))..)).......	#MM
+seq_234051482_x16              ....................................................................aggagccgguuccugaga........................	0
+seq_243472244_x1               ....................................................................aggagccgguuccugagaC.......................	1
+seq_244104373_x1               ......................................................................gagccgguuccugagauugA....................	1
+seq_233096977_x17              ......................................................................gagccgguuccugagauugc....................	0
+seq_242621450_x2               .......................................................................agcUgguuccugagauu......................	1
+seq_238928558_x8               ........................................................................gccgguucUugagauugc....................	1
+seq_244183634_x1               ........................................................................gccgguuccugagauugcA...................	1
+
+
+
+>KY242785.1_985
+score total		          -5.2
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -1.7
+score for randfold	          -2.2
+total read count	            46
+mature read count	            46
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllSSSSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        aaucagaagccgaggaggaggagccgguuccugagauugcgcaauuugaggcuuugaauacuccuccaccuccucccaccaaucgccgcccagaaauuagacgaccaaug
+pri_struct                     ...........((((.(((((((.(((..(((.(((((....))))).)))..)))....))))))).))))......................................	#MM
+seq_234051482_x16              ..................aggagccgguuccugaga..........................................................................	0
+seq_243472244_x1               ..................aggagccgguuccugagaC.........................................................................	1
+seq_244104373_x1               ....................gagccgguuccugagauugA......................................................................	1
+seq_233096977_x17              ....................gagccgguuccugagauugc......................................................................	0
+seq_242621450_x2               .....................agcUgguuccugagauu........................................................................	1
+seq_238928558_x8               ......................gccgguucUugagauugc......................................................................	1
+seq_244183634_x1               ......................gccgguuccugagauugcA.....................................................................	1
+
+
+
+>KY242785.1_586
+score total		          -5.1
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -1.6
+score for randfold	          -2.2
+total read count	            46
+mature read count	            46
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllSSSSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffff
+pri_seq                        cgaaucagaagccgaggaggaggagccgguuccugagauugcgcaauuugaggcuuugaauacuccuccaccuccucccaccaaucgccgcccagaaauuagacgacc
+pri_struct                     (((..........((((.(((((((.(((..(((.(((((....))))).)))..)))....))))))).))))..........))).....................	#MM
+seq_234051482_x16              ....................aggagccgguuccugaga......................................................................	0
+seq_243472244_x1               ....................aggagccgguuccugagaC.....................................................................	1
+seq_244104373_x1               ......................gagccgguuccugagauugA..................................................................	1
+seq_233096977_x17              ......................gagccgguuccugagauugc..................................................................	0
+seq_242621450_x2               .......................agcUgguuccugagauu....................................................................	1
+seq_238928558_x8               ........................gccgguucUugagauugc..................................................................	1
+seq_244183634_x1               ........................gccgguuccugagauugcA.................................................................	1
+
+
+
+>KY242785.1_585
+score total		         -10.5
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		            -7
+score for randfold	          -2.2
+total read count	            46
+mature read count	            46
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSlMMMMMMMMMMMMMMMMMMMMffffffffffffffff
+pri_seq                        gaucaaagggauaaugacccgauagaaucagauauugaagaggagaugaacgaaucagaagccgaggaggaggagccgguuccugagauugcgcaauuugaggcuuug
+pri_struct                     .......(((.......)))...((..((((((.............((..(((.((((.(((((.(.........)))))).))))..)))..))))))))..))...	#MM
+seq_234051482_x16              ......................................................................aggagccgguuccugaga....................	0
+seq_243472244_x1               ......................................................................aggagccgguuccugagaC...................	1
+seq_244104373_x1               ........................................................................gagccgguuccugagauugA................	1
+seq_233096977_x17              ........................................................................gagccgguuccugagauugc................	0
+seq_242621450_x2               .........................................................................agcUgguuccugagauu..................	1
+seq_238928558_x8               ..........................................................................gccgguucUugagauugc................	1
+seq_244183634_x1               ..........................................................................gccgguuccugagauugcA...............	1
+
+
+
+>KY242785.1_921
+score total		           -35
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		         -31.5
+score for randfold	          -2.2
+total read count	            19
+mature read count	            19
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSSSSSf
+pri_seq                        aaguugauuuacacaucccagcagacuuugauccuaugauacacacucccgccuuuccauaaauugguuuaaacguaagauauuuaucaccgacaucaccuguuugacuca
+pri_struct                     ...................(((((((..((((....(((((....((..((.....(((.....)))......))..)).....))))).....))))...))))).))..	#MM
+seq_233235799_x17              ....................gcagacuuugauccuaugaua......................................................................	0
+seq_247187861_x1               ....................gcagacuuugauccCaugaua......................................................................	1
+seq_247433079_x1               ....................gcagacuuugaAccuaugaua......................................................................	1
+
+
+
+>KY242785.1_922
+score total		           -21
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		         -17.5
+score for randfold	          -2.2
+total read count	            19
+mature read count	            19
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSllllllllllMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ucucuuguauggccauguagcaggcauuucucuaccaucaucccugaugaaaguugauuuacacaucccagcagacuuugauccuaugauacacacucccgccuuuccaua
+pri_struct                     ..........(((...((((.((......)))))).(((((....(((.((((((..................)))))).)))..)))))..........)))........	#MM
+seq_233235799_x17              ......................................................................gcagacuuugauccuaugaua....................	0
+seq_247187861_x1               ......................................................................gcagacuuugauccCaugaua....................	1
+seq_247433079_x1               ......................................................................gcagacuuugaAccuaugaua....................	1
+
+
+
+>KY242785.1_163
+score total		          -4.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -0.9
+score for randfold	          -2.2
+total read count	            21
+mature read count	            21
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffSSSSSSSSSSSSSSSSSSSlllllllllllllllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        guauacgcugggucgugagucuuugggguuuuuuaucauuucucaauguuaauucuaugagauuuguuaaaucaagacgacuucccugacaggcagacuuuaaugucuaug
+pri_struct                     ......(((..((((.(((((.((..(((((.....((..(((((..(......)..)))))..))..)))))..)).)))))...)))).)))((((......))))...	#MM
+seq_245013816_x1               ......................................................................aucaagacgacuucccCgaca....................	1
+seq_245867039_x1               ......................................................................aucaagacgacCucccugaca....................	1
+seq_248050581_x1               ......................................................................aucaagacgaUuucccugaca....................	1
+seq_233311279_x17              ......................................................................aucaagacgacuucccugaca....................	0
+seq_243269108_x1               ......................................................................aucaagacgacuucccugacaA...................	1
+
+
+
+>KY242785.1_731
+score total		         -11.8
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -8.3
+score for randfold	          -2.2
+total read count	            33
+mature read count	            33
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMllllllllllllllllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSSf
+pri_seq                        aaucaacaaggccaaagccaaugugggauucgacgauaggauagauauaauuggcaauauguuuauaacggcgauuaaauaucaccuugcucugggauuuacaccaacc
+pri_struct                     .........(((....)))...(((((((((.(.(..(((...((((((((((.(.(((....)))...).))))))..)))).)))..)..).)))))).))).....	#MM
+seq_235921478_x13              ..................caaugugggauucgacgUua.......................................................................	1
+seq_233437198_x17              ....................augugggauucgacgauag......................................................................	0
+seq_244732976_x1               ....................Uugugggauucgacgauag......................................................................	1
+seq_247483138_x1               ....................augugggauucgacgauUg......................................................................	1
+seq_245793818_x1               ....................augugggauucgacgauagA.....................................................................	1
+
+
+
+>KY242785.1_757
+score total		          -2.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		             1
+score for randfold	          -2.2
+total read count	            18
+mature read count	            18
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMMMMlllllllllSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffff
+pri_seq                        accacccccacccucgaccuccauuggugcuguugguggagauccaagaccggaggauaugaauguaccagaaagggggugggauccaccaaugucuaaagaucccaaaucuac
+pri_struct                     ......(((((((((....((...((((((.(((.(((....(((......)))...))).)))))))))))..)))))))))................((((.....))))..	#MM
+seq_233473493_x17              ....................ccauuggugcuguugguggagauc......................................................................	0
+seq_243594593_x1               ....................ccauCggugcuguugguggagauc......................................................................	1
+
+
+
+>KY242785.1_648
+score total		          -7.6
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -4.1
+score for randfold	          -2.2
+total read count	            22
+mature read count	            22
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSlllllllllllllllllMMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        aaaaaauaaaaauaauaauacuacaguaauaagagucauugguugauuuuuuuacaugauguccauguccauggauccucggcgggugaucuuagaaauugguauagcucug
+pri_struct                     .................((((((......(((((.(((((.((((((((....(((((.....)))))....)))))...))).)))))))))).....)))))).......	#MM
+seq_245897265_x1               .aaaaauaaaaauaaAaa..............................................................................................	1
+seq_233628533_x17              ......................................................................auggauccucggcgggugaucu....................	0
+seq_245587535_x1               ......................................................................auggauccucggAgggugaucu....................	1
+seq_240626824_x4               ......................................................................auggauccucggcgggugaucuC...................	1
+
+
+
+>KY242785.1_943
+score total		           1.3
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		             1
+score for randfold	           1.6
+total read count	            16
+mature read count	            16
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMlllllllllllllSSSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffff
+pri_seq                        gcaacagguucauauuccaccuccaugccggucuguggaucaauuguuacauauucuacauccuggucauggaauugaggucuaaguuguugcggucuuaccacacgucuc
+pri_struct                     (((((((.((....(((....((((((((((..((((((...............))))))..)))).))))))...)))....)).)))))))(((...))).........	#MM
+seq_233758746_x16              ....................cuccaugccggucuguggauc......................................................................	0
+
+
+
+>KY242785.1_828
+score total		          -4.9
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -1.4
+score for randfold	          -2.2
+total read count	            20
+mature read count	            20
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSSSllllllllMMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        auaucaucauguacaggggaugucaucaagaguuguaagaaugagcgugccuuacaaucguuuacacaaaugacgugugcagcagcucucuauaaggacgacucuacuaaaa
+pri_struct                     ........(((.(((.....))))))..((((((((......((((.(((..((((.((((((....))))))..))))..))))))).........)))))))).......	#MM
+seq_243037266_x2               ......................................................................ugacgugugcagcagcucC.......................	1
+seq_233761002_x16              ......................................................................ugacgugugcagcagcucucua....................	0
+seq_246393400_x1               ......................................................................ugacgugugUagcagcucucua....................	1
+seq_246067243_x1               ......................................................................ugacgugugcagcagcucucCa....................	1
+
+
+
+>KY242785.1_195
+score total		         -12.3
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -8.8
+score for randfold	          -2.2
+total read count	            19
+mature read count	            19
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSllllllllllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        augaaaagaccauggcaaaacgguauauggucauaagacaaggaauaccaggaggauguauggagagaggugccgauuggaguacuguguugagaacaauguuuaagacu
+pri_struct                     .......(((((((((......)).)))))))....((((.((.((.((((..((((.(........).)).))..)))).)).)).))))...................	#MM
+seq_245426444_x1               ......................................................................ugccgauuggGguacugugu....................	1
+seq_243451329_x1               ......................................................................ugccgauuggaguacAgugu....................	1
+seq_233869514_x16              ......................................................................ugccgauuggaguacugugu....................	0
+seq_247153585_x1               ......................................................................ugccgauuggaguacuguguC...................	1
+seq_247294280_x1               ................................................................................aguaGuguguugagaac.............	1
+
+
+
+>KY242785.1_552
+score total		          -7.9
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -4.4
+score for randfold	          -2.2
+total read count	            19
+mature read count	            19
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        gucgaccccacagcaaaggcaacgauuggcugcucucaagucggggauggucuuaaguugcgcauaaauuccacugcacaugacgcauaugguccucuuuccgcauucgg
+pri_struct                     (..((((.....((....(((((....(((((.((((......)))))))))....)))))(((..........))).......))....))))..)...(((....)))	#MM
+seq_234041146_x16              ....................aacgauuggcugcucucaag......................................................................	0
+seq_243641780_x1               ....................aaUgauuggcugcucucaag......................................................................	1
+seq_242322078_x2               ....................aacgauuggcugcucucaagC.....................................................................	1
+
+
+
+>KY242785.1_551
+score total		           1.5
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		           1.2
+score for randfold	           1.6
+total read count	            19
+mature read count	            19
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffSSSSSSSSSSSSSSSSSSSllllllllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        uucuccuuuuucaccuugaagagggcggcguuugaggccuuuuuguuuuugucgaccccacagcaaaggcaacgauuggcugcucucaagucggggauggucuuaaguug
+pri_struct                     .....(((..(((((((((.(((((((((..(((..((((((((((.............)))).))))))..)))...)))))))))...)))))).)))....)))...	#MM
+seq_243641780_x1               ......................................................................aaUgauuggcugcucucaag....................	1
+seq_234041146_x16              ......................................................................aacgauuggcugcucucaag....................	0
+seq_242322078_x2               ......................................................................aacgauuggcugcucucaagC...................	1
+
+
+
+>KY242785.1_1028
+score total		          -2.2
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		           1.2
+score for randfold	          -2.2
+total read count	            19
+mature read count	            19
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffSSSSSSSSSSSSSSSSSSSllllllllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        uucuccuuuuucaccuugaagagggcggcguuugaggccuuuuuguuuuugucgaccccacagcaaaggcaacgauuggcugcucucaagucggggauggucuuaaguug
+pri_struct                     .....(((..(((((((((.(((((((((..(((..((((((((((.............)))).))))))..)))...)))))))))...)))))).)))....)))...	#MM
+seq_234041146_x16              ......................................................................aacgauuggcugcucucaag....................	0
+seq_243641780_x1               ......................................................................aaUgauuggcugcucucaag....................	1
+seq_242322078_x2               ......................................................................aacgauuggcugcucucaagC...................	1
+
+
+
+>KY242785.1_1027
+score total		          -7.9
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -4.4
+score for randfold	          -2.2
+total read count	            19
+mature read count	            19
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        gucgaccccacagcaaaggcaacgauuggcugcucucaagucggggauggucuuaaguugcgcauaaauuccacugcacaugacgcauaugguccucuuuccgcauucgg
+pri_struct                     (..((((.....((....(((((....(((((.((((......)))))))))....)))))(((..........))).......))....))))..)...(((....)))	#MM
+seq_243641780_x1               ....................aaUgauuggcugcucucaag......................................................................	1
+seq_234041146_x16              ....................aacgauuggcugcucucaag......................................................................	0
+seq_242322078_x2               ....................aacgauuggcugcucucaagC.....................................................................	1
+
+
+
+>KY242785.1_602
+score total		          -9.5
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		            -6
+score for randfold	          -2.2
+total read count	            17
+mature read count	            17
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSlllllllllllllllllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ugcagacaguugcagaucuacugagacacauucacagguggaagacaggguggugagagcuuugauggaagacgaugucgaucuguggaggaagaugaaauacaugguga
+pri_struct                     (((((....))))).((((.((........(((((((((.((...((((((.......)))))).............)).))))))))))).))))..............	#MM
+seq_234142906_x16              ......................................................................gacgaugucgaucuguggag....................	0
+seq_247770371_x1               ......................................................................gacgaugucgaucuguggagg...................	0
+
+
+
+>KY242785.1_515
+score total		          -9.5
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		            -6
+score for randfold	          -2.2
+total read count	            17
+mature read count	            17
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSlllllllllllllllllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ugcagacaguugcagaucuacugagacacauucacagguggaagacaggguggugagagcuuugauggaagacgaugucgaucuguggaggaagaugaaauacaugguga
+pri_struct                     (((((....))))).((((.((........(((((((((.((...((((((.......)))))).............)).))))))))))).))))..............	#MM
+seq_234142906_x16              ......................................................................gacgaugucgaucuguggag....................	0
+seq_247770371_x1               ......................................................................gacgaugucgaucuguggagg...................	0
+
+
+
+>KY242785.1_366
+score total		          -5.8
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -2.3
+score for randfold	          -2.2
+total read count	            16
+mature read count	            16
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSffffffffffffffffffff
+pri_seq                        gucagauuuggauuuugguucgcguuguugauuccuguugcuguuuuguugagaccauauacaauagaaugugaaccgaucaacaccuuuucggaauucucauugugcgu
+pri_struct                     ((..(((..(((((((((...(.((.(((((((...(((..((((((((((..........))))))))))..))).))))))))))...)))))))))..)))..))..	#MM
+seq_234266938_x16              ....................cgcguuguugauuccuguugU.....................................................................	1
+
+
+
+>KY242785.1_365
+score total		         -10.7
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -7.2
+score for randfold	          -2.2
+total read count	            16
+mature read count	            16
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSllllllllMMMMMMMMMMMMMMMMMMMMMfffffffffffffffffff
+pri_seq                        cccuuaaagaacauagaaaaauggucaagagauggauaauuggcauaagugucagauuuggauuuugguucgcguuguugauuccuguugcuguuuuguugagaccauau
+pri_struct                     ....................((((((......(.(((((.(((((..((.(((((((.(((((....))))).)))..))))..))..)))))..))))).)))))))..	#MM
+seq_234266938_x16              ......................................................................cgcguuguugauuccuguugU...................	1
+
+
+
+>KY242785.1_1018
+score total		          -3.5
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		 0
+score for randfold	          -2.2
+total read count	            15
+mature read count	            15
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        aggagccaaaaucaccugggccaaugguaugguuaaacgaaucaucagcugacaaugggccgaacuacaagagggucgacagggucacuggcgagacgucauugguaaca
+pri_struct                     .....(((........)))(((((((..........(((..((.((((.((((..((((((............))))..))..)))))))).))..))))))))))....	#MM
+seq_234616571_x15              ......................................................................gagggucgacagggucacug....................	0
+
+
+
+>KY242785.1_738
+score total		            -2
+score for star read(s)	           3.9
+score for read counts	           7.3
+score for mfe		         -10.9
+score for randfold	          -2.2
+total read count	            26
+mature read count	            17
+loop read count		 0
+star read count		             9
+exp                            ffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSSllllMMMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+obs                            fffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSllllllllllllMMMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        uggguuuuucguuggugguuuuaaaauaaucggugugguuguugugggaauggugguaguagugguuguaguuggcgucgucguuguaggagcaaguguagugguuguugugg
+pri_struct                     ........................((((((((.((((.(((((.(.(.((((((((..((..............)).)))))))).).).))))).)))).))))))))....	#MM
+seq_238405521_x9               .........................................uugugggaaugguggua.......................................................	0
+seq_245132494_x1               ......................................................................guuggcgucgucguuguaggag.....................	0
+seq_245910924_x1               ......................................................................guuggcgucgucguCguaggagc....................	1
+seq_234808916_x15              ......................................................................guuggcgucgucguuguaggagc....................	0
+
+
+
+>KY242785.1_248
+score total		         -12.3
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -8.8
+score for randfold	          -2.2
+total read count	            18
+mature read count	            18
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMMMMMllSSSSSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        cgguauuauaccagauguaacaacaacgguuggcgacauggucgauacaucauaucuaauuguaaauugccgcgcugauauaggcacccaggaauuaccaccgacuaaacuaga
+pri_struct                     .(((.(((((.(((.(((..(((..((((((((....(((((......)))))..))))))))...)))..)))))).)))))..)))..((........))............	#MM
+seq_242853160_x2               ....................caacaacgguuggcgacauggucg......................................................................	0
+seq_234899921_x15              ....................caacaacgguuggcgacauggucga.....................................................................	0
+seq_244213557_x1               ....................caacGacgguuggcgacauggucga.....................................................................	1
+
+
+
+>KY242785.1_35
+score total		          -5.7
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -2.2
+score for randfold	          -2.2
+total read count	            21
+mature read count	            21
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSlllllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        uuaaauuuccauagugacgucauagcucccauaggcucaagcacggaccaucuaucccauuuuauuuuucgauggguuggauaggucucauccaaucaaauugcaguauc
+pri_struct                     .............(((.(.....((((......))))...))))((((((((((.((((((.........)))))).))))).)))))......................	#MM
+seq_243288886_x1               ......................................................................Uauggguuggauaggucuca....................	1
+seq_244809129_x1               ......................................................................gauggCuuggauaggucuca....................	1
+seq_243518534_x1               ......................................................................gauggguuggauaggucCca....................	1
+seq_234940976_x15              ......................................................................gauggguuggauaggucuca....................	0
+seq_242387928_x2               ......................................................................gauggguuggauaggucucaC...................	1
+seq_244311416_x1               ......................................................................gauggguuggauaggucucauU..................	1
+
+
+
+>KY242785.1_160
+score total		          26.6
+score for star read(s)	           3.9
+score for read counts	            18
+score for mfe		           3.1
+score for randfold	           1.6
+total read count	            47
+mature read count	            36
+loop read count		 0
+star read count		            11
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMMMMllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSSSSSffffffffffffffffffffffffff
+obs                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMMMMllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffff
+pri_seq                        uuauaucuuuuaaaaaauugcccggucgggggucuucacgcucuuaccauauaccauguauaagagcgugaagacccccgaccgggcaauuuuuuaaaagauauaaaccuauaa
+pri_struct                     ((((((((((((((((((((((((((((((((((((((((((((((.(((.....)))..))))))))))))))))))))))))))))))))))))))))))))))........	#MM
+seq_236611513_x12              ..................ugcccggucgggggucuucacgcucu......................................................................	0
+seq_246713877_x1               ..................ugcccAgucgggggucuucacgcucu......................................................................	1
+seq_241880163_x3               ..................uAcccggucgggggucuucacgcucu......................................................................	1
+seq_246465828_x1               ..................ugcccggucgggggucuucacUcucu......................................................................	1
+seq_246643221_x1               ..................ugcccggucgggggucuucacgcucuC.....................................................................	1
+seq_244655920_x1               ....................cccggucgggggucuuc.............................................................................	0
+seq_235197206_x15              ....................cccggucgggggucuucacgcucu......................................................................	0
+seq_243525659_x1               ....................cccggucgggggucuucacgcucuC.....................................................................	1
+seq_244627309_x1               ....................cccggucgggggucuucacgcucuA.....................................................................	1
+seq_243411616_x1               ................................................................agcgugaagacccccgaccggg............................	0
+seq_237909221_x10              ................................................................agcgugaagacccccgaccgggc...........................	0
+
+
+
+>KY242785.1_692
+score total		          -5.7
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -2.2
+score for randfold	          -2.2
+total read count	            14
+mature read count	            14
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSSlllllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        agguguauuccugacaaccuccacaaacuucucaaucgcuuccuuuucagcaccauucucagccuucucauuagauguggcagcaggagcggcgguuuguuuguuguuag
+pri_struct                     ..........((((((((....(((((((......(((((.(((.....((.(((((((.............))).))))..)))))))))).)))))))..))))))))	#MM
+seq_235374754_x14              ......................................................................uuagauguggcagcaggagc....................	0
+
+
+
+>KY242785.1_691
+score total		           -12
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -8.5
+score for randfold	          -2.2
+total read count	            14
+mature read count	            14
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllllllSSSSSSSSSSSSSSSSSSSSSSSSffffffffffffffffffffffffffffffffffffffff
+pri_seq                        caccauucucagccuucucauuagauguggcagcaggagcggcgguuuguuuguuguuagacauuucuuuagguuguuuuuaaaaaaaauaaaacuuguuguagauuucu
+pri_struct                     .........((((((.......((((((((((((((((((....))))..))))))))..))))))....))))))..................................	#MM
+seq_235374754_x14              ....................uuagauguggcagcaggagc......................................................................	0
+
+
+
+>KY242785.1_28
+score total		          -8.2
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -4.7
+score for randfold	          -2.2
+total read count	            16
+mature read count	            16
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMlllllllllSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        gagucauuggaggagaacaaggaauggcuggcacuggcuaccaaggcuggguuuauggcagacucguuuuuccgcaaaaacaauuuauaugaucuuuuacacgaacug
+pri_struct                     ..((..(((..(((((((.((...((.(.(((.((((((.....)))))))))...).))..)).)))))))..)))..))...........................	#MM
+seq_244362814_x1               ....................ggaauggcuggcacugg.......................................................................	0
+seq_247896222_x1               ....................ggaauggcCggcacuggc......................................................................	1
+seq_235512766_x14              ....................ggaauggcuggcacuggc......................................................................	0
+
+
+
+>KY242785.1_541
+score total		          -3.5
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		 0
+score for randfold	          -2.2
+total read count	            32
+mature read count	            32
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSllllllllMMMMMMMMMMMMMMMMMMMffffffffffffffffff
+pri_seq                        uaucggauguuuaccagccuuauauggauaugugcgcaguuugccgaugacgucuucuggguggguguauuaccggaaggucgucaggguuauuuucgucauaguugu
+pri_struct                     .............(((........))).((((.(((.((...(((..(((((((((((((............)))))))).))))).)))...)).))))))).....	#MM
+seq_246729998_x1               ......................................................................uGccggaaggucgucagg....................	1
+seq_248146718_x1               ......................................................................uaAcggaaggucgucagg....................	1
+seq_237007861_x12              ......................................................................uaccggaaggucgucagg....................	0
+seq_244121857_x1               ......................................................................uaccggaaCgucgucagg....................	1
+seq_241790415_x3               ......................................................................uaccggaaggucgucaggA...................	1
+seq_235585006_x14              .......................................................................accggaaggucgucagggu..................	0
+
+
+
+>KY242785.1_1037
+score total		          -5.2
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -1.7
+score for randfold	          -2.2
+total read count	            32
+mature read count	            32
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSffffffffffffff
+pri_seq                        gucuucuggguggguguauuaccggaaggucgucaggguuauuuucgucauaguuguuguuguuauuauuguguauccuguucucuauaugguauggacuaucccgccu
+pri_struct                     .......(((((((.((..(((((...((....((((((.........((((((.((.......)).)))))).))))))....))...)))))...))...)))))))	#MM
+seq_248146718_x1               ...................uaAcggaaggucgucagg........................................................................	1
+seq_246729998_x1               ...................uGccggaaggucgucagg........................................................................	1
+seq_244121857_x1               ...................uaccggaaCgucgucagg........................................................................	1
+seq_237007861_x12              ...................uaccggaaggucgucagg........................................................................	0
+seq_241790415_x3               ...................uaccggaaggucgucaggA.......................................................................	1
+seq_235585006_x14              ....................accggaaggucgucagggu......................................................................	0
+
+
+
+>KY242785.1_542
+score total		          -6.8
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -3.3
+score for randfold	          -2.2
+total read count	            32
+mature read count	            32
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSffffffffffff
+pri_seq                        cgucuucuggguggguguauuaccggaaggucgucaggguuauuuucgucauaguuguuguuguuauuauuguguauccuguucucuauaugguauggacuaucccgc
+pri_struct                     .......((((..(((.(((.((((...((....((((((.........((((((.((.......)).)))))).))))))....))...))))))).)))..)))).	#MM
+seq_246729998_x1               ....................uGccggaaggucgucagg......................................................................	1
+seq_244121857_x1               ....................uaccggaaCgucgucagg......................................................................	1
+seq_248146718_x1               ....................uaAcggaaggucgucagg......................................................................	1
+seq_237007861_x12              ....................uaccggaaggucgucagg......................................................................	0
+seq_241790415_x3               ....................uaccggaaggucgucaggA.....................................................................	1
+seq_235585006_x14              .....................accggaaggucgucagggu....................................................................	0
+
+
+
+>KY242785.1_1038
+score total		          -3.5
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		 0
+score for randfold	          -2.2
+total read count	            32
+mature read count	            32
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSllllllllMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        aucggauguuuaccagccuuauauggauaugugcgcaguuugccgaugacgucuucuggguggguguauuaccggaaggucgucaggguuauuuucgucauaguuguug
+pri_struct                     ............(((........))).((((.(((.((...(((..(((((((((((((............)))))))).))))).)))...)).))))))).......	#MM
+seq_237007861_x12              .....................................................................uaccggaaggucgucagg......................	0
+seq_248146718_x1               .....................................................................uaAcggaaggucgucagg......................	1
+seq_244121857_x1               .....................................................................uaccggaaCgucgucagg......................	1
+seq_246729998_x1               .....................................................................uGccggaaggucgucagg......................	1
+seq_241790415_x3               .....................................................................uaccggaaggucgucaggA.....................	1
+seq_235585006_x14              ......................................................................accggaaggucgucagggu....................	0
+
+
+
+>KY242785.1_48
+score total		          -7.6
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -4.1
+score for randfold	          -2.2
+total read count	            16
+mature read count	            16
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMlllllllllSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffffffffff
+pri_seq                        gguaauauggaaacuaacccuggcagguggaaaauuggucugcgaugauccaaguccauuaaucagcauacacaaugacauaucaccaauuaauggcacggcagaaaugc
+pri_struct                     (((.(((((..........((((..((((((...((((((......)).)))).))))))..))))............))))).))).............(((....)))	#MM
+seq_243108126_x1               ....................uggcagguggaaGauugguc......................................................................	1
+seq_235597368_x14              ....................uggcagguggaaaauugguc......................................................................	0
+seq_244381132_x1               ....................uAgcagguggaaaauugguc......................................................................	1
+
+
+
+>KY242785.1_420
+score total		         -10.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -6.9
+score for randfold	          -2.2
+total read count	            16
+mature read count	            16
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffff
+pri_seq                        ugaucguuucuucgcguccuuccaugauuguaauacauugacccaauccuugcaagcgccuggcucagaguaauuuaguuuguaaaugcgagaaccaucacuuggauuuau
+pri_struct                     ((((.((((..((((((..((.((.(((((...(((.((((.(((..(((....)).)..))).)))).)))...))))))).)))))))))))).))))...........	#MM
+seq_245966594_x1               ....................uccaugauuguaauacauuga......................................................................	0
+seq_243867446_x1               ....................uccGugauuguaauacauugac.....................................................................	1
+seq_235724264_x14              ....................uccaugauuguaauacauugac.....................................................................	0
+
+
+
+>KY242785.1_888
+score total		           -11
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -7.5
+score for randfold	          -2.2
+total read count	            15
+mature read count	            15
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSSSSSlllllllllllllllllMMMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        agacgacaaggaauuaaauaggauuguagaauacauugcccauuuagcaucuuauccgguaauaccaccagaucuggcagggaauguacuaacaacacauggguuugaugaau
+pri_struct                     ............(((((((.(..((((((..((((((.(((..((((.((((.....(((......)))))))))))..))))))))))).))))..)....)))))))....	#MM
+seq_244484529_x1               ......................................................................gaucuggcagggaGuguacuaac....................	1
+seq_235793662_x14              ......................................................................gaucuggcagggaauguacuaac....................	0
+
+
+
+>KY242785.1_578
+score total		          -5.8
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -2.3
+score for randfold	          -2.2
+total read count	            13
+mature read count	            13
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSffffffffffffffff
+pri_seq                        auuaaaaacacugacauaauuacguaugacgaggagugcuguaucuguauggcuaaaaacaacaggaaggaggcgcuucccugccaacauaauguaugcagagacuguu
+pri_struct                     ..........(((.((((((((.((.((.((.((((((((...(((((.((........))))))).....))))).))).)).)))).)))).)))))))........	#MM
+seq_236020811_x13              ....................uacguaugacgaggagugc......................................................................	0
+
+
+
+>KY242785.1_993
+score total		          -5.8
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -2.3
+score for randfold	          -2.2
+total read count	            13
+mature read count	            13
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSffffffffffffffff
+pri_seq                        auuaaaaacacugacauaauuacguaugacgaggagugcuguaucuguauggcuaaaaacaacaggaaggaggcgcuucccugccaacauaauguaugcagagacuguu
+pri_struct                     ..........(((.((((((((.((.((.((.((((((((...(((((.((........))))))).....))))).))).)).)))).)))).)))))))........	#MM
+seq_236020811_x13              ....................uacguaugacgaggagugc......................................................................	0
+
+
+
+>KY242785.1_370
+score total		            -6
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -2.5
+score for randfold	          -2.2
+total read count	            19
+mature read count	            19
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSffffffffffffff
+pri_seq                        gaauauagcgaggccaccaaaggcaagaggaugucggcagggucuaaauuaaucagcgccaugacgguuauaccuuugcugacuauauuguuuuucauaauuguuggua
+pri_struct                     ............((((.(((((((((......(((((((((((.(((.....(((......)))...))).))).))))))))....)))))).......))).)))).	#MM
+seq_236149264_x13              ....................aggcaagaggaugucggca......................................................................	0
+seq_243499618_x1               ....................agCcaagaggaugucggca......................................................................	1
+seq_241461801_x3               ......................gcaagaggaugucggcagg....................................................................	0
+seq_244404820_x1               ......................gcaagaggaugucggcaggA...................................................................	1
+seq_247467100_x1               ..........................gaggaugucggcagggC..................................................................	1
+
+
+
+>KY242785.1_369
+score total		          -8.9
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -5.4
+score for randfold	          -2.2
+total read count	            19
+mature read count	            19
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffSSSSSSSSSSSSSSSSSSSSSllllllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        auuuaaacaaaagaaccaaccaguacucggucaagccggaaaagguuuuggaauauagcgaggccaccaaaggcaagaggaugucggcagggucuaaauuaaucagcgc
+pri_struct                     ...........(((.((..((.(.((((..((..(((......(((((((........)))))))......)))..)).)).)))))..)).)))..............	#MM
+seq_236149264_x13              ......................................................................aggcaagaggaugucggca....................	0
+seq_243499618_x1               ......................................................................agCcaagaggaugucggca....................	1
+seq_241461801_x3               ........................................................................gcaagaggaugucggcagg..................	0
+seq_244404820_x1               ........................................................................gcaagaggaugucggcaggA.................	1
+seq_247467100_x1               ............................................................................gaggaugucggcagggC................	1
+
+
+
+>KY242785.1_950
+score total		         -11.8
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -8.3
+score for randfold	          -2.2
+total read count	            14
+mature read count	            14
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSllllllllllllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ucauugucauaucgaucauaucagauuuugauuacuacaaagacugccaugcaaaacugacauugaacaucagcuggggauuuguuugugguauauuggcaaucaguuau
+pri_struct                     ..(((((((.(((((((......))))..)))(((((((((.(.(.((..((....................))..)).)..).)))))))))...))))))).......	#MM
+seq_236392806_x13              ......................................................................cagcuggggauuuguuugug....................	0
+seq_247011090_x1               ......................................................................cagcuggggauuuguuugugA...................	1
+
+
+
+>KY242785.1_226
+score total		          -7.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -3.9
+score for randfold	          -2.2
+total read count	            14
+mature read count	            14
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllllllllllllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSfffffff
+pri_seq                        ccccggagcaaucaauucacauccacagcugaccuguaccacacaugcguuacaagcauccauugucguagacacauaauuggguaugagagggcaggauauuguccau
+pri_struct                     ....(((.((((........((((...(((..(.((((((.((.(((.(((((..(((.....))).)).))).)))...)))))))).)..))).)))))))))))..	#MM
+seq_236632897_x12              ....................auccacagcugaccuguacc.....................................................................	0
+seq_248065938_x1               ....................auccacagcugaccuguacA.....................................................................	1
+seq_243954236_x1               ....................auccacagcugaccuguaAc.....................................................................	1
+
+
+
+>KY242785.1_225
+score total		         -15.8
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		         -12.3
+score for randfold	          -2.2
+total read count	            14
+mature read count	            14
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffSSSSSSSSSSSSSSSSSSSSSlllllllllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMMfffffffffffffffffff
+pri_seq                        cucgauagaaccuuggaacauccugucaauuggagagguauauaaaacucccccggagcaaucaauucacauccacagcugaccuguaccacacaugcguuacaagcau
+pri_struct                     .............(((.(((....((((..((((.............((((...)))).............))))....)))).))).)))...((((.......))))	#MM
+seq_248065938_x1               ......................................................................auccacagcugaccuguacA...................	1
+seq_243954236_x1               ......................................................................auccacagcugaccuguaAc...................	1
+seq_236632897_x12              ......................................................................auccacagcugaccuguacc...................	0
+
+
+
+>KY242785.1_978
+score total		         -13.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -9.9
+score for randfold	          -2.2
+total read count	            18
+mature read count	            18
+loop read count		 0
+star read count		 0
+exp                            fSSSSSSSSSSSSSSSSSSSllllllllllllllllllllllllllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ucaauggaauguccggcggauauggcagaauuguaaaucaacacgucguaauuacacaucuucuccaauucucuuucauucuuuugaccuccaguuaugcucagaaca
+pri_struct                     ((((.((((((...((.((((.(((.((((.(((......((.....))......)))..))))))))))).))..)))))).)))).....................	#MM
+seq_243964741_x1               ......................................................................cucuCucauucuuuugac....................	1
+seq_246138751_x1               ......................................................................cucuuNcauucuuuugac....................	1
+seq_236644585_x12              ......................................................................cucuuucauucuuuugac....................	0
+seq_243739276_x1               ......................................................................cucuuucauucAuuugac....................	1
+seq_244639479_x1               ......................................................................cucuuucauucuuuugaccA..................	1
+seq_242802844_x2               ......................................................................cucuuucauucuuuugaccC..................	1
+
+
+
+>KY242785.1_1058
+score total		         -13.4
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -9.9
+score for randfold	          -2.2
+total read count	            18
+mature read count	            18
+loop read count		 0
+star read count		 0
+exp                            fSSSSSSSSSSSSSSSSSSSllllllllllllllllllllllllllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ucaauggaauguccggcggauauggcagaauuguaaaucaacacgucguaauuacacaucuucuccaauucucuuucauucuuuugaccuccaguuaugcucagaaca
+pri_struct                     ((((.((((((...((.((((.(((.((((.(((......((.....))......)))..))))))))))).))..)))))).)))).....................	#MM
+seq_243964741_x1               ......................................................................cucuCucauucuuuugac....................	1
+seq_246138751_x1               ......................................................................cucuuNcauucuuuugac....................	1
+seq_243739276_x1               ......................................................................cucuuucauucAuuugac....................	1
+seq_236644585_x12              ......................................................................cucuuucauucuuuugac....................	0
+seq_242802844_x2               ......................................................................cucuuucauucuuuugaccC..................	1
+seq_244639479_x1               ......................................................................cucuuucauucuuuugaccA..................	1
+
+
+
+>KY242785.1_297
+score total		          -6.6
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -3.1
+score for randfold	          -2.2
+total read count	            12
+mature read count	            12
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSSSllllllllllllllllllllMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        aaaauuggauaaugcaccugauagaaucaccaaaaggcacaucuucaagauauaacaaccuguuuaaaucauggagugcuguuggugccaauuucacucuucauccaucgc
+pri_struct                     .....(((((........(((......((((((..(((((...((((.(((..((((...))))...))).))))))))).))))))......)))......)))))....	#MM
+seq_236666389_x12              ......................................................................auggagugcuguuggugccaa....................	0
+
+
+
+>KY242785.1_357
+score total		          -8.5
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		            -5
+score for randfold	          -2.2
+total read count	            12
+mature read count	            12
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffSSSSSSSSSSSSSSSSSSSlllllllllllllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        uuguaaaagaguuguuucaucaaccagagcucauggccgacgaagaggaauugcaaagagccacggaacaaguuguggagaugauugagaacuuuaaaucuuucucacug
+pri_struct                     .......((((((.(((((((..(((.(((((.(((((...................).)))).).....)))).))).)))))..)).))))))...............	#MM
+seq_236956153_x12              ......................................................................aguuguggagaugauugaga....................	0
+
+
+
+>KY242785.1_358
+score total		          -5.1
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -1.6
+score for randfold	          -2.2
+total read count	            12
+mature read count	            12
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMllllllllllllllSSSSSSSSSSSSSSSSSSffffffffffffffffffffffffffffffffffffff
+pri_seq                        uugcaaagagccacggaacaaguuguggagaugauugagaacuuuaaaucuuucucacugcauuucccguuguuuugguaugacgagagauauugcauuucgaacauauu
+pri_struct                     .............((((((((..((.((((((((.((((((..........)))))).).)))))))))))))))))(((((.(((((.........)))))..))))).	#MM
+seq_236956153_x12              ....................aguuguggagaugauugaga......................................................................	0
+
+
+
+>KY242785.1_763
+score total		          -8.9
+score for star read(s)	          -1.3
+score for read counts	 0
+score for mfe		          -5.4
+score for randfold	          -2.2
+total read count	            16
+mature read count	            16
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffff
+pri_seq                        aagcugaaaaccuucauuuugcaacgaccgugacaggacaacucaucgcuaaagaguugaaauuuaauucagaguauguuguggauaagagcaagggaaagaagcaccu
+pri_struct                     ..(((.....(((((..(((((((((((..(((...((((((((.........))))))....))...)))..)).))))))))).....).))))......)))....	#MM
+seq_242586304_x2               ....................gcaacgaccgugacagga.......................................................................	0
+seq_246207667_x1               ....................gcaacgaccgugacGggac......................................................................	1
+seq_236999689_x12              ....................gcaacgaccgugacaggac......................................................................	0
+seq_248118472_x1               ....................gcaacgaccgugGcaggac......................................................................	1
+
+
+
+>KY242785.1_1055
+score total		          -8.1
+score for star read(s)	          -1.3
+score for read counts	          -0.3
+score for mfe		          -4.2
+score for randfold	          -2.2
+total read count	            11
+mature read count	            11
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMllllllllllllllSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffff
+pri_seq                        aauaauaaaccaaucaguggcagccggaagcguaugacguaaauuguaggguguguguuguuuuuuugguaaacauguuuauuugggucauugacgucaaacggaaaugau
+pri_struct                     .........((((...(((...((((((((...((((((((.(((....))).)))))))).))))))))...)))......))))((((((..(((...)))..))))))	#MM
+seq_237200870_x11              ....................cagccggaagcguaugacgua......................................................................	0
+
+
+
+>KY242785.1_526
+score total		          -8.1
+score for star read(s)	          -1.3
+score for read counts	          -0.3
+score for mfe		          -4.2
+score for randfold	          -2.2
+total read count	            11
+mature read count	            11
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMllllllllllllllSSSSSSSSSSSSSSSSSSSfffffffffffffffffffffffffffffffffffff
+pri_seq                        aauaauaaaccaaucaguggcagccggaagcguaugacguaaauuguaggguguguguuguuuuuuugguaaacauguuuauuugggucauugacgucaaacggaaaugau
+pri_struct                     .........((((...(((...((((((((...((((((((.(((....))).)))))))).))))))))...)))......))))((((((..(((...)))..))))))	#MM
+seq_237200870_x11              ....................cagccggaagcguaugacgua......................................................................	0
+
+
+
+>KY242785.1_15
+score total		 0
+score for star read(s)	          -1.3
+score for read counts	          -0.3
+score for mfe		 0
+score for randfold	           1.6
+total read count	            11
+mature read count	            11
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSllllllllllllMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        aaggcugcauuuuucaguaguaguaguagaugcuguuaauuuagcaguugugguauacucgagauugaguguggguaugauucuaaacugacaaaucgcgccuauuua
+pri_struct                     .((((.((((((.(((((..(((((.....))))).....((((.(((((((.((((((((....))))))))..)))))))))))))))).)))).)))))).....	#MM
+seq_237379147_x11              ......................................................................guggguaugauucuaaac....................	0
+
+
+
+>KY242785.1_962
+score total		 0
+score for star read(s)	          -1.3
+score for read counts	          -0.3
+score for mfe		 0
+score for randfold	           1.6
+total read count	            11
+mature read count	            11
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSllllllllllllMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        aaggcugcauuuuucaguaguaguaguagaugcuguuaauuuagcaguugugguauacucgagauugaguguggguaugauucuaaacugacaaaucgcgccuauuua
+pri_struct                     .((((.((((((.(((((..(((((.....))))).....((((.(((((((.((((((((....))))))))..)))))))))))))))).)))).)))))).....	#MM
+seq_237379147_x11              ......................................................................guggguaugauucuaaac....................	0
+
+
+
+>KY242785.1_915
+score total		         -14.6
+score for star read(s)	          -1.3
+score for read counts	          -0.3
+score for mfe		         -10.7
+score for randfold	          -2.2
+total read count	            11
+mature read count	            11
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSSSfffff
+pri_seq                        ugguuuuaucccucucacaacaucuguaacuguggcggcuauagaaaaaucaaugccauaucucuuacaucucaacuguuccaucuugucugcuacagucuuaggguuuucaa
+pri_struct                     .((......)).......(((.((((..((((((((((....(((.....((........................)).....)))...))))))))))..))))))).....	#MM
+seq_237504701_x11              ....................caucuguaacuguggcggcuaua......................................................................	0
+
+
+
+>KY242785.1_748
+score total		          -0.8
+score for star read(s)	          -1.3
+score for read counts	          -1.8
+score for mfe		           0.7
+score for randfold	           1.6
+total read count	             8
+mature read count	             8
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSllllllMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        uccaaggaggugaugaugaaaaguuuuucaccaccaucgaaucuagacucaagagcaguguggcauaugcuacuuggcaauugggaauagauuuucuuccagacauagc
+pri_struct                     .....((.(((((.((........)).))))).))...(((((((..(((((..((...(((((....)))))...))..)))))..)))))))...............	#MM
+seq_239081230_x8               ......................................................................uacuuggcaauugggaaua....................	0
+
+
+
+>KY242785.1_716
+score total		          -9.5
+score for star read(s)	          -1.3
+score for read counts	          -2.8
+score for mfe		          -3.1
+score for randfold	          -2.2
+total read count	             6
+mature read count	             6
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSlllllllllllllMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ugggaaagaauauaaucuauccaucucgugaucguauucuaguucgucaccuucaucgucuaaaccucuuuuaagcguggcggacacaaccuuuuccauuuuggcgcu
+pri_struct                     (((((((((((((.(((............))).))))))).((((((((((((...................))).))))))))).......))))))..........	#MM
+seq_239721327_x6               ......................................................................uuaagcguggcggacaca....................	0
+
+
+
+>KY242785.1_870
+score total		         -12.7
+score for star read(s)	          -1.3
+score for read counts	          -3.9
+score for mfe		          -5.3
+score for randfold	          -2.2
+total read count	             4
+mature read count	             4
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSlllllMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        cggucaacauauucgccuguguuuuuguuaaaaaccaagcgaguaauaauauuauggauuucauaaugaucauaguucguaaugugugugguuucuucuucaauaucaga
+pri_struct                     .........(((((((.((.((((((...)))))))).)))))))...((((((((((((.............)))))))))))).........................	#MM
+seq_247948240_x1               ......................................................................cauaguucguaauguguAug....................	1
+seq_241321395_x3               ......................................................................cauaguucguaaugugugug....................	0
+
+
+
+>KY242785.1_325
+score total		         -18.8
+score for star read(s)	          -1.3
+score for read counts	          -3.9
+score for mfe		         -11.4
+score for randfold	          -2.2
+total read count	             4
+mature read count	             4
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSlllllllllllllllMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ugagcgguauuccaacaacacacuuaaagcaacuauagaauuugaagugccaaagauuuacgauacaccuuacacgugugaauucuugggauauaaaagugugaauucauu
+pri_struct                     .....((....)).....(((((((.......(((.(((((((...(((...(((.............))).)))....)))))))))).......)))))))........	#MM
+seq_247607090_x1               ......................................................................Aacacgugugaauucuuggga....................	1
+seq_241345278_x3               ......................................................................uacacgugugaauucuuggga....................	0
+
+
+
+>KY242785.1_642
+score total		         -13.6
+score for star read(s)	          -1.3
+score for read counts	          -5.4
+score for mfe		          -4.6
+score for randfold	          -2.2
+total read count	             1
+mature read count	             1
+loop read count		 0
+star read count		 0
+exp                            fffffffffffffffSSSSSSSSSSSSSSSSSSSSSSSSSSSSSllllllllllllllllllllllllllMMMMMMMMMMMMMMMMMMMMMMMMffffffffffffffffffff
+pri_seq                        ggugugaagcacaauucguauauguuaguauaacagacucugaggauaguggaccaaagccaauuacccacagugucaaaggugguauaggagcuguaagguuuagcagggaag
+pri_struct                     ..(((.(((((((.(((.(((((.....(((....(((.(((.((.((((((.......)).)))).)).))).)))....)))))))).))).)))...)))).)))......	#MM
+seq_243428519_x1               ......................................................................cagugucaaaggugguauaggagc....................	0
+
+
+
+>KY242785.1_352
+score total		          -6.7
+score for star read(s)	          -1.3
+score for read counts	          -5.4
+score for mfe		          -1.5
+score for randfold	           1.6
+total read count	             1
+mature read count	             1
+loop read count		 0
+star read count		 0
+exp                            ffffffffffffffffffffMMMMMMMMMMMMMMMMMMMlllllllllllllllllllllllllllllSSSSSSSSSSSSSSSSSSSSSSSfffffffffffffffff
+pri_seq                        aacaaaaauggauauggugauugaugauguggauaaucuguggacauacagaucaguauguaugccagauuacaaggacgcagcugaaaucauacgaccagaauuuga
+pri_struct                     ..((((..(((.....((((((.....((((..(((((((...((((((......))))))....)))))))......)))).....))))))....)))...)))).	#MM
+seq_247600121_x1               ....................uugaugauguggauaaucA.....................................................................	1
+
+
+

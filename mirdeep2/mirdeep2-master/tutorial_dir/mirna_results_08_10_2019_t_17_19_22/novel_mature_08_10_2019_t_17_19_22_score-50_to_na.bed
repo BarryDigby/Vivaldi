@@ -1,0 +1,5 @@
+browser position 
+browser hide all
+track name="notTrackname.novel_miRNAs" description="novel miRNAs detected by miRDeep2 for notTrackname" visibility=2
+itemRgb="On";
+chrII:11534525-11540624	3059	3081	chrII:11534525-11540624_7	102170.8	+	3059	3081	255,0,0

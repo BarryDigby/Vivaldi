@@ -1,0 +1,18 @@
+Start: 08_10_2019_t_17_19_22
+Script	/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/bin/miRDeep2.pl
+args /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/bin/miRDeep2.pl reads_collapsed.fa cel_cluster.fa reads_collapsed_vs_genome.arf mature_ref_this_species.fa mature_ref_other_species.fa precursors_ref_this_species.fa -t C.elegans
+
+dir_with_tmp_files	dir_miRDeep2_08_10_2019_t_17_19_22
+dir	/home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/tutorial_dir
+file_reads	reads_collapsed.fa
+file_genome	cel_cluster.fa
+file_reads_vs_genome	reads_collapsed_vs_genome.arf
+file_mature_ref_this_species	mature_ref_this_species.fa
+file_mature_ref_other_species	mature_ref_other_species.fa
+option{t} =	C.elegans
+miRDeep runtime: 
+
+started: 17:19:22
+ended: 17:20:02
+total:0h:0m:40s
+

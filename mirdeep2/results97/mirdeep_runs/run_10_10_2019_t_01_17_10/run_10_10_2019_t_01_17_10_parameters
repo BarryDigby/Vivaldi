@@ -1,0 +1,17 @@
+Start: 10_10_2019_t_01_17_10
+Script	../mirdeep2-master/bin/miRDeep2.pl
+args ../mirdeep2-master/bin/miRDeep2.pl ../mapper/KY242785.collapsed.fa ../../reference/KY242785.fa ../mapper/KY242785.arf none none none
+
+dir_with_tmp_files	dir_miRDeep2_10_10_2019_t_01_17_10
+dir	/home/barry/Desktop/Owen_Donohue/mirdeep2/results97
+file_reads	../mapper/KY242785.collapsed.fa
+file_genome	../../reference/KY242785.fa
+file_reads_vs_genome	../mapper/KY242785.arf
+file_mature_ref_this_species	none
+file_mature_ref_other_species	none
+miRDeep runtime: 
+
+started: 1:17:10
+ended: 1:20:24
+total:0h:3m:14s
+

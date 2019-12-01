@@ -1,0 +1,14 @@
+ssi.c: In function ‘SSIAddPrimaryKeyToIndex’:
+ssi.c:746:36: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 5 has type ‘sqd_uint64 {aka long unsigned int}’ [-Wformat=]
+       fprintf(g->ptmp, "%s\t%d\t%llu\t%llu\t%lu\n",
+                                 ~~~^
+                                 %lu
+        key, fh, r_off->off.i64,
+                 ~~~~~~~~~~~~~~      
+ssi.c:746:42: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 6 has type ‘sqd_uint64 {aka long unsigned int}’ [-Wformat=]
+       fprintf(g->ptmp, "%s\t%d\t%llu\t%llu\t%lu\n",
+                                       ~~~^
+                                       %lu
+ssi.c:748:8:
+        d_off == NULL? 0 : d_off->off.i64,
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  

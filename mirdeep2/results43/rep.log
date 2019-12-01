@@ -1,0 +1,153 @@
+#Starting miRDeep2
+../mirdeep2-master/bin/miRDeep2.pl ../mapper/KY242785.collapsed.fa ../../reference/KY242785.fa ../mapper/KY242785.arf none none none
+
+miRDeep2 started at 22:22:03
+
+
+mkdir mirdeep_runs/run_09_10_2019_t_22_22_03
+
+#testing input files
+sanity_check_reads_ready_file.pl ../mapper/KY242785.collapsed.fa
+
+started: 22:22:04
+
+ended: 22:22:53
+total:0h:0m:49s
+
+started: 22:22:53
+sanity_check_genome.pl ../../reference/KY242785.fa
+
+
+ended: 22:22:53
+total:0h:0m:0s
+
+started: 22:22:53
+sanity_check_mapping_file.pl ../mapper/KY242785.arf
+
+
+ended: 22:22:53
+total:0h:0m:0s
+
+Pre-quantitation is skipped caused by missing file with known precursor miRNAs
+
+
+#parsing genome mappings
+parse_mappings.pl ../mapper/KY242785.arf -a 0 -b 18 -c 25 -i 5 > mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/KY242785.arf_parsed.arf
+
+started: 22:22:53
+
+ended: 22:22:53
+total:0h:0m:0s
+
+#excising precursors
+started: 22:22:53
+excise_precursors_iterative_final.pl ../../reference/KY242785.fa mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/KY242785.arf_parsed.arf mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors.fa mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors.coords 50000
+1	1058
+
+ended: 22:22:53
+total:0h:0m:0s
+
+#preparing signature
+prepare_signature.pl ../mapper/KY242785.collapsed.fa mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors.fa 1 -o mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/signature.arf 2>>error_09_10_2019_t_22_22_03.log
+
+started: 22:22:53
+
+ended: 22:23:01
+total:0h:0m:8s
+
+#folding precursors
+started: 22:23:01
+RNAfold < mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors.fa --noPS > mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors.str
+
+
+ended: 22:23:07
+total:0h:0m:6s
+
+#computing randfold p-values
+select_for_randfold.pl mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/signature.arf mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors.str > mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors_for_randfold.ids
+
+started: 22:23:07
+
+ended: 22:23:07
+total:0h:0m:0s
+
+started: 22:23:07
+fastaselect.pl mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors.fa mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors_for_randfold.ids > mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors_for_randfold.fa
+
+
+ended: 22:23:07
+total:0h:0m:0s
+
+started: 22:23:07
+randfold -s mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors_for_randfold.fa 99 > mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors_for_randfold.rand
+
+
+ended: 22:25:00
+total:0h:1m:53s
+
+#running miRDeep core algorithm
+started: 22:25:00
+miRDeep2_core_algorithm.pl mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/signature.arf mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors.str -v -50 -l 20 -y mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors_for_randfold.rand > mirdeep_runs/run_09_10_2019_t_22_22_03/output.mrd
+
+ended: 22:25:00
+total:0h:0m:0s
+
+#running permuted controls
+started: 22:25:00
+echo 'miRDeep2_core_algorithm.pl mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/signature.arf mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors.str -v -50 -y mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors_for_randfold.rand > mirdeep_runs/run_09_10_2019_t_22_22_03/output.mrd' > mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/command_line
+
+perform_controls.pl mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/command_line mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors.str 100 -a > mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/output_permuted.mrd 2>>error_09_10_2019_t_22_22_03.log
+
+
+ended: 22:25:17
+total:0h:0m:17s
+
+#doing survey of accuracy
+survey.pl mirdeep_runs/run_09_10_2019_t_22_22_03/output.mrd -a mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/output_permuted.mrd -d 1 > mirdeep_runs/run_09_10_2019_t_22_22_03/survey.csv
+
+started: 22:25:17
+
+ended: 22:25:17
+total:0h:0m:0s
+
+#producing graphic results
+started: 22:25:17
+make_html.pl -f mirdeep_runs/run_09_10_2019_t_22_22_03/output.mrd -p mirdeep_runs/run_09_10_2019_t_22_22_03/tmp/precursors.coords -v 0 -s mirdeep_runs/run_09_10_2019_t_22_22_03/survey.csv -c -e -r /home/barry/Desktop/Owen_Donohue/mirdeep2/mirdeep2-master/bin//../Rfam_for_miRDeep.fa -y 09_10_2019_t_22_22_03 -o  -V 2.0.1.2 
+
+
+No organism specified by switch -t [organism] so UCSC browser BLAT will not be used.
+
+To get a list of possible species names type make_html.pl -u
+
+Specify organism Reads are coming from by  -t [organism] to get links in html file
+
+parsing input file finished
+checking Rfam for hits to precursors
+Build bowtie index of Rfam entries
+
+Mapping mature,star and loop sequences against index
+# reads processed: 345
+# reads with at least one reported alignment: 2 (0.58%)
+# reads that failed to align: 343 (99.42%)
+Reported 3 alignments to 1 output stream(s)
+creating PDF files
+creating pdf for KY242785.1_160 finished
+creating pdf for KY242785.1_555 finished
+creating pdf for KY242785.1_943 finished
+creating pdf for KY242785.1_1024 finished
+creating pdf for KY242785.1_50 finished
+creating pdf for KY242785.1_962 finished
+creating pdf for KY242785.1_44 finished
+
+ended: 22:25:19
+total:0h:0m:2s
+
+fasta and bed files have been created in subfolder mirna_results_09_10_2019_t_22_22_03
+
+
+miRDeep runtime: 
+
+started: 22:22:03
+ended: 22:25:19
+total:0h:3m:16s
+

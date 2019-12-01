@@ -1,0 +1,199 @@
+0&&<<''; # this PGP-signed message is also valid perl
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+# CHECKSUMS file written on Tue Sep 17 16:55:28 2019 GMT by CPAN::Checksums (v2.12)
+$cksum = {
+  'Business-Tax-Canada-0.04.meta' => {
+    'md5' => '85d46446ce69a418cbb2cb44aebaa372',
+    'mtime' => '2013-02-08',
+    'sha256' => '904594d57a02c8663b38db8f6d01eba5d860c331e86b7b780bdfa7bf3e0e2cb1',
+    'size' => 1053
+  },
+  'Business-Tax-Canada-0.04.tar.gz' => {
+    'md5' => 'c10f9b80c4c06f855b6d51114b0dfc22',
+    'md5-ungz' => '5c1f84b1c5740064a05a572d241a8329',
+    'mtime' => '2013-02-08',
+    'sha256' => '88c7acd27755fb9f4a3d7923a9bf4972601c1eb48a0b24b739820c11d6f46efb',
+    'sha256-ungz' => '89b08606d53c16d6bac3e26c19d05f0a92c9cf6e8aee47c2c2f3716b6f19bf74',
+    'size' => 4627
+  },
+  'DBIx-SimpleQuery-0.01.tar.gz' => {
+    'md5' => 'ad3e7b7972d3b91619f2d0af386cdcf2',
+    'md5-ungz' => 'c187b279310a1bb13712c48ac22de143',
+    'mtime' => '2004-10-18',
+    'sha256' => 'd4808f1559beff03ec52bdb150f203798f887bd324fbf161c2a4458f94ecd857',
+    'sha256-ungz' => 'ba393bd3a2b9556a914f8239e58c33ec968a33b4337ae1e1108940603ee376ee',
+    'size' => 6202
+  },
+  'DBIx-SimpleQuery-0.03.meta' => {
+    'md5' => '849728ab05accd2ff48d30e77b08f8e9',
+    'mtime' => '2006-06-24',
+    'sha256' => '00c043175c3a554fcd7e05c948cd1263a01ade7f764fe409bd6d75b5f8282562',
+    'size' => 316
+  },
+  'DBIx-SimpleQuery-0.03.tar.gz' => {
+    'md5' => '30abb0b419db7362944628566f3133b0',
+    'md5-ungz' => 'a4aec09178c6115671a6f2418b41fba9',
+    'mtime' => '2006-06-24',
+    'sha256' => 'f5769bcf9fd652d6e641afe4ba639c53cf033603976e60b08ba9591efc8ab075',
+    'sha256-ungz' => 'afc4c995bedee7d53b5e367965015b647989892535fa9bc1a192e22c14930b6f',
+    'size' => 6776
+  },
+  'DBIx-SimpleQuery-0.04.meta' => {
+    'md5' => 'bb8432a42b864a048efa4c66da759844',
+    'mtime' => '2011-02-10',
+    'sha256' => '05f50af70f1b25da5b526101a45a1749e3944cfa6aa453b05f7d79a8f8386144',
+    'size' => 474
+  },
+  'DBIx-SimpleQuery-0.04.tar.gz' => {
+    'md5' => 'a75cca1fa930ae539a4bea599c213977',
+    'md5-ungz' => '459974c71eb4d0d170dbfb73fa7fc257',
+    'mtime' => '2011-02-10',
+    'sha256' => 'ad21de1d36933f311d08fc1033bc5ed954a51f956050daf78b6c13b86455d449',
+    'sha256-ungz' => '12c9a67f136a59e8267f9474d6850914fffa418b97a9f106fe622aad92c110a0',
+    'size' => 6880
+  },
+  'DBIx-SimpleQuery-0.05.meta' => {
+    'md5' => 'e875a15cd785f45087b33c2617b579d3',
+    'mtime' => '2011-02-24',
+    'sha256' => '6d2b46f99fe9fab6e10da24afe59c7f0c0c3fd9c68728974ee41d4d0abc4d51b',
+    'size' => 482
+  },
+  'DBIx-SimpleQuery-0.05.tar.gz' => {
+    'md5' => 'e8ce9622270a94d4dabc385f62f090b2',
+    'md5-ungz' => 'cb9698247372e2684b98da79b2b6355c',
+    'mtime' => '2011-02-24',
+    'sha256' => '8e81415e6579799100575f769a65797f964d625cbf5754a5367341bddb466044',
+    'sha256-ungz' => '4c5f4cc084dc828cb6a8d0ebdc1431602ce0562ec7d16a3b8f7d4f4a52daf7c6',
+    'size' => 7090
+  },
+  'PDF-API2-2.027.meta' => {
+    'md5' => '76bc8b88ce6f91acedb956bad02f35dc',
+    'mtime' => '2016-03-11',
+    'sha256' => '3a98a1166275701a5262d84fc68d78438be503c1ea569bd37797185ccca41694',
+    'size' => 545
+  },
+  'PDF-API2-2.027.tar.gz' => {
+    'md5' => '8a0df7705899a966fb7ad662ebbefcc2',
+    'md5-ungz' => '363de1c3d9d0da412fabb0689cf71fa5',
+    'mtime' => '2016-03-11',
+    'sha256' => 'd24db02d902198406270551857830633b289ad39f5a9ba5431246f8cd60e7599',
+    'sha256-ungz' => '9af1e2b8023c4ed5762a1c984dbcf8583a4cc7f571e732ad939e274b5aefaa89',
+    'size' => 3500950
+  },
+  'PDF-API2-2.028.meta' => {
+    'md5' => '798e867f8535fa3a0c70578590e5ecd8',
+    'mtime' => '2016-06-08',
+    'sha256' => '621e0cb7d24aecc7c5b63b5538cd88b82938a6bb4104b5243bc22628b15778d5',
+    'size' => 545
+  },
+  'PDF-API2-2.028.tar.gz' => {
+    'md5' => '62e7d19eff5bd3cc7f673e4075dfa32a',
+    'md5-ungz' => '0d6a64a1a1023b664959277466ea9530',
+    'mtime' => '2016-06-08',
+    'sha256' => 'a642b41362884b7005e421ec93c7d3a54f7adef7657540331e0d4ca89d106b04',
+    'sha256-ungz' => '020c62099f446de01a3d5ab213c0d985e45101c5e7a0ee72fa2e8fdc6a5b88a9',
+    'size' => 3501011
+  },
+  'PDF-API2-2.030.meta' => {
+    'md5' => '11502ad58b3800f09128710aa0847c17',
+    'mtime' => '2016-10-13',
+    'sha256' => 'e231cfc5db54c72eb7ec8924ed8fc17b6e65647c32b9a0620eaca16c8defc996',
+    'size' => 1126
+  },
+  'PDF-API2-2.030.tar.gz' => {
+    'md5' => '8080adef3c9bb7175cd57657559ea189',
+    'md5-ungz' => '026a5428f5f417638770cdb1ff6e43d7',
+    'mtime' => '2016-10-13',
+    'sha256' => 'a802c25c1f00b093778223fc7aea94ebd87a9abdb915151746b8ee5d4a358769',
+    'sha256-ungz' => '28163adf5dc02712322730348a830c311434449d13a1afbc4f319580b90d9691',
+    'size' => 3502793
+  },
+  'PDF-API2-2.030_001.tar.gz' => {
+    'md5' => '5eb0ba1abd11dd40105169504407a218',
+    'md5-ungz' => '6ca90e7e5e82bb96d3912224cf7bb2f3',
+    'mtime' => '2016-11-09',
+    'sha256' => '3b7103abb99c3372dddb42adabeef8ccc3de628e6035eb0ee0b4eb3d641173fa',
+    'sha256-ungz' => '740bc58988aa3257299c196b91eb7e7e8d148ecadc26be683b87591f54e17b45',
+    'size' => 3508195
+  },
+  'PDF-API2-2.031.meta' => {
+    'md5' => '737fc9da677eec667c029861d953dc44',
+    'mtime' => '2017-01-26',
+    'sha256' => '59272ab3932f8d3da8a673233492cfcffea593eda5d88add71b9f924aa55638a',
+    'size' => 1126
+  },
+  'PDF-API2-2.031.tar.gz' => {
+    'md5' => 'b19fa75527b78c4858f7dc941ee045c1',
+    'md5-ungz' => 'be5260126e902f6705678b8bf7373ae5',
+    'mtime' => '2017-01-26',
+    'sha256' => '6ea5d38f99dfb1e8acf57c9c7579659b3eee84944295a135f90e607e0a3f43e9',
+    'sha256-ungz' => 'f768840679063f8cd0b8a090e5b9441fb85105148a2344d86523c27f3b3c1943',
+    'size' => 3507672
+  },
+  'PDF-API2-2.033.meta' => {
+    'md5' => '341fd997d3322fa4a319c3eae74b9f7c',
+    'mtime' => '2017-07-07',
+    'sha256' => '0047107562ff2c220f6da5908c8090f3b316ae2e60a8a87211947bc08c15ec57',
+    'size' => 1264
+  },
+  'PDF-API2-2.033.tar.gz' => {
+    'md5' => '4223a38add42741f996bd67d5f2f8e5b',
+    'md5-ungz' => 'f29967d66400e88e6db588eb66fa51ef',
+    'mtime' => '2017-07-07',
+    'sha256' => '9c0866ec1a3053f73afaca5f5cdbe6925903b4ce606f4bf4ac317731a69d27a0',
+    'sha256-ungz' => '4dc705bbf86e859129141c6d3b4fd47872bee1ebaf7888c9a887a13dc290709c',
+    'size' => 3533753
+  },
+  'PDF-API2-2.034.meta' => {
+    'md5' => 'c79e16b70dacaab74f3e44388160eca1',
+    'mtime' => '2019-06-29',
+    'sha256' => '0b0679706b95b48a4624285aed60d4027e4376916058cabea73c2c3429559737',
+    'size' => 1340
+  },
+  'PDF-API2-2.034.tar.gz' => {
+    'md5' => 'c0d0662e66f4db7eaa9a237b92adff12',
+    'md5-ungz' => '9ca673c029468b6e01a97a7c21cb42f9',
+    'mtime' => '2019-06-29',
+    'sha256' => '8aa98818fb6e4bebd6f9096e222989dcdd5fd4c5fa2ad1c7f0149053fc68f1cc',
+    'sha256-ungz' => 'c3b8e44e3c18ae4334f33b55e0fce11c154903d2f935251fd5612ce63af4bbbe',
+    'size' => 3510253
+  },
+  'PDF-API2-2.035.meta' => {
+    'md5' => '4c213313ec7af07bf02aa7dc8f2fe2e0',
+    'mtime' => '2019-08-09',
+    'sha256' => '053cc0735d2afd574d506c2936c02efe7fc6226cb4a7d92a4b5fcac2883ba0f2',
+    'size' => 1341
+  },
+  'PDF-API2-2.035.tar.gz' => {
+    'md5' => '6fa002611f9346290e00372b76913056',
+    'md5-ungz' => 'c01dfb0481c8f92afd41f3ff7396b837',
+    'mtime' => '2019-08-09',
+    'sha256' => '7e4435ff51c808451f53fa161672ba2eaa7c4d49f4ab6506801383882405bf80',
+    'sha256-ungz' => '4cba20c52783396f8b904a64f2a0a0969ff08859c863fc90e1a419e361489985',
+    'size' => 3510872
+  },
+  'PDF-API2-2.036.meta' => {
+    'md5' => 'a7a5d5588af926a5e940a5e307a1de9e',
+    'mtime' => '2019-09-17',
+    'sha256' => '5e759a4692d796ed7d2f6f799184c738d7062a9eb72fcdb612e6943a0fab4d6c',
+    'size' => 1341
+  },
+  'PDF-API2-2.036.tar.gz' => {
+    'md5' => '0ee33045c57a537feece6e54db461ec3',
+    'md5-ungz' => '8cbbf5c61621ef86c20953098e55ac03',
+    'mtime' => '2019-09-17',
+    'sha256' => '070444e9fef8beb6f115994a6ac89533fe8ba02d5e240a35bb07adcbcb511774',
+    'sha256-ungz' => '3ff908bfe88cb555a50c3624b630cb1c2f92ac89746e775fdcb2892d5051b4c9',
+    'size' => 3511856
+  }
+};
+__END__
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.14 (GNU/Linux)
+
+iEYEARECAAYFAl2BEAAACgkQMo2oZ0UPiezhlgCeIU25O/Aht8dWbqKIv7xYzJ8d
+qmQAnRkZh7QDiUu72Q5IXQU4ztqLfp3E
+=KspU
+-----END PGP SIGNATURE-----

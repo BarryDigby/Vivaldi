@@ -1,0 +1,129 @@
+mireap
+KY242785-m0001 KY242785.1:19880:19947:+ 68(nt) -19.20(kcal/mol)
+AGGCTCAAGCACGGACCATCTATCCCATTTTATTTTTCGATGGGTTGGATAGGTCTCATCCAATCAAA KY242785-m0001 18
+..((....))..((((((((((.((((((.........)))))).))))).)))))............
+**************************************GATGGGTTGGATAGGTCTCA********** KY242785-m0001-3p 18
+--------------------------------------GATGGGTTGGATAGGTCTCA---------- seq_234940976_x 15
+--------------------------------------GATGGGTTGGATAGGTCTCAC---------- seq_242387928_x 2
+--------------------------------------GATGGGTTGGATAGGTCTCATT--------- seq_244311416_x 1
+//
+mireap
+KY242785-m0002 KY242785.1:72410:72496:+ 87(nt) -69.80(kcal/mol)
+TAAAAAATTGCCCGGTCGGGGGTCTTCACGCTCTTACCATATACCATGTATAAGAGCGTGAAGACCCCCGACCGGGCAATTTTTTAA KY242785-m0002 42
+((((((((((((((((((((((((((((((((((((.(((.....)))..)))))))))))))))))))))))))))))))))))).
+**********CCCGGTCGGGGGTCTTCACGCTCT***************************************************** KY242785-m0002-5p 31
+******************************************************AGCGTGAAGACCCCCGACCGGGC********** KY242785-m0002-3p 11
+--------TGCCCGGTCGGGGGTCTTCACGCTCT----------------------------------------------------- seq_236611513_x 12
+--------TGCCCGGTCGGGGGTCTTCACTCTCT----------------------------------------------------- seq_246465828_x 1
+------------------------------------------------------------- seq_246643221_x 
+----------CCCGGTCGGGGGTCTTC------------------------------------------------------------ seq_244655920_x 1
+----------CCCGGTCGGGGGTCTTCACGCTCT----------------------------------------------------- seq_235197206_x 15
+----------CCCGGTCGGGGGTCTTCACGCTCTC----------------------------------------------------- seq_243525659_x 1
+----------CCCGGTCGGGGGTCTTCACGCTCTA----------------------------------------------------- seq_244627309_x 1
+------------------------------------------------------AGCGTGAAGACCCCCGACCGGG----------- seq_243411616_x 1
+------------------------------------------------------AGCGTGAAGACCCCCGACCGGGC---------- seq_237909221_x 10
+//
+mireap
+KY242785-m0003 KY242785.1:124935:125022:+ 88(nt) -18.80(kcal/mol)
+GCACCTGATAGAATCACCAAAAGGCACATCTTCAAGATATAACAACCTGTTTAAATCATGGAGTGCTGTTGGTGCCAATTTCACTCTT KY242785-m0003 12
+.....(((......((((((..(((((...((((.(((..((((...))))...))).))))))))).))))))......))).....
+*********************************************************ATGGAGTGCTGTTGGTGCCAA********** KY242785-m0003-3p 12
+---------------------------------------------------------ATGGAGTGCTGTTGGTGCCAA---------- seq_236666389_x 12
+//
+mireap
+KY242785-m0004 KY242785.1:130685:130766:+ 82(nt) -19.40(kcal/mol)
+ACCTGGATAATAGACTGGGATATCTTTTGGGATTAGACCTTACCACGGCTATTTTTAAATATACCCCAATTGTTGTCGGACA KY242785-m0004 6
+...(.((((((((..((((.(((..(((((((.(((.((.......))))).))))))).))).)))).)))))))).)...
+**********TAGACTGGGATATCTTTTGGGA************************************************** KY242785-m0004-5p 6
+----------TAGACTGGGATATCTTTTGGGA-------------------------------------------------- seq_241196052_x 3
+----------TAGACTGGGATATCTTTTGGTA-------------------------------------------------- seq_241470705_x 3
+//
+mireap
+KY242785-m0005 KY242785.1:148722:148791:+ 70(nt) -19.10(kcal/mol)
+CCACGGAACAAGTTGTGGAGATGATTGAGAACTTTAAATCTTTCTCACTGCATTTCCCGTTGTTTTGGTA KY242785-m0005 12
+...((((((((..((.((((((((.((((((..........)))))).).)))))))))))))))))...
+**********AGTTGTGGAGATGATTGAGA**************************************** KY242785-m0005-5p 12
+----------AGTTGTGGAGATGATTGAGA---------------------------------------- seq_236956153_x 12
+//
+mireap
+KY242785-m0006 KY242785.1:175683:175760:+ 78(nt) -25.30(kcal/mol)
+CGAGACCGATCTATCCTTTAGGATTTTGAGCCGGGGTAGATGCTCCGTGCTTGAGCCTATGGAACTGATGACGTCACT KY242785-m0006 6
+...(((..(((..(((..((((..(((((((((((((....)))))).))))))))))).)))...)))...)))...
+********************************************CCGTGCTTGAGCCTATGGAACTGA********** KY242785-m0006-3p 6
+--------------------------------------------CCGTGCTTGAGCCTATGGAACTGA---------- seq_239901057_x 6
+//
+mireap
+KY242785-m0007 KY242785.1:200651:200746:+ 96(nt) -23.20(kcal/mol)
+GAATGCAAGAGATTGTTGTGGTACTTGTGGGATGGACATGTGCAATCAAAGAACTTATTCAATTCGCGAGATACCAAACAACAATGGAAGTAGACT KY242785-m0007 24
+...(((.....((((((((((((((((((((.((((...((...........))...)))).)))))))).))))..))))))))....)))....
+**********GATTGTTGTGGTACTTGTGG****************************************************************** KY242785-m0007-5p 24
+----------GATTGTTGTGGTACTTGTGG------------------------------------------------------------------ seq_229382078_x 23
+----------GATTGTTGTGGTACTTGTGGA------------------------------------------------------------------ seq_247079265_x 1
+//
+mireap
+KY242785-m0008 KY242785.1:3185:3262:- 78(nt) -25.30(kcal/mol)
+CGAGACCGATCTATCCTTTAGGATTTTGAGCCGGGGTAGATGCTCCGTGCTTGAGCCTATGGAACTGATGACGTCACT KY242785-m0008 6
+...(((..(((..(((..((((..(((((((((((((....)))))).))))))))))).)))...)))...)))...
+********************************************CCGTGCTTGAGCCTATGGAACTGA********** KY242785-m0008-3p 6
+--------------------------------------------CCGTGCTTGAGCCTATGGAACTGA---------- seq_239901057_x 6
+--------------CCTTTAGGATTTGGAGCC---------------------------------------------- seq_232216869_x 18
+--------------CCTTTAGGATTTGGAGAC---------------------------------------------- seq _x 1
+//
+mireap
+KY242785-m0009 KY242785.1:16346:16425:- 80(nt) -19.40(kcal/mol)
+ACAGTAATAAGAGTCATTGGTTGATTTTTTTACATGATGTCCATGTCCATGGATCCTCGGCGGGTGATCTTAGAAATTGG KY242785-m0009 21
+.((((..(((((.(((((.((((((((....(((((.....)))))....)))))...))).))))))))))...)))).
+************************************************ATGGATCCTCGGCGGGTGATCT********** KY242785-m0009-3p 21
+------------------------------------------------ATGGATCCTCGGCGGGTGATCT---------- seq_233628533_x 17
+-------------------------------------------------ATGGATCCTCGGCGGGTGATCTC--------- seq_240626824_x 4
+//
+mireap
+KY242785-m0010 KY242785.1:30247:30347:- 101(nt) -18.30(kcal/mol)
+AAATACATTTGGCCTGTATCTGTTCTTTATGGCAATCTCTTTGATCAAATCCAATTTGACAGACATTGCCATCTTGGTCTTGTAGTCGTCATCTTCCGTGG KY242785-m0010 23
+.........((((...(((..(.((...((((((((...((((.((((((...)))))))))).))))))))...)).)..)))...))))..........
+*******************************************************************GCCATCTTGGTCTTGTAGTCGTCA********** KY242785-m0010-3p 23
+-------------------------------------------------------------------GCCATCTTGGTCTTGTAGTCGTCA---------- seq_230186119_x 22
+--------------------------------------------------------------------GCCATCTTGGTCTTGTAGTCGTCAC--------- seq_246538441_x 1
+//
+mireap
+KY242785-m0011 KY242785.1:41743:41819:- 77(nt) -20.70(kcal/mol)
+AAAATTTACACGTGGAGATCCTGTTGCGCAATTGGTATTGGCACCAGCATCAATAGAGAGTGCCACGGTCAAATCCT KY242785-m0011 72
+...((((((.(((((...((((((((.((...((((......))))))..)))))).))...))))))).))))...
+**********CGTGGAGATCCTGTTGCGCA*********************************************** KY242785-m0011-5p 72
+--------CACGTGGAGATCCTGTTGCGC------------------------------------------------ seq_242209368_x 2
+---------ACGTGGAGATCCTGTTGC-------------------------------------------------- seq_237238347_x 11
+----------CGTGGAGATCCTGTTGCGCA----------------------------------------------- seq_225607180_x 41
+-----------GTGGAGATCCTGTTGCGC------------------------------------------------ seq_247340063_x 1
+-----------GTGGAGATCCTGTTGCGCA----------------------------------------------- seq_233588957_x 17
+//
+mireap
+KY242785-m0012 KY242785.1:57683:57756:- 74(nt) -27.80(kcal/mol)
+CCCTCGACCTCCATTGGTGCTGTTGGTGGAGATCCAAGACCGGAGGATATGAATGTACCAGAAAGGGGGTGGGA KY242785-m0012 17
+(((...((((((.(((((((.(((.(((....(((......)))...))).))))))))))...))))))))).
+**********CCATTGGTGCTGTTGGTGGAGATC**************************************** KY242785-m0012-5p 17
+----------CCATTGGTGCTGTTGGTGGAGATC---------------------------------------- seq_233473493_x 17
+//
+mireap
+KY242785-m0013 KY242785.1:72409:72495:- 87(nt) -72.40(kcal/mol)
+TAAAAAATTGCCCGGTCGGGGGTCTTCACGCTCTTATACATGGTATATGGTAAGAGCGTGAAGACCCCCGACCGGGCAATTTTTTAA KY242785-m0013 42
+(((((((((((((((((((((((((((((((((((((.((((...))))))))))))))))))))))))))))))))))))))))).
+**********CCCGGTCGGGGGTCTTCACGCTCT***************************************************** KY242785-m0013-5p 31
+******************************************************AGCGTGAAGACCCCCGACCGGGC********** KY242785-m0013-3p 11
+--------TGCCCGGTCGGGGGTCTTCACGCTCT----------------------------------------------------- seq_236611513_x 12
+--------TGCCCGGTCGGGGGTCTTCACTCTCT----------------------------------------------------- seq_246465828_x 1
+------------------------------------------------------------- seq_246643221_x 
+----------CCCGGTCGGGGGTCTTC------------------------------------------------------------ seq_244655920_x 1
+----------CCCGGTCGGGGGTCTTCACGCTCT----------------------------------------------------- seq_235197206_x 15
+-----------CCCGGTCGGGGGTCTTCACGCTCTC---------------------------------------------------- seq_243525659_x 1
+-----------CCCGGTCGGGGGTCTTCACGCTCTA---------------------------------------------------- seq_244627309_x 1
+------------------------------------------------------AGCGTGAAGACCCCCGACCGGG----------- seq_243411616_x 1
+------------------------------------------------------AGCGTGAAGACCCCCGACCGGGC---------- seq_237909221_x 10
+//
+mireap
+KY242785-m0014 KY242785.1:183085:183180:- 96(nt) -23.20(kcal/mol)
+GAATGCAAGAGATTGTTGTGGTACTTGTGGGATGGACATGTGCAATCAAAGAACTTATTCAATTCGCGAGATACCAAACAACAATGGAAGTAGACT KY242785-m0014 24
+...(((.....((((((((((((((((((((.((((...((...........))...)))).)))))))).))))..))))))))....)))....
+**********GATTGTTGTGGTACTTGTGG****************************************************************** KY242785-m0014-5p 24
+----------GATTGTTGTGGTACTTGTGG------------------------------------------------------------------ seq_229382078_x 23
+-----------GATTGTTGTGGTACTTGTGGA----------------------------------------------------------------- seq_247079265_x 1
+//

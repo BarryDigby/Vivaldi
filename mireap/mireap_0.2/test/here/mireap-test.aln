@@ -1,0 +1,308 @@
+mireap
+test-m0001 nscaf1690:292076:292146:+ 71(nt) -26.90(kcal/mol)
+TGTTTTGGGCGACGTCGACTGCTTTCCATTCTGTCCGCAGGATCGGGAATGTAGTTACCGGCGGCCACGAT test-m0001 6
+.(((.(((.((.((..(((((((((((((((((....)))))).))))).))))))..)).)).))).)))
+*****************************************ATCGGGAATGTAGTTACCGG********** test-m0001-3p 6
+-----------------------------------------ATCGGGAATGTAGTTACCGG---------- t0056752 2
+-----------------------------------------ATCGGGAATGTAGTTACCGGCG-------- t0070834 2
+-------------------------------------------CGGGAATGTAGTTACCGGCG-------- t0066554 2
+//
+mireap
+test-m0002 nscaf1690:294097:294167:+ 71(nt) -26.90(kcal/mol)
+TGTTTTGGGCGACGTCGACTGCTTTCCATTCTGTCCGCAGGATCGGGAATGTAGTTACCGGCGGCCACGAT test-m0002 6
+.(((.(((.((.((..(((((((((((((((((....)))))).))))).))))))..)).)).))).)))
+*****************************************ATCGGGAATGTAGTTACCGG********** test-m0002-3p 6
+-----------------------------------------ATCGGGAATGTAGTTACCGG---------- t0056752 2
+-----------------------------------------ATCGGGAATGTAGTTACCGGCG-------- t0070834 2
+-------------------------------------------CGGGAATGTAGTTACCGGCG-------- t0066554 2
+//
+mireap
+test-m0003 nscaf1690:1567184:1567253:+ 70(nt) -28.10(kcal/mol)
+TGGCCTAAGGGATAAGACGTCTGGTGCATTCGTGTTGAGCGATGCACCCGGTGTTCGAATCTCAGGCGGG test-m0003 5
+(.((((..(((((..((((((.(((((((.(((.....)))))))))).)))).))..))))))))).).
+**********GATAAGACGTCTGGTGCATT**************************************** test-m0003-5p 5
+----------GATAAGACGTCTGGTGCATT---------------------------------------- t0051505 3
+-----------ATAAGACGTCTGGTGCATTC--------------------------------------- t0067847 2
+//
+mireap
+test-m0004 nscaf1690:1834401:1834482:+ 82(nt) -19.90(kcal/mol)
+CCACGGTGAAAAGGGTGTTAAATGAAGACTTATGGCTTCGGTCATATCGAAGTTAAACAGGACATCGTTTGAATGCTCGTCA test-m0004 50
+............(((((((((((((.(.(((.((((((((((...))))))))))...))).).))))))).))))))....
+**********AAGGGTGTTAAATGAAGACTTA************************************************** test-m0004-5p 49
+***********************************************************GGACATCGTTTGAATGCTCGTCA test-m0004-3p 1
+---------AAAGGGTGTTAAATGAAGACTTA-------------------------------------------------- t0220103 1
+----------AAGGGTGTTAAATGAAGAC----------------------------------------------------- t0300660 1
+----------AAGGGTGTTAAATGAAGACT---------------------------------------------------- t0069901 2
+----------AAGGGTGTTAAATGAAGACTT--------------------------------------------------- t0025757 7
+----------AAGGGTGTTAAATGAAGACTTA-------------------------------------------------- t0007012 32
+----------AAGGGTGTTAAATGAAGACTTAT------------------------------------------------- t0050425 3
+-----------AGGGTGTTAAATGAAGACTT--------------------------------------------------- t0156658 1
+-----------AGGGTGTTAAATGAAGACTTA-------------------------------------------------- t0068414 2
+--------------------------------------------------------ACAGGACATCGTTTGAATGC------ t0214066 1
+//
+mireap
+test-m0005 nscaf1690:2812047:2812132:+ 86(nt) -19.90(kcal/mol)
+CAACACGGATCGCGATTTGACGGTGCCTTCGCGACTTGACATCTGTGACTTTGTCTTGCTTCTCGAACGGGACGGTATCCGCATAT test-m0005 4
+.....(((((.........((.((.((((((.(((..((((..........))))..)..)).)))).)).)).))))))).....
+******************************************************CTTGCTTCTCGAACGGGACGGT********** test-m0005-3p 3
+----------CGCGATTTGACGGTGCCTTC-------------------------------------------------------- t0160418 1
+------------------------------------------------------CTTGCTTCTCGAACGGGACGGT---------- t0057672 2
+------------------------------------------------------CTTGCTTCTCGAACGGGACGGTA--------- t0108852 1
+//
+mireap
+test-m0006 nscaf1690:3073267:3073341:+ 75(nt) -21.00(kcal/mol)
+AACAACAACATTCGGACCGTCGGTCTACCGAGCAATATCACCCACTCGGTGGAAGATCTTCCCTTTGTCGTAAGC test-m0006 48
+....((.(((...(((..(((..(((((((((............))))))))).)))..)))...))).))....
+************CGGACCGTCGGTCTACCGAGCA***************************************** test-m0006-5p 1
+********************************************CTCGGTGGAAGATCTTCCCTT********** test-m0006-3p 46
+AACAACAACATTCGGACCGT------------------------------------------------------- t0133633 1
+-------------GGACCGTCGGTCTACCGAGCA----------------------------------------- t0130902 1
+--------------------------------------------CTCGGTGGAAGATCTTCC------------- t0046812 3
+--------------------------------------------CTCGGTGGAAGATCTTCCCT----------- t0039411 4
+--------------------------------------------CTCGGTGGAAGATCTTCCCTT---------- t0007414 30
+--------------------------------------------CTCGGTGGAAGATCTTCCCTTT--------- t0020055 9
+//
+mireap
+test-m0007 nscaf1690:4187668:4187737:+ 70(nt) -22.70(kcal/mol)
+GTTTTGGGCGACGTTGACTGCTTTCCATTCTTTCCGCAGGATCGGGAATGTAGTTACCGGCGGTCACAAT test-m0007 6
+....(((.((.((.(((((((((((((((((......))))).))))).))))))).)).)).)))....
+****************************************ATCGGGAATGTAGTTACCGG********** test-m0007-3p 6
+----------------------------------------ATCGGGAATGTAGTTACCGG---------- t0056752 2
+----------------------------------------ATCGGGAATGTAGTTACCGGCG-------- t0070834 2
+------------------------------------------CGGGAATGTAGTTACCGGCG-------- t0066554 2
+//
+mireap
+test-m0008 nscaf1690:5159209:5159279:+ 71(nt) -24.20(kcal/mol)
+TGTTTTGGGCGACGTCGACTGCTTTCCATTCTATCCGCAGGATCGGGAATGTAGTTACCGGCGGCCACGAT test-m0008 6
+.(((.(((.((.((..((((((((((((((((......))))).))))).))))))..)).)).))).)))
+*****************************************ATCGGGAATGTAGTTACCGG********** test-m0008-3p 6
+-----------------------------------------ATCGGGAATGTAGTTACCGG---------- t0056752 2
+-----------------------------------------ATCGGGAATGTAGTTACCGGCG-------- t0070834 2
+-------------------------------------------CGGGAATGTAGTTACCGGCG-------- t0066554 2
+//
+mireap
+test-m0009 nscaf1690:5216897:5216965:+ 69(nt) -26.80(kcal/mol)
+TTTGGGGCGACGTCGACTGCTTTCCATTCTGTCCGCAGGATCGGGAATGTAGTTACCGGCGGCCACGAT test-m0009 6
+.(((((.((.((..(((((((((((((((((....)))))).))))).))))))..)).)).)).))).
+***************************************ATCGGGAATGTAGTTACCGG********** test-m0009-3p 6
+---------------------------------------ATCGGGAATGTAGTTACCGG---------- t0056752 2
+---------------------------------------ATCGGGAATGTAGTTACCGGCG-------- t0070834 2
+-----------------------------------------CGGGAATGTAGTTACCGGCG-------- t0066554 2
+//
+mireap
+test-m0010 nscaf1690:5226155:5226220:+ 66(nt) -23.60(kcal/mol)
+CGAATCCCGCCAAGGGAAGATATTTGTATGGTAAATATAAATGTCCTTTCCAGGGTTATGGATGTA test-m0010 12
+...((((.(((..((((((((((((((((.....)))))))))).))))))..)))...))))...
+**********CAAGGGAAGATATTTGTATG************************************ test-m0010-5p 12
+----------CAAGGGAAGATATTTGTAT------------------------------------- t0228928 1
+----------CAAGGGAAGATATTTGTATG------------------------------------ t0017651 11
+//
+mireap
+test-m0011 nscaf1690:5286370:5286440:+ 71(nt) -34.10(kcal/mol)
+TGTTTTGGGCGCCGTCGACTACTTTCCATTCTGTCCGCAGGATCGGGAATGTAGTTACCGGCGGCCACGAT test-m0011 6
+.(((.(((.(((((..(((((((((((((((((....)))))).))))).))))))..))))).))).)))
+*****************************************ATCGGGAATGTAGTTACCGG********** test-m0011-3p 6
+-----------------------------------------ATCGGGAATGTAGTTACCGG---------- t0056752 2
+-----------------------------------------ATCGGGAATGTAGTTACCGGCG-------- t0070834 2
+-------------------------------------------CGGGAATGTAGTTACCGGCG-------- t0066554 2
+//
+mireap
+test-m0012 nscaf1690:6052764:6052834:+ 71(nt) -26.90(kcal/mol)
+TGTTTTGGGCGACGTCGACTGCTTTCCATTCTGTCCGCAGGATCGGGAATGTAGTTACCGGCGGCCACGAT test-m0012 6
+.(((.(((.((.((..(((((((((((((((((....)))))).))))).))))))..)).)).))).)))
+*****************************************ATCGGGAATGTAGTTACCGG********** test-m0012-3p 6
+-----------------------------------------ATCGGGAATGTAGTTACCGG---------- t0056752 2
+-----------------------------------------ATCGGGAATGTAGTTACCGGCG-------- t0070834 2
+-------------------------------------------CGGGAATGTAGTTACCGGCG-------- t0066554 2
+//
+mireap
+test-m0013 nscaf1690:6485490:6485566:+ 77(nt) -22.20(kcal/mol)
+TGACCACGTCTGCCGTTTTGAAATTTTGAAAATATATGATTATTATTATCGGAAAATAAGAATGGCAGACCATTATC test-m0013 9
+.......((((((((((((....((((((.((((.........)))).))))))....)))))))))))).......
+***********************************************ATCGGAAAATAAGAATGGCA********** test-m0013-3p 9
+----------------------------------------------TATCGGAAAATAAGAATGGCA---------- t0288279 1
+-----------------------------------------------ATCGGAAAATAAGAATGGCA---------- t0024225 7
+------------------------------------------------TCGGAAAATAAGAATGGCAG--------- t0274208 1
+//
+mireap
+test-m0014 nscaf1690:7226411:7226481:+ 71(nt) -26.90(kcal/mol)
+TGTTTTGGGCGACGTCGACTGCTTTCCATTCTGTCCACAGGATCGGGAATGTAGTTACCGGCGGCCACGAT test-m0014 6
+.(((.(((.((.((..(((((((((((((((((....)))))).))))).))))))..)).)).))).)))
+*****************************************ATCGGGAATGTAGTTACCGG********** test-m0014-3p 6
+-----------------------------------------ATCGGGAATGTAGTTACCGG---------- t0056752 2
+-----------------------------------------ATCGGGAATGTAGTTACCGGCG-------- t0070834 2
+-------------------------------------------CGGGAATGTAGTTACCGGCG-------- t0066554 2
+//
+mireap
+test-m0015 nscaf1690:7334307:7334376:+ 70(nt) -23.00(kcal/mol)
+TGTTTTGGACGACGTCGACTGCTTTCCATTCTGTCTGCAGATCGGGAATGTAGTTACCGGCGGCCACGAT test-m0015 6
+.(((.(((.((.((..(((((((((((..((((....))))..))))).))))))..)).)).))).)))
+****************************************ATCGGGAATGTAGTTACCGG********** test-m0015-3p 6
+----------------------------------------ATCGGGAATGTAGTTACCGG---------- t0056752 2
+----------------------------------------ATCGGGAATGTAGTTACCGGCG-------- t0070834 2
+------------------------------------------CGGGAATGTAGTTACCGGCG-------- t0066554 2
+//
+mireap
+test-m0016 nscaf1690:346829:346920:- 92(nt) -27.00(kcal/mol)
+ATAGACACAGCCCACCGAGTTTCGCGTCGGATCTTCTCAGTGGGTCGCGTTTCCGATCTGGTGGTAGATTCAGCGAAGCACTGCTCTTGCTA test-m0016 3
+..................(((((((...((((((..(((.(((((((......))))))).))).)))))).)))))))...((....))..
+*************************************************************TGGTAGATTCAGCGAAGCACT********** test-m0016-3p 3
+-------------------------------------------------------------TGGTAGATTCAGCGAAGCA------------ t0126981 1
+-------------------------------------------------------------TGGTAGATTCAGCGAAGCAC----------- t0294377 1
+-------------------------------------------------------------TGGTAGATTCAGCGAAGCACT---------- t0133550 1
+//
+mireap
+test-m0017 nscaf1690:1175078:1175154:- 77(nt) -22.20(kcal/mol)
+TGACCACGTCTGCCGTTTTGAAATTTTGAAAATATATGATTATTATTATCGGAAAATAAGAATGGCAGACCATTATC test-m0017 9
+.......((((((((((((....((((((.((((.........)))).))))))....)))))))))))).......
+***********************************************ATCGGAAAATAAGAATGGCA********** test-m0017-3p 9
+----------------------------------------------TATCGGAAAATAAGAATGGCA---------- t0288279 1
+-----------------------------------------------ATCGGAAAATAAGAATGGCA---------- t0024225 7
+------------------------------------------------TCGGAAAATAAGAATGGCAG--------- t0274208 1
+//
+mireap
+test-m0018 nscaf1690:2089696:2089762:- 67(nt) -20.90(kcal/mol)
+CTAATTCCACCAAGGGAAGATATTTGTATGATAAGTATAAATGTCTTTTCCAGGGTTATGGATGTCT test-m0018 17
+.....((((((..((((((((((((((((.....))))))))))).)))))..)))...))).....
+**********CAAGGGAAGATATTTGTATG************************************* test-m0018-5p 16
+----------CAAGGGAAGATATTTGTAT-------------------------------------- t0228928 1
+----------CAAGGGAAGATATTTGTATG------------------------------------- t0017651 11
+----------CAAGGGAAGATATTTGTATGAT----------------------------------- t0191318 1
+-----------AAGGGAAGATATTTGTATGA------------------------------------ t0083398 2
+-----------AAGGGAAGATATTTGTATGATAA--------------------------------- t0350375 1
+--------------GGAAGATATTTGTATGATAA--------------------------------- t0325657 1
+//
+mireap
+test-m0019 nscaf1690:3245678:3245751:- 74(nt) -21.80(kcal/mol)
+GTGTTTTGGACGACGTCGACTGCTTTCCATTCTTTCCGCAGGATCGGGAATGTAGTTACCGGCGGCCACGATGA test-m0019 6
+..(((.(((.((.((..((((((((((((((((......))))).))))).))))))..)).)).))).)))..
+********************************************CGGGAATGTAGTTACCGGCG********** test-m0019-3p 6
+------------------------------------------ATCGGGAATGTAGTTACCGG------------ t0056752 2
+------------------------------------------ATCGGGAATGTAGTTACCGGCG---------- t0070834 2
+--------------------------------------------CGGGAATGTAGTTACCGGCG---------- t0066554 2
+//
+mireap
+test-m0020 nscaf1690:3415003:3415090:- 88(nt) -23.70(kcal/mol)
+TCTTACATTTATTTCCGTTATCTGGTACTTGTAACACAAGTTCTTTACGAACTTACCACGGGACTAGTTAACGTGGCGTGATTGTCAG test-m0020 7
+.((.(((.((((.(((((((.(((((.(((((.....((((((.....))))))...)))))))))).))))).)).)))).))).))
+**********************************************************CGGGACTAGTTAACGTGGCG********** test-m0020-3p 5
+-----CATTTATTTCCGTTATCTGG--------------------------------------------------------------- t0375074 1
+-------------------------------TAACACAAGTTCTTTACGA-------------------------------------- t0359474 1
+----------------------------------------------------------CGGGACTAGTTAACGTGGCG---------- t0045599 3
+-----------------------------------------------------------GGGACTAGTTAACGTGGCGT--------- t0156936 1
+-----------------------------------------------------------GGGACTAGTTAACGTGGCGTG-------- t0361575 1
+//
+mireap
+test-m0021 nscaf1690:5237451:5237524:- 74(nt) -24.60(kcal/mol)
+GTGTTTTGGGCGACGTCGACTGCTTTCCATTCTTTCCGCGGGATCGGGAATGTAGTTACCGGCGGCCACGATGA test-m0021 6
+..(((.(((.((.((..((((((((((((((((......))))).))))).))))))..)).)).))).)))..
+********************************************CGGGAATGTAGTTACCGGCG********** test-m0021-3p 6
+------------------------------------------ATCGGGAATGTAGTTACCGG------------ t0056752 2
+------------------------------------------ATCGGGAATGTAGTTACCGGCG---------- t0070834 2
+--------------------------------------------CGGGAATGTAGTTACCGGCG---------- t0066554 2
+//
+mireap
+test-m0022 nscaf1690:5575551:5575644:- 94(nt) -33.40(kcal/mol)
+TTTTATTGCCCTTGTAGGCTGACGAGCATACGGCCTACCTGATGGTGAGTGGTTACCGTCACCCATGGACTTCAGCAATGCCAGGGGCAGAGCC test-m0022 10
+......((((((((((.(((((.(..(((..((......(((((((((....))))))))))).)))..).)))))..)).)))))))).....
+**********CTTGTAGGCTGACGAGCATA**************************************************************** test-m0022-5p 4
+****************************************************************ATGGACTTCAGCAATGCCAG********** test-m0022-3p 6
+----------CTTGTAGGCTGACGAGCATA---------------------------------------------------------------- t0051241 3
+-----------TTGTAGGCTGACGAGCATA---------------------------------------------------------------- t0348415 1
+-------------------------------------------------------------CCCATGGACTTCAGCAATGC------------- t0192555 1
+----------------------------------------------------------------ATGGACTTCAGCAATGCCAG---------- t0046952 3
+----------------------------------------------------------------ATGGACTTCAGCAATGCCAGGG-------- t0164191 1
+----------------------------------------------------------------ATGGACTTCAGCAATGCCAGGGGCA----- t0301214 1
+//
+mireap
+test-m0023 nscaf1690:6486926:6487001:- 76(nt) -21.20(kcal/mol)
+TGACCACGTCTGCCGTTTTGAAATTTTGAAATATATGATTATTATTATCGGAAAATAAGAATGGCAGACCATTATC test-m0023 9
+.......((((((((((((....((((((((((.........)))).))))))....)))))))))))).......
+**********************************************ATCGGAAAATAAGAATGGCA********** test-m0023-3p 9
+---------------------------------------------TATCGGAAAATAAGAATGGCA---------- t0288279 1
+----------------------------------------------ATCGGAAAATAAGAATGGCA---------- t0024225 7
+-----------------------------------------------TCGGAAAATAAGAATGGCAG--------- t0274208 1
+//
+mireap
+test-m0024 nscaf1690:7326737:7326802:- 66(nt) -26.50(kcal/mol)
+CAAATCCCGCCAAGGGAAGATATTTGTATGATTAATATAAATATCTTTCCCAGGGTTATGGATGTA test-m0024 15
+...((((.(((..((((((((((((((((.....))))))))))).)))))..)))...))))...
+**********CAAGGGAAGATATTTGTATG************************************ test-m0024-5p 15
+----------CAAGGGAAGATATTTGTAT------------------------------------- t0228928 1
+----------CAAGGGAAGATATTTGTATG------------------------------------ t0017651 11
+----------CAAGGGAAGATATTTGTATGAT---------------------------------- t0191318 1
+-----------AAGGGAAGATATTTGTATGA----------------------------------- t0083398 2
+//
+mireap
+test-m0025 nscaf1690:7673848:7673926:- 79(nt) -39.80(kcal/mol)
+GCGCTAGAACTCGACAAGGTGGTTGTGACATGGGGGCTCAGGATCATATCACAGCCAGCTTTGTTGAGTTCTCGGCTAC test-m0025 13
+..((((((((((((((((((((((((((.((((..........)))).))))))))).)))))))))))))).)))...
+**********TCGACAAGGTGGTTGTGACATG*********************************************** test-m0025-5p 2
+**********************************************TATCACAGCCAGCTTTGTTGAGT********** test-m0025-3p 11
+----------TCGACAAGGTGGTTGTGACATG----------------------------------------------- t0087424 2
+----------------------------------------------TATCACAGCCAGCTTTGTTGA------------ t0055978 3
+----------------------------------------------TATCACAGCCAGCTTTGTTGAG----------- t0106006 1
+----------------------------------------------TATCACAGCCAGCTTTGTTGAGT---------- t0024366 7
+//
+mireap
+test-m0026 nscaf1690:7673969:7674054:- 86(nt) -38.70(kcal/mol)
+CGAATGTTTCGTCGCTCACAAAGTGGTTGTCGTATGCGTTTTTACTTTGGCCATATCACAGCCAGCTTTGATGAGCGATGAACTTC test-m0026 39
+.(((.(((.(((((((((((((((((((((.(((((.(((........)))))))).))))))).))))).)))))))))))))))
+*******************************************************TCACAGCCAGCTTTGATGAGC********** test-m0026-3p 39
+-----------------------------------------------------TATCACAGCCAGCTTTGATG------------- t0300264 1
+-----------------------------------------------------TATCACAGCCAGCTTTGATGA------------ t0031940 5
+-----------------------------------------------------TATCACAGCCAGCTTTGATGAG----------- t0047054 3
+-----------------------------------------------------TATCACAGCCAGCTTTGATGAGCG--------- t0023841 8
+-------------------------------------------------------TCACAGCCAGCTTTGATGA------------ t0027840 6
+-------------------------------------------------------TCACAGCCAGCTTTGATGAG----------- t0029962 6
+-------------------------------------------------------TCACAGCCAGCTTTGATGAGC---------- t0018826 10
+//
+mireap
+test-m0027 nscaf1690:7674107:7674186:- 80(nt) -43.50(kcal/mol)
+TCCATGGCCCACTCGTAAAAATGGCTGTGTCGTGTAGCAACCCTCATATCACAGCCATTTTTGACGAGTTGGGCTGTGTG test-m0027 31
+..(((((((((((((((((((((((((((..(((.((.....)))))..))))))))))))).))))).)))))))))..
+**********************************************TATCACAGCCATTTTTGACGAGTT********** test-m0027-3p 31
+----------------------------------------------TATCACAGCCATTTTTGACGAGT----------- t0026055 7
+----------------------------------------------TATCACAGCCATTTTTGACGAGTT---------- t0009236 24
+//
+mireap
+test-m0028 nscaf1690:7674234:7674313:- 80(nt) -27.30(kcal/mol)
+ATAATCTCGATCCTGTCAAAGCGGCGGTGAAATGTCTCCTCCCTTTCATATCACAGCCACTTTGATGTGGTCGGTTTACT test-m0028 6
+......((((((.((((((((.(((.((((.(((............))).)))).))).)))))))).))))))......
+************************************************TATCACAGCCACTTTGATGTGG********** test-m0028-3p 6
+------------------------------------------------TATCACAGCCACTTTGATGT------------ t0374642 1
+------------------------------------------------TATCACAGCCACTTTGATGTGG---------- t0056370 3
+------------------------------------------------TATCACAGCCACTTTGATGTGGT--------- t0079991 2
+//
+mireap
+test-m0029 nscaf1690:7674384:7674463:- 80(nt) -31.40(kcal/mol)
+TGTAGTCGTGGCATCAAAGTCGGTTTGTCATAGGTCATAACGTAACTATCACAGCCAGCTTTGATGAGCACGACTTCATC test-m0029 279
+((.(((((((.(((((((((.((((.((.((((............)))).)))))).)))))))))..))))))).))..
+**********GCATCAAAGTCGGTTTGTCATA************************************************ test-m0029-5p 159
+************************************************TCACAGCCAGCTTTGATGAGCA********** test-m0029-3p 120
+--------TGGCATCAAAGTCGGTTTGTCA-------------------------------------------------- t0319809 1
+--------TGGCATCAAAGTCGGTTTGTCAT------------------------------------------------- t0361160 1
+----------GCATCAAAGTCGGTTTGTCA-------------------------------------------------- t0058099 2
+----------GCATCAAAGTCGGTTTGTCAT------------------------------------------------- t0015645 13
+----------GCATCAAAGTCGGTTTGTCATA------------------------------------------------ t0001460 142
+----------------------------------------------TATCACAGCCAGCTTTGATG-------------- t0300264 1
+----------------------------------------------TATCACAGCCAGCTTTGATGA------------- t0031940 5
+----------------------------------------------TATCACAGCCAGCTTTGATGAG------------ t0047054 3
+----------------------------------------------TATCACAGCCAGCTTTGATGAGCA---------- t0071643 2
+------------------------------------------------TCACAGCCAGCTTTGATGA------------- t0027840 6
+------------------------------------------------TCACAGCCAGCTTTGATGAG------------ t0029962 6
+------------------------------------------------TCACAGCCAGCTTTGATGAGC----------- t0018826 10
+------------------------------------------------TCACAGCCAGCTTTGATGAGCA---------- t0002613 86
+--------------------------------------------------ACAGCCAGCTTTGATGAGCA---------- t0187493 1
+//
+mireap
+test-m0030 nscaf1690:7689374:7689454:- 81(nt) -31.90(kcal/mol)
+CTCTACCTCTTGAAAGACATGGGTAGTGAGATGTCCCGTACATCTAAAATTCTCACTACCTTGTCTTTCATGCGGATTGGG test-m0030 9
+..(((((.(.(((((((((.(((((((((((...................)))))))))))))))))))).).))..))).
+**********TGAAAGACATGGGTAGTGAGAT************************************************* test-m0030-5p 8
+*************************************************TTCTCACTACCTTGTCTTTCAT********** test-m0030-3p 1
+----------TGAAAGACATGGGTAGTGAGA-------------------------------------------------- t0259389 1
+----------TGAAAGACATGGGTAGTGAGAT------------------------------------------------- t0030554 5
+----------TGAAAGACATGGGTAGTGAGATG------------------------------------------------ t0084383 2
+-------------------------------------------------TTCTCACTACCTTGTCTTTCAT---------- t0357507 1
+//
